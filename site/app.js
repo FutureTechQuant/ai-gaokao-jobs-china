@@ -1,16 +1,18 @@
 const DATA_URL = "./data/major_ai_rate.json";
+const SOFT_SCALE = ["#6f8f80", "#97a77b", "#c8b27e", "#c99672", "#b87478"];
 
 function fmtPct(v) {
-  return `${(Number(v || 0) * 100).toFixed(1)}%`;
+  return `${Math.round(Number(v || 0) * 100)}%`;
 }
 
-function riskColor(rate) {
-  const x = Number(rate || 0);
-  if (x < 0.2) return "#22c55e";
-  if (x < 0.4) return "#84cc16";
-  if (x < 0.6) return "#facc15";
-  if (x < 0.8) return "#fb923c";
-  return "#f43f5e";
+function riskColor(rate, maxRate = 1) {
+  const safeMax = Math.max(0.01, Number(maxRate || 0.01));
+  const x = Math.max(0, Math.min(1, Number(rate || 0) / safeMax));
+  if (x < 0.2) return SOFT_SCALE[0];
+  if (x < 0.4) return SOFT_SCALE[1];
+  if (x < 0.6) return SOFT_SCALE[2];
+  if (x < 0.8) return SOFT_SCALE[3];
+  return SOFT_SCALE[4];
 }
 
 function confidenceBadgeClass(conf) {
@@ -33,6 +35,24 @@ async function fetchJson(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`加载失败: ${url}`);
   return res.json();
+}
+
+function getRoundedMaxRate(rows) {
+  const max = rows.reduce((m, r) => Math.max(m, Number(r.replace_rate || 0)), 0);
+  return Math.max(0.01, Math.ceil(max * 100) / 100);
+}
+
+function renderLegend(maxRate) {
+  const box = document.getElementById("legendScale");
+  box.innerHTML = "";
+  SOFT_SCALE.forEach(color => {
+    const span = document.createElement("span");
+    span.className = "legend-chip";
+    span.style.background = color;
+    box.appendChild(span);
+  });
+  document.getElementById("legendNote").textContent = `0% – ${Math.round(maxRate * 100)}%`;
+  document.getElementById("rangeMeta").textContent = `当前上限 ${Math.round(maxRate * 100)}%`;
 }
 
 function renderKpis(rows) {
@@ -98,7 +118,7 @@ function renderRankList(containerId, items, formatter) {
   }
 }
 
-function buildTreemapData(rows, mode, sizeMode) {
+function buildTreemapData(rows, mode) {
   const labels = [];
   const parents = [];
   const values = [];
@@ -110,7 +130,7 @@ function buildTreemapData(rows, mode, sizeMode) {
   labels.push("全部专业");
   parents.push("");
   ids.push(rootId);
-  values.push(rows.reduce((s, r) => s + (sizeMode === "job_count" ? Math.max(1, Number(r.job_count || 0)) : 1), 0));
+  values.push(rows.length || 1);
   colors.push(rows.reduce((s, r) => s + Number(r.replace_rate || 0), 0) / (rows.length || 1));
   customdata.push(["root", "", "", "", "", "", ""]);
 
@@ -121,7 +141,7 @@ function buildTreemapData(rows, mode, sizeMode) {
       labels.push(discipline);
       parents.push(rootId);
       ids.push(disciplineId);
-      values.push(disciplineRows.reduce((s, r) => s + (sizeMode === "job_count" ? Math.max(1, Number(r.job_count || 0)) : 1), 0));
+      values.push(disciplineRows.length);
       colors.push(disciplineRows.reduce((s, r) => s + Number(r.replace_rate || 0), 0) / (disciplineRows.length || 1));
       customdata.push(["discipline", discipline, "", "", "", "", ""]);
 
@@ -131,7 +151,7 @@ function buildTreemapData(rows, mode, sizeMode) {
         labels.push(category);
         parents.push(disciplineId);
         ids.push(categoryId);
-        values.push(categoryRows.reduce((s, r) => s + (sizeMode === "job_count" ? Math.max(1, Number(r.job_count || 0)) : 1), 0));
+        values.push(categoryRows.length);
         colors.push(categoryRows.reduce((s, r) => s + Number(r.replace_rate || 0), 0) / (categoryRows.length || 1));
         customdata.push(["category", "", category, "", "", "", ""]);
 
@@ -140,7 +160,7 @@ function buildTreemapData(rows, mode, sizeMode) {
           labels.push(row.major_name);
           parents.push(categoryId);
           ids.push(id);
-          values.push(sizeMode === "job_count" ? Math.max(1, Number(row.job_count || 0)) : 1);
+          values.push(1);
           colors.push(Number(row.replace_rate || 0));
           customdata.push([
             "major",
@@ -161,7 +181,7 @@ function buildTreemapData(rows, mode, sizeMode) {
       labels.push(category);
       parents.push(rootId);
       ids.push(categoryId);
-      values.push(categoryRows.reduce((s, r) => s + (sizeMode === "job_count" ? Math.max(1, Number(r.job_count || 0)) : 1), 0));
+      values.push(categoryRows.length);
       colors.push(categoryRows.reduce((s, r) => s + Number(r.replace_rate || 0), 0) / (categoryRows.length || 1));
       customdata.push(["category", "", category, "", "", "", ""]);
 
@@ -170,7 +190,7 @@ function buildTreemapData(rows, mode, sizeMode) {
         labels.push(row.major_name);
         parents.push(categoryId);
         ids.push(id);
-        values.push(sizeMode === "job_count" ? Math.max(1, Number(row.job_count || 0)) : 1);
+        values.push(1);
         colors.push(Number(row.replace_rate || 0));
         customdata.push([
           "major",
@@ -224,10 +244,11 @@ function renderDetail(row) {
 
 function renderTreemap(rows) {
   const mode = document.getElementById("modeSelect").value;
-  const sizeMode = document.getElementById("sizeSelect").value;
-  const { labels, parents, values, ids, colors, customdata } = buildTreemapData(rows, mode, sizeMode);
+  const maxRate = getRoundedMaxRate(rows);
+  const { labels, parents, values, ids, colors, customdata } = buildTreemapData(rows, mode);
 
   document.getElementById("resultMeta").textContent = `当前展示 ${rows.length} 个专业`;
+  renderLegend(maxRate);
 
   const data = [{
     type: "treemap",
@@ -240,35 +261,44 @@ function renderTreemap(rows) {
     textinfo: "label",
     hovertemplate:
       "<b>%{label}</b><br>" +
-      "替代率: %{color:.2%}<br>" +
+      "替代率: %{color:.0%}<br>" +
       "面积值: %{value}<extra></extra>",
     marker: {
       colors,
       colorscale: [
-        [0.0, "#22c55e"],
-        [0.25, "#84cc16"],
-        [0.5, "#facc15"],
-        [0.75, "#fb923c"],
-        [1.0, "#f43f5e"]
+        [0.0, SOFT_SCALE[0]],
+        [0.25, SOFT_SCALE[1]],
+        [0.5, SOFT_SCALE[2]],
+        [0.75, SOFT_SCALE[3]],
+        [1.0, SOFT_SCALE[4]]
       ],
       cmin: 0,
-      cmax: 1,
+      cmax: maxRate,
       line: {
         width: 1,
-        color: "rgba(255,255,255,0.15)"
+        color: "rgba(70,60,48,0.16)"
       },
       colorbar: {
         title: "替代率",
         tickformat: ".0%",
         outlinewidth: 0,
-        x: 1.03
+        x: 1.02,
+        len: 0.75,
+        tickvals: [0, maxRate / 4, maxRate / 2, maxRate * 0.75, maxRate],
+        ticktext: [
+          "0%",
+          `${Math.round(maxRate * 25)}%`,
+          `${Math.round(maxRate * 50)}%`,
+          `${Math.round(maxRate * 75)}%`,
+          `${Math.round(maxRate * 100)}%`
+        ]
       }
     },
     pathbar: {
       visible: true,
       thickness: 28,
       textfont: {
-        color: "#dbe8ff",
+        color: "#51483f",
         size: 13
       }
     },
@@ -286,7 +316,7 @@ function renderTreemap(rows) {
     plot_bgcolor: "rgba(0,0,0,0)",
     margin: { t: 8, r: 56, b: 8, l: 8 },
     font: {
-      color: "#eef4ff",
+      color: "#2b2722",
       family: 'Inter, ui-sans-serif, system-ui, sans-serif'
     }
   };
@@ -310,6 +340,7 @@ function renderTreemap(rows) {
 }
 
 function renderTopRisk(rows) {
+  const maxRate = getRoundedMaxRate(rows);
   const items = rows
     .slice()
     .sort((a, b) => Number(b.replace_rate || 0) - Number(a.replace_rate || 0))
@@ -320,18 +351,19 @@ function renderTopRisk(rows) {
       <div class="rank-name">${r.major_name}</div>
       <div class="rank-meta">${r.major_code} · ${r.discipline} · 岗位数 ${r.job_count}</div>
     </div>
-    <div class="rank-score" style="color:${riskColor(r.replace_rate)}">${fmtPct(r.replace_rate)}</div>
+    <div class="rank-score" style="color:${riskColor(r.replace_rate, maxRate)}">${fmtPct(r.replace_rate)}</div>
   `);
 }
 
 function renderDisciplineList(rows) {
+  const maxRate = getRoundedMaxRate(rows);
   const items = computeDisciplineStats(rows).slice(0, 20);
   renderRankList("disciplineList", items, (r) => `
     <div>
       <div class="rank-name">${r.name}</div>
       <div class="rank-meta">专业数 ${r.count}</div>
     </div>
-    <div class="rank-score" style="color:${riskColor(r.avg)}">${fmtPct(r.avg)}</div>
+    <div class="rank-score" style="color:${riskColor(r.avg, maxRate)}">${fmtPct(r.avg)}</div>
   `);
 }
 
@@ -343,16 +375,17 @@ async function main() {
 
   const rerender = () => {
     const filtered = applyFilters(rows);
-    renderTreemap(filtered);
-    renderTopRisk(filtered);
-    renderDisciplineList(filtered);
+    const safeRows = filtered.length ? filtered : rows;
+    renderKpis(safeRows);
+    renderTreemap(safeRows);
+    renderTopRisk(safeRows);
+    renderDisciplineList(safeRows);
     document.getElementById("updatedAt").textContent = `Updated: ${new Date().toLocaleString("zh-CN")}`;
   };
 
   document.getElementById("searchInput").addEventListener("input", rerender);
   document.getElementById("disciplineFilter").addEventListener("change", rerender);
   document.getElementById("modeSelect").addEventListener("change", rerender);
-  document.getElementById("sizeSelect").addEventListener("change", rerender);
 
   rerender();
 }
@@ -360,5 +393,5 @@ async function main() {
 main().catch((err) => {
   console.error(err);
   const el = document.getElementById("treemap");
-  el.innerHTML = `<div style="padding:24px;color:#ff9cb0;">数据加载失败：请确认 site/data/major_ai_rate.json 已正确生成。</div>`;
+  el.innerHTML = `<div style="padding:24px;color:#8a5656;">数据加载失败：请确认 site/data/major_ai_rate.json 已正确生成。</div>`;
 });
