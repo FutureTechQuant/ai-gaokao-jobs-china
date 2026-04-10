@@ -21937,10 +21937,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "哲学",
     "major_category": "哲学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.3,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.3,
+    "zero_override_reason": "exact:逻辑学"
   },
   {
     "major_code": "010103",
@@ -21948,10 +21951,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "哲学",
     "major_category": "哲学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.28,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.28,
+    "zero_override_reason": "exact:宗教学"
   },
   {
     "major_code": "020104",
@@ -21959,10 +21965,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:资源与环境经济学|kw:经济贸易类|kw:工程技术科学类"
   },
   {
     "major_code": "020105",
@@ -21970,10 +21979,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.46,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.46,
+    "zero_override_reason": "exact:商务经济学|kw:经济贸易类"
   },
   {
     "major_code": "020106",
@@ -21981,10 +21993,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:能源经济|kw:经济贸易类"
   },
   {
     "major_code": "020303",
@@ -21992,10 +22007,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "金融学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.45,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.45,
+    "zero_override_reason": "exact:保险学|kw:经济贸易类"
   },
   {
     "major_code": "020304",
@@ -22003,10 +22021,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "金融学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.46,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.46,
+    "zero_override_reason": "exact:投资学|kw:经济贸易类"
   },
   {
     "major_code": "020401",
@@ -22014,10 +22035,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济与贸易类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.47,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.47,
+    "zero_override_reason": "exact:国际经济与贸易|kw:经济贸易类"
   },
   {
     "major_code": "020402",
@@ -22025,10 +22049,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济与贸易类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.45,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.45,
+    "zero_override_reason": "exact:贸易经济|kw:经济贸易类"
   },
   {
     "major_code": "020403",
@@ -22036,10 +22063,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "经济学",
     "major_category": "经济与贸易类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:国际经济发展合作|kw:经济贸易类"
   },
   {
     "major_code": "030201",
@@ -22047,10 +22077,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "政治学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.37,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.37,
+    "zero_override_reason": "exact:政治学与行政学|kw:政治社会类"
   },
   {
     "major_code": "030202",
@@ -22058,10 +22091,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "政治学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:国际政治|kw:政治社会类"
   },
   {
     "major_code": "030203",
@@ -22069,10 +22105,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "政治学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:外交学|kw:政治社会类"
   },
   {
     "major_code": "030204",
@@ -22080,10 +22119,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "政治学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:国际事务与国际关系"
   },
   {
     "major_code": "030301",
@@ -22091,10 +22133,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "社会学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.37,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.37,
+    "zero_override_reason": "exact:社会学|kw:政治社会类"
   },
   {
     "major_code": "030302",
@@ -22102,10 +22147,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "社会学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:社会工作|kw:政治社会类"
   },
   {
     "major_code": "030303",
@@ -22113,10 +22161,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "社会学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:人类学|kw:政治社会类"
   },
   {
     "major_code": "030304",
@@ -22124,10 +22175,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "社会学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.36,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.36,
+    "zero_override_reason": "exact:女性学|kw:政治社会类"
   },
   {
     "major_code": "030503",
@@ -22135,10 +22189,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "马克思主义理论类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.46,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.46,
+    "zero_override_reason": "exact:思想政治教育|kw:教育类|kw:政治社会类"
   },
   {
     "major_code": "030601",
@@ -22146,10 +22203,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "exact:治安学|kw:公安警务类"
   },
   {
     "major_code": "030604",
@@ -22157,10 +22217,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "exact:禁毒学|kw:公安警务类"
   },
   {
     "major_code": "030606",
@@ -22168,10 +22231,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:经济犯罪侦查|kw:公安警务类|kw:经济贸易类"
   },
   {
     "major_code": "030610",
@@ -22179,10 +22245,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:公安情报学|kw:公安警务类"
   },
   {
     "major_code": "030611",
@@ -22190,10 +22259,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.22,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.22,
+    "zero_override_reason": "exact:犯罪学|kw:公安警务类"
   },
   {
     "major_code": "030613",
@@ -22201,10 +22273,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.19,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.19,
+    "zero_override_reason": "exact:涉外警务|kw:公安警务类"
   },
   {
     "major_code": "030614",
@@ -22212,10 +22287,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.16,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.16,
+    "zero_override_reason": "exact:国内安全保卫"
   },
   {
     "major_code": "030615",
@@ -22223,10 +22301,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "法学",
     "major_category": "公安学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "exact:警务指挥与战术|kw:公安警务类"
   },
   {
     "major_code": "040102",
@@ -22234,10 +22315,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.39,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.39,
+    "zero_override_reason": "exact:科学教育|kw:教育类|kw:工程技术科学类"
   },
   {
     "major_code": "040103",
@@ -22245,10 +22329,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.4,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.4,
+    "zero_override_reason": "exact:人文教育|kw:教育类"
   },
   {
     "major_code": "040104",
@@ -22256,10 +22343,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:教育技术学|kw:教育类|kw:工程技术科学类"
   },
   {
     "major_code": "040105",
@@ -22267,10 +22357,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:艺术教育|kw:教育类"
   },
   {
     "major_code": "040106",
@@ -22278,10 +22371,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "exact:学前教育|kw:教育类"
   },
   {
     "major_code": "040107",
@@ -22289,10 +22385,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "exact:小学教育|kw:教育类"
   },
   {
     "major_code": "040108",
@@ -22300,10 +22399,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "教育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "exact:特殊教育|kw:教育类"
   },
   {
     "major_code": "040201",
@@ -22311,10 +22413,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "exact:体育教育|kw:教育类|kw:体育类"
   },
   {
     "major_code": "040202",
@@ -22322,10 +22427,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:运动训练|kw:体育类"
   },
   {
     "major_code": "040203",
@@ -22333,10 +22441,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:社会体育指导与管理|kw:管理商科类|kw:体育类|kw:政治社会类"
   },
   {
     "major_code": "040204",
@@ -22344,10 +22455,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:武术与民族传统体育|kw:体育类"
   },
   {
     "major_code": "040205",
@@ -22355,10 +22469,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:运动人体科学|kw:体育类|kw:工程技术科学类"
   },
   {
     "major_code": "040206",
@@ -22366,10 +22483,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.26,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.26,
+    "zero_override_reason": "exact:运动康复|kw:体育类|kw:医学健康类"
   },
   {
     "major_code": "040207",
@@ -22377,10 +22497,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:休闲体育|kw:体育类"
   },
   {
     "major_code": "040208",
@@ -22388,10 +22511,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.22,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.22,
+    "zero_override_reason": "exact:体能训练"
   },
   {
     "major_code": "040209",
@@ -22399,10 +22525,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:冰雪运动|kw:体育类"
   },
   {
     "major_code": "040210",
@@ -22410,10 +22539,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:电子竞技运动与管理|kw:管理商科类|kw:体育类|kw:信息电子类"
   },
   {
     "major_code": "040211",
@@ -22421,10 +22553,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.3,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.3,
+    "zero_override_reason": "exact:智能体育工程|kw:体育类|kw:工程技术科学类"
   },
   {
     "major_code": "040212",
@@ -22432,10 +22567,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:体育旅游|kw:管理商科类|kw:体育类"
   },
   {
     "major_code": "040213",
@@ -22443,10 +22581,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:运动能力开发|kw:体育类"
   },
   {
     "major_code": "040214",
@@ -22454,10 +22595,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:足球运动|kw:体育类"
   },
   {
     "major_code": "040215",
@@ -22465,10 +22609,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:马术运动与管理|kw:管理商科类|kw:体育类"
   },
   {
     "major_code": "040216",
@@ -22476,10 +22623,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.28,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.28,
+    "zero_override_reason": "exact:体育康养|kw:体育类"
   },
   {
     "major_code": "040217",
@@ -22487,10 +22637,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "教育学",
     "major_category": "体育学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.24,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.24,
+    "zero_override_reason": "exact:航空运动|kw:体育类|kw:工程技术科学类"
   },
   {
     "major_code": "050101",
@@ -22498,10 +22651,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "中国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:汉语言文学|kw:语言传媒内容类"
   },
   {
     "major_code": "050104",
@@ -22509,10 +22665,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "中国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:中国少数民族语言文学|kw:语言传媒内容类"
   },
   {
     "major_code": "050107",
@@ -22520,10 +22679,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "中国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:秘书学|kw:语言传媒内容类"
   },
   {
     "major_code": "050202",
@@ -22531,10 +22693,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:俄语|kw:语言传媒内容类"
   },
   {
     "major_code": "050203",
@@ -22542,10 +22707,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:德语|kw:语言传媒内容类"
   },
   {
     "major_code": "050204",
@@ -22553,10 +22721,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:法语|kw:语言传媒内容类"
   },
   {
     "major_code": "050205",
@@ -22564,10 +22735,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:西班牙语|kw:语言传媒内容类"
   },
   {
     "major_code": "050206",
@@ -22575,10 +22749,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:阿拉伯语|kw:语言传媒内容类"
   },
   {
     "major_code": "050207",
@@ -22586,10 +22763,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:日语|kw:语言传媒内容类"
   },
   {
     "major_code": "050209",
@@ -22597,10 +22777,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:朝鲜语|kw:语言传媒内容类"
   },
   {
     "major_code": "050212",
@@ -22608,10 +22791,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:印度尼西亚语|kw:语言传媒内容类"
   },
   {
     "major_code": "050213",
@@ -22619,10 +22805,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:印地语|kw:语言传媒内容类"
   },
   {
     "major_code": "050214",
@@ -22630,10 +22819,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:柬埔寨语|kw:语言传媒内容类"
   },
   {
     "major_code": "050216",
@@ -22641,10 +22833,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:缅甸语|kw:语言传媒内容类"
   },
   {
     "major_code": "050217",
@@ -22652,10 +22847,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:马来语|kw:语言传媒内容类"
   },
   {
     "major_code": "050220",
@@ -22663,10 +22861,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:泰语|kw:语言传媒内容类"
   },
   {
     "major_code": "050223",
@@ -22674,10 +22875,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:越南语|kw:语言传媒内容类"
   },
   {
     "major_code": "050232",
@@ -22685,10 +22889,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:葡萄牙语|kw:语言传媒内容类"
   },
   {
     "major_code": "050261",
@@ -22696,10 +22903,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.54,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.54,
+    "zero_override_reason": "exact:翻译|kw:语言传媒内容类"
   },
   {
     "major_code": "050262",
@@ -22707,10 +22917,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "外国语言文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.55,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.55,
+    "zero_override_reason": "exact:商务英语|kw:语言传媒内容类"
   },
   {
     "major_code": "050302",
@@ -22718,10 +22931,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "新闻传播学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "exact:广播电视学|kw:语言传媒内容类"
   },
   {
     "major_code": "050303",
@@ -22729,10 +22945,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "新闻传播学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.56,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.56,
+    "zero_override_reason": "exact:广告学|kw:语言传媒内容类"
   },
   {
     "major_code": "050304",
@@ -22740,10 +22959,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "新闻传播学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.54,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.54,
+    "zero_override_reason": "exact:传播学|kw:语言传媒内容类"
   },
   {
     "major_code": "050305",
@@ -22751,10 +22973,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "文学",
     "major_category": "新闻传播学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.54,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.54,
+    "zero_override_reason": "exact:编辑出版学|kw:语言传媒内容类"
   },
   {
     "major_code": "060101",
@@ -22762,10 +22987,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "历史学",
     "major_category": "历史学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.34,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.34,
+    "zero_override_reason": "exact:历史学"
   },
   {
     "major_code": "060102",
@@ -22773,10 +23001,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "历史学",
     "major_category": "历史学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.34,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.34,
+    "zero_override_reason": "exact:世界史"
   },
   {
     "major_code": "060105",
@@ -22784,10 +23015,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "历史学",
     "major_category": "历史学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.26,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.26,
+    "zero_override_reason": "exact:文物保护技术|kw:工程技术科学类"
   },
   {
     "major_code": "070203",
@@ -22817,10 +23051,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "化学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070401",
@@ -22828,10 +23065,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "天文学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "kw:语言传媒内容类"
   },
   {
     "major_code": "070501",
@@ -22839,10 +23079,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地理科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070502",
@@ -22850,10 +23093,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地理科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070503",
@@ -22872,10 +23118,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地理科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "070601",
@@ -22883,10 +23132,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "大气科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070701",
@@ -22894,10 +23146,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "海洋科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070702",
@@ -22905,10 +23160,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "海洋科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070703",
@@ -22916,10 +23174,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "海洋科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070801",
@@ -22938,10 +23199,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地球物理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070803",
@@ -22949,10 +23213,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地球物理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070804",
@@ -22960,10 +23227,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地球物理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070901",
@@ -22971,10 +23241,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地质学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "070902",
@@ -22993,10 +23266,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地质学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "070904",
@@ -23015,10 +23291,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "生物科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "071002",
@@ -23026,10 +23305,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "生物科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "071003",
@@ -23037,10 +23319,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "生物科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类"
   },
   {
     "major_code": "071102",
@@ -23048,10 +23333,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "心理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "exact:应用心理学"
   },
   {
     "major_code": "080204",
@@ -23059,10 +23347,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080205",
@@ -23081,10 +23372,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080207",
@@ -23092,10 +23386,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080208",
@@ -23103,10 +23400,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080210",
@@ -23114,10 +23414,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080211",
@@ -23125,10 +23428,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类|kw:工程技术科学类"
   },
   {
     "major_code": "080212",
@@ -23136,10 +23442,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类|kw:工程技术科学类"
   },
   {
     "major_code": "080401",
@@ -23147,10 +23456,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080402",
@@ -23158,10 +23470,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080403",
@@ -23169,10 +23484,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080404",
@@ -23180,10 +23498,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080405",
@@ -23191,10 +23512,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080406",
@@ -23202,10 +23526,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080407",
@@ -23213,10 +23540,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080408",
@@ -23224,10 +23554,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080409",
@@ -23235,10 +23568,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080410",
@@ -23246,10 +23582,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080412",
@@ -23257,10 +23596,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080413",
@@ -23268,10 +23610,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "材料类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080502",
@@ -23279,10 +23624,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "能源动力类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080602",
@@ -23290,10 +23638,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电气类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080603",
@@ -23312,10 +23663,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电气类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080705",
@@ -23323,10 +23677,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080706",
@@ -23334,10 +23691,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080707",
@@ -23345,10 +23705,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "kw:语言传媒内容类|kw:工程技术科学类"
   },
   {
     "major_code": "080708",
@@ -23356,10 +23719,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080709",
@@ -23367,10 +23733,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080712",
@@ -23378,10 +23747,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "080713",
@@ -23389,10 +23761,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.52,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.52,
+    "zero_override_reason": "kw:语言传媒内容类"
   },
   {
     "major_code": "080715",
@@ -23400,10 +23775,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "080716",
@@ -23411,10 +23789,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电子信息类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:教育类|kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080903",
@@ -23422,10 +23803,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "计算机类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080905",
@@ -23433,10 +23817,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "计算机类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080908",
@@ -23444,10 +23831,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "计算机类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "080909",
@@ -23455,10 +23845,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "计算机类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "081001",
@@ -23466,10 +23859,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081002",
@@ -23477,10 +23873,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081003",
@@ -23488,10 +23887,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081004",
@@ -23499,10 +23901,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "081005",
@@ -23510,10 +23915,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081006",
@@ -23521,10 +23929,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "土木类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081101",
@@ -23532,10 +23943,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081102",
@@ -23543,10 +23957,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081103",
@@ -23554,10 +23971,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081104",
@@ -23565,10 +23985,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081105",
@@ -23576,10 +23999,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081106",
@@ -23587,10 +24013,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "水利类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081201",
@@ -23598,10 +24027,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "测绘类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081202",
@@ -23609,10 +24041,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "测绘类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081204",
@@ -23631,10 +24066,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "化工与制药类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081303",
@@ -23642,10 +24080,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "化工与制药类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081304",
@@ -23653,10 +24094,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "化工与制药类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081401",
@@ -23664,10 +24108,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "地质类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081402",
@@ -23675,10 +24122,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "地质类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081403",
@@ -23686,10 +24136,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "地质类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081404",
@@ -23697,10 +24150,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "地质类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081501",
@@ -23708,10 +24164,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081502",
@@ -23719,10 +24178,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081503",
@@ -23730,10 +24192,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081504",
@@ -23741,10 +24206,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081505",
@@ -23752,10 +24220,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081506",
@@ -23763,10 +24234,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081507",
@@ -23774,10 +24248,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081508",
@@ -23785,10 +24262,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "矿业类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081601",
@@ -23796,10 +24276,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "纺织类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081602",
@@ -23807,10 +24290,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "纺织类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081603",
@@ -23818,10 +24304,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "纺织类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081604",
@@ -23829,10 +24318,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "纺织类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类"
   },
   {
     "major_code": "081701",
@@ -23840,10 +24332,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "轻工类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081702",
@@ -23851,10 +24346,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "轻工类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081801",
@@ -23862,10 +24360,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081802",
@@ -23873,10 +24374,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081803",
@@ -23884,10 +24388,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081804",
@@ -23895,10 +24402,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081805",
@@ -23906,10 +24416,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081806",
@@ -23917,10 +24430,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081807",
@@ -23928,10 +24444,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081808",
@@ -23939,10 +24458,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "081809",
@@ -23950,10 +24472,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "081810",
@@ -23961,10 +24486,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "081811",
@@ -23972,10 +24500,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081812",
@@ -23983,10 +24514,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "交通运输类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081901",
@@ -23994,10 +24528,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "海洋工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081902",
@@ -24005,10 +24542,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "海洋工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "081903",
@@ -24016,10 +24556,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "海洋工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082001",
@@ -24027,10 +24570,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082002",
@@ -24038,10 +24584,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082003",
@@ -24049,10 +24598,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082004",
@@ -24060,10 +24612,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082005",
@@ -24071,10 +24626,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082006",
@@ -24082,10 +24640,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082007",
@@ -24093,10 +24654,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082008",
@@ -24104,10 +24668,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "082009",
@@ -24115,10 +24682,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082010",
@@ -24126,10 +24696,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082011",
@@ -24137,10 +24710,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082012",
@@ -24148,10 +24724,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "航空航天类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082102",
@@ -24159,10 +24738,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "兵器类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082104",
@@ -24170,10 +24752,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "兵器类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082107",
@@ -24181,10 +24766,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "兵器类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "kw:信息电子类|kw:工程技术科学类"
   },
   {
     "major_code": "082201",
@@ -24192,10 +24780,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "核工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082204",
@@ -24203,10 +24794,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "核工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082301",
@@ -24214,10 +24808,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "农业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "082305",
@@ -24225,10 +24822,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "农业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "082401",
@@ -24236,10 +24836,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "林业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "082402",
@@ -24247,10 +24850,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "林业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082403",
@@ -24258,10 +24864,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "林业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "082501",
@@ -24269,10 +24878,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082502",
@@ -24280,10 +24892,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082503",
@@ -24291,10 +24906,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082505",
@@ -24302,10 +24920,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082506",
@@ -24313,10 +24934,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082507",
@@ -24324,10 +24948,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "环境科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082702",
@@ -24346,10 +24973,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082704",
@@ -24357,10 +24987,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082705",
@@ -24368,10 +25001,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082706",
@@ -24379,10 +25015,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082707",
@@ -24390,10 +25029,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类|kw:医学健康类"
   },
   {
     "major_code": "082708",
@@ -24401,10 +25043,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类"
   },
   {
     "major_code": "082801",
@@ -24412,10 +25057,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "建筑类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082802",
@@ -24434,10 +25082,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "建筑类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "082804",
@@ -24445,10 +25096,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "建筑类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082901",
@@ -24456,10 +25110,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "安全科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082902",
@@ -24467,10 +25124,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "安全科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "082903",
@@ -24478,10 +25138,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "安全科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "082904",
@@ -24511,10 +25174,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "exact:刑事科学技术|kw:工程技术科学类"
   },
   {
     "major_code": "083102",
@@ -24522,10 +25188,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:公安警务类|kw:工程技术科学类"
   },
   {
     "major_code": "083103",
@@ -24533,10 +25202,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "083104",
@@ -24544,10 +25216,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "083105",
@@ -24555,10 +25230,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:公安警务类|kw:工程技术科学类"
   },
   {
     "major_code": "083106",
@@ -24566,10 +25244,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "083107",
@@ -24588,10 +25269,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:网络安全与执法|kw:信息电子类"
   },
   {
     "major_code": "083109",
@@ -24599,10 +25283,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:公安警务类"
   },
   {
     "major_code": "083110",
@@ -24610,10 +25297,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "083111",
@@ -24621,10 +25311,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:公安警务类|kw:工程技术科学类"
   },
   {
     "major_code": "083112",
@@ -24632,10 +25325,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:公安警务类|kw:工程技术科学类"
   },
   {
     "major_code": "090101",
@@ -24643,10 +25339,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090102",
@@ -24654,10 +25353,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090103",
@@ -24665,10 +25367,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090104",
@@ -24676,10 +25381,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090105",
@@ -24687,10 +25395,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "090106",
@@ -24698,10 +25409,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090107",
@@ -24709,10 +25423,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090108",
@@ -24720,10 +25437,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090109",
@@ -24731,10 +25451,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "090110",
@@ -24742,10 +25465,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类|kw:农林牧渔类"
   },
   {
     "major_code": "090111",
@@ -24753,10 +25479,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "植物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类|kw:农林牧渔类"
   },
   {
     "major_code": "090201",
@@ -24764,10 +25493,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "自然保护与环境生态类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090202",
@@ -24775,10 +25507,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "自然保护与环境生态类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类|kw:农林牧渔类"
   },
   {
     "major_code": "090203",
@@ -24797,10 +25532,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090302",
@@ -24830,10 +25568,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "kw:经济贸易类|kw:农林牧渔类"
   },
   {
     "major_code": "090305",
@@ -24841,10 +25582,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "090306",
@@ -24852,10 +25596,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "090307",
@@ -24863,10 +25610,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物生产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090401",
@@ -24874,10 +25624,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类|kw:医学健康类"
   },
   {
     "major_code": "090402",
@@ -24885,10 +25638,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类|kw:医学健康类"
   },
   {
     "major_code": "090403",
@@ -24896,10 +25652,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "动物医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090501",
@@ -24907,10 +25666,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "林学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090502",
@@ -24918,10 +25680,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "林学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090503",
@@ -24929,10 +25694,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "林学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090504",
@@ -24940,10 +25708,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "林学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "kw:经济贸易类|kw:农林牧渔类"
   },
   {
     "major_code": "090505",
@@ -24951,10 +25722,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "林学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:农林牧渔类"
   },
   {
     "major_code": "090602",
@@ -24962,10 +25736,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "水产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090603",
@@ -24973,10 +25750,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "水产类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "090701",
@@ -24984,10 +25764,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "草学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:农林牧渔类"
   },
   {
     "major_code": "090702",
@@ -24995,10 +25778,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "草学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "100101",
@@ -25006,10 +25792,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "基础医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100202",
@@ -25017,10 +25806,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "临床医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100203",
@@ -25028,10 +25820,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "临床医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100205",
@@ -25039,10 +25834,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "临床医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100206",
@@ -25050,10 +25848,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "临床医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100301",
@@ -25061,10 +25862,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "口腔医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100401",
@@ -25072,10 +25876,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "公共卫生与预防医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100402",
@@ -25094,10 +25901,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100502",
@@ -25105,10 +25915,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100503",
@@ -25116,10 +25929,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100504",
@@ -25127,10 +25943,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100505",
@@ -25138,10 +25957,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100506",
@@ -25149,10 +25971,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100601",
@@ -25160,10 +25985,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中西医结合类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100705",
@@ -25193,10 +26021,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "药学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:医学健康类"
   },
   {
     "major_code": "100801",
@@ -25204,10 +26035,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中药学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "100803",
@@ -25215,10 +26049,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "中药学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "101001",
@@ -25226,10 +26063,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "医学技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:医学健康类"
   },
   {
     "major_code": "101003",
@@ -25237,10 +26077,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "医学技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类|kw:医学健康类"
   },
   {
     "major_code": "101004",
@@ -25259,10 +26102,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "医学技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "101007",
@@ -25270,10 +26116,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "医学技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "101101",
@@ -25281,10 +26130,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "护理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "kw:医学健康类"
   },
   {
     "major_code": "120104",
@@ -25292,10 +26144,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "管理科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "kw:管理商科类"
   },
   {
     "major_code": "120105",
@@ -25303,10 +26158,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "管理科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "kw:工程技术科学类"
   },
   {
     "major_code": "120204",
@@ -25314,10 +26172,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工商管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.46,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.46,
+    "zero_override_reason": "exact:财务管理|kw:管理商科类"
   },
   {
     "major_code": "120207",
@@ -25325,10 +26186,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工商管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.45,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.45,
+    "zero_override_reason": "exact:审计学|kw:管理商科类"
   },
   {
     "major_code": "120214",
@@ -25336,10 +26200,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工商管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.32,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.32,
+    "zero_override_reason": "kw:教育类"
   },
   {
     "major_code": "120402",
@@ -25347,10 +26214,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:行政管理|kw:管理商科类"
   },
   {
     "major_code": "120403",
@@ -25358,10 +26228,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:劳动与社会保障|kw:政治社会类"
   },
   {
     "major_code": "120404",
@@ -25369,10 +26242,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:土地资源管理|kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "120405",
@@ -25380,10 +26256,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:城市管理|kw:管理商科类"
   },
   {
     "major_code": "120406",
@@ -25391,10 +26270,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:海关管理|kw:管理商科类"
   },
   {
     "major_code": "120408",
@@ -25402,10 +26284,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:海事管理|kw:管理商科类"
   },
   {
     "major_code": "120409",
@@ -25413,10 +26298,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "公共管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.48,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.48,
+    "zero_override_reason": "exact:公共关系学|kw:管理商科类"
   },
   {
     "major_code": "120501",
@@ -25424,10 +26312,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "图书情报与档案管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:图书馆学|kw:管理商科类"
   },
   {
     "major_code": "120601",
@@ -25435,10 +26326,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "物流管理与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:物流管理|kw:管理商科类"
   },
   {
     "major_code": "120602",
@@ -25446,10 +26340,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "物流管理与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:物流工程|kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "120701",
@@ -25457,10 +26354,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.34,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.34,
+    "zero_override_reason": "exact:工业工程|kw:工程技术科学类"
   },
   {
     "major_code": "120702",
@@ -25468,10 +26368,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:标准化工程|kw:工程技术科学类"
   },
   {
     "major_code": "120703",
@@ -25479,10 +26382,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "工业工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:质量管理工程|kw:管理商科类|kw:工程技术科学类"
   },
   {
     "major_code": "120802",
@@ -25490,10 +26396,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "电子商务类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.48,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.48,
+    "zero_override_reason": "exact:电子商务及法律|kw:管理商科类|kw:信息电子类"
   },
   {
     "major_code": "120901",
@@ -25501,10 +26410,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "旅游管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:旅游管理|kw:管理商科类"
   },
   {
     "major_code": "120902",
@@ -25512,10 +26424,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "旅游管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:酒店管理|kw:管理商科类"
   },
   {
     "major_code": "120903",
@@ -25523,10 +26438,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "旅游管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.44,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.44,
+    "zero_override_reason": "exact:会展经济与管理|kw:管理商科类|kw:经济贸易类"
   },
   {
     "major_code": "120904",
@@ -25534,10 +26452,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "旅游管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:旅游管理与服务教育|kw:管理商科类|kw:教育类"
   },
   {
     "major_code": "120905",
@@ -25545,10 +26466,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "管理学",
     "major_category": "旅游管理类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.42,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.42,
+    "zero_override_reason": "exact:国际邮轮管理|kw:管理商科类"
   },
   {
     "major_code": "130201",
@@ -25559,7 +26483,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130202",
@@ -25570,7 +26495,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130203",
@@ -25581,7 +26507,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130204",
@@ -25592,7 +26519,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130205",
@@ -25603,7 +26531,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130401",
@@ -25614,7 +26543,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130402",
@@ -25625,7 +26555,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130403",
@@ -25636,7 +26567,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130404",
@@ -25658,7 +26590,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "130406",
@@ -25669,7 +26602,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "380201",
@@ -25677,10 +26611,13 @@
     "degree_level": "本科（职业教育）",
     "discipline": "公安与司法",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "exact:刑事科学技术|kw:工程技术科学类"
   },
   {
     "major_code": "380202",
@@ -25688,10 +26625,13 @@
     "degree_level": "本科（职业教育）",
     "discipline": "公安与司法",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:网络安全与执法|kw:信息电子类"
   },
   {
     "major_code": "580201",
@@ -25699,10 +26639,13 @@
     "degree_level": "高职（专科）",
     "discipline": "公安与司法",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "exact:刑事科学技术|kw:工程技术科学类"
   },
   {
     "major_code": "580202",
@@ -25710,10 +26653,13 @@
     "degree_level": "高职（专科）",
     "discipline": "公安与司法",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.38,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.38,
+    "zero_override_reason": "exact:网络安全与执法|kw:信息电子类"
   },
   {
     "major_code": "580203",
@@ -25721,9 +26667,12 @@
     "degree_level": "高职（专科）",
     "discipline": "公安与司法",
     "major_category": "公安技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "exact:警犬技术|kw:公安警务类|kw:工程技术科学类"
   }
 ]
