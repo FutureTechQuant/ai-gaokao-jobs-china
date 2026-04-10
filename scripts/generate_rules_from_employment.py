@@ -3,8 +3,9 @@ import os
 import re
 from collections import defaultdict, Counter
 
-ALL_JSON = "data/all.json"
-JOBS_JSON = "data/data.json"
+
+MAJORS_JSON = "output/majors.normalized.json"
+JOBS_JSON = "output/jobs.normalized.json"
 
 OUT_JOB_TITLES = "output/all_job_titles.json"
 OUT_MAJOR_DIRECTIONS = "output/major_employment_directions.json"
@@ -23,15 +24,6 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def pick(d, *keys, default=None):
-    if not isinstance(d, dict):
-        return default
-    for k in keys:
-        if k in d and d[k] not in (None, ""):
-            return d[k]
-    return default
-
-
 def normalize_text(s):
     if s is None:
         return ""
@@ -41,52 +33,7 @@ def normalize_text(s):
     return s
 
 
-def walk_majors(all_data):
-    degree_levels = pick(all_data, "培养层次列表", default=[])
-    for level_item in degree_levels:
-        degree_level = str(pick(level_item, "培养层次", "name", default="")).strip()
-        discipline_list = pick(level_item, "门类列表", default=[])
-
-        for discipline_item in discipline_list:
-            discipline = str(pick(discipline_item, "门类", "name", default="")).strip()
-            category_list = pick(discipline_item, "专业类列表", default=[])
-
-            for category_item in category_list:
-                major_category = str(pick(category_item, "专业类", "name", default="")).strip()
-                major_list = pick(category_item, "专业列表", default=[])
-
-                for major in major_list:
-                    yield {
-                        "major_code": str(pick(major, "专业代码", "code", "major_code", "zydm", default="")).strip(),
-                        "major_name": str(pick(major, "专业名称", "name", "major_name", "zymc", default="")).strip(),
-                        "degree_level": degree_level,
-                        "discipline": discipline,
-                        "major_category": major_category,
-                        "employment_direction_raw": extract_employment_text(major)
-                    }
-
-
-def extract_employment_text(major):
-    candidates = [
-        pick(major, "已毕业人员从业方向"),
-        pick(major, "就业方向"),
-        pick(major, "从业方向"),
-        pick(major, "毕业去向")
-    ]
-    for c in candidates:
-        if isinstance(c, dict):
-            raw = pick(c, "原始文本", default="")
-            arr = pick(c, "列表", default=[])
-            if raw:
-                return str(raw)
-            if isinstance(arr, list) and arr:
-                return "".join([str(x) for x in arr if x])
-        elif isinstance(c, str) and c.strip():
-            return c
-    return ""
-
-
-def build_job_catalog(job_data):
+def build_job_catalog(jobs):
     alias_map = {
         "内容创作者/编辑": ["编辑", "内容编辑", "文案", "新媒体编辑", "内容创作者"],
         "新闻记者": ["记者", "新闻记者", "采编"],
@@ -109,17 +56,22 @@ def build_job_catalog(job_data):
     title_to_category = {}
     title_aliases = {}
 
-    for item in job_data:
-        title = str(item.get("title", "")).strip()
+    for item in jobs:
+        title = str(item.get("job_title", "")).strip()
         category = str(item.get("category", "")).strip()
         if not title:
             continue
+
         all_titles.append({
             "title": title,
             "category": category
         })
         title_to_category[title] = category
-        title_aliases[title] = list(set([title] + alias_map.get(title, [])))
+
+        aliases = set([title])
+        for alias in alias_map.get(title, []):
+            aliases.add(alias)
+        title_aliases[title] = sorted(list(aliases), key=len, reverse=True)
 
     return all_titles, title_to_category, title_aliases
 
@@ -133,11 +85,11 @@ def extract_direction_tokens(raw_text, title_aliases):
     used_spans = []
 
     alias_items = []
-    for title, aliases in title_aliases.items():
+    for std_title, aliases in title_aliases.items():
         for alias in aliases:
             alias_norm = normalize_text(alias)
             if alias_norm:
-                alias_items.append((title, alias, alias_norm))
+                alias_items.append((std_title, alias, alias_norm))
 
     alias_items.sort(key=lambda x: len(x[2]), reverse=True)
 
@@ -148,17 +100,20 @@ def extract_direction_tokens(raw_text, title_aliases):
             if idx == -1:
                 break
             end = idx + len(alias_norm)
+
             overlap = False
             for s, e in used_spans:
                 if not (end <= s or idx >= e):
                     overlap = True
                     break
+
             if not overlap:
                 matched.append({
                     "standard_title": std_title,
                     "matched_alias": alias
                 })
                 used_spans.append((idx, end))
+
             start = idx + 1
 
     uniq = []
@@ -168,26 +123,26 @@ def extract_direction_tokens(raw_text, title_aliases):
         if key not in seen:
             seen.add(key)
             uniq.append(x)
+
     return uniq
 
 
-def build_major_code_rules(major_rows, title_to_category, title_aliases):
+def build_major_code_rules(majors, title_to_category, title_aliases):
     rules = {}
     extracted_rows = []
     unmapped = []
 
-    for row in major_rows:
+    for row in majors:
         code = row["major_code"]
-        name = row["major_name"]
-        raw = row["employment_direction_raw"]
+        raw = row.get("employment_direction_raw", "")
 
         tokens = extract_direction_tokens(raw, title_aliases)
         titles = sorted(list({x["standard_title"] for x in tokens}))
         categories = sorted(list({title_to_category.get(t, "") for t in titles if title_to_category.get(t, "")}))
 
         extracted_rows.append({
-            "major_code": code,
-            "major_name": name,
+            "major_code": row["major_code"],
+            "major_name": row["major_name"],
             "degree_level": row["degree_level"],
             "discipline": row["discipline"],
             "major_category": row["major_category"],
@@ -204,8 +159,8 @@ def build_major_code_rules(major_rows, title_to_category, title_aliases):
             }
         else:
             unmapped.append({
-                "major_code": code,
-                "major_name": name,
+                "major_code": row["major_code"],
+                "major_name": row["major_name"],
                 "major_category": row["major_category"],
                 "discipline": row["discipline"],
                 "employment_direction_raw": raw
@@ -214,7 +169,8 @@ def build_major_code_rules(major_rows, title_to_category, title_aliases):
     return rules, extracted_rows, unmapped
 
 
-def build_major_category_rules(major_rows, major_code_rules):
+def build_major_category_rules(majors, major_code_rules):
+    code_to_major = {x["major_code"]: x for x in majors}
     bucket = defaultdict(lambda: {
         "categories": Counter(),
         "titles": Counter(),
@@ -222,14 +178,13 @@ def build_major_category_rules(major_rows, major_code_rules):
         "examples": []
     })
 
-    code_to_major = {x["major_code"]: x for x in major_rows}
-
     for code, rule in major_code_rules.items():
         major = code_to_major.get(code)
         if not major:
             continue
-        cat = major["major_category"]
-        b = bucket[cat]
+
+        mc = major["major_category"]
+        b = bucket[mc]
 
         for c in rule.get("include_categories", []):
             b["categories"][c] += 1
@@ -244,31 +199,29 @@ def build_major_category_rules(major_rows, major_code_rules):
             })
 
     out = {}
-    for major_category, b in bucket.items():
-        include_categories = [k for k, v in b["categories"].most_common(8) if v >= 2]
-        include_titles = [k for k, v in b["titles"].most_common(12) if v >= 2]
-
-        out[major_category] = {
+    for mc, b in bucket.items():
+        out[mc] = {
             "_meta": {
                 "derived_from_major_count": len(b["major_codes"]),
                 "examples": b["examples"]
             },
-            "include_categories": include_categories,
-            "include_titles": include_titles,
+            "include_categories": [k for k, v in b["categories"].most_common(8) if v >= 2],
+            "include_titles": [k for k, v in b["titles"].most_common(12) if v >= 2],
             "exclude_titles": []
         }
 
     return out
 
 
-def build_discipline_rules(major_rows, major_category_rules):
-    category_to_discipline = defaultdict(Counter)
-    for row in major_rows:
-        if row["major_category"] and row["discipline"]:
-            category_to_discipline[row["discipline"]][row["major_category"]] += 1
+def build_discipline_rules(majors, major_category_rules):
+    discipline_to_categories = defaultdict(Counter)
+
+    for row in majors:
+        if row["discipline"] and row["major_category"]:
+            discipline_to_categories[row["discipline"]][row["major_category"]] += 1
 
     out = {}
-    for discipline, counter in category_to_discipline.items():
+    for discipline, counter in discipline_to_categories.items():
         agg_categories = Counter()
         agg_titles = Counter()
 
@@ -295,22 +248,22 @@ def build_discipline_rules(major_rows, major_category_rules):
 
 
 def main():
-    all_data = load_json(ALL_JSON)
-    job_data = load_json(JOBS_JSON)
+    majors = load_json(MAJORS_JSON)
+    jobs = load_json(JOBS_JSON)
 
-    major_rows = [x for x in walk_majors(all_data) if x["major_code"] and x["major_name"]]
-    all_titles, title_to_category, title_aliases = build_job_catalog(job_data)
+    all_titles, title_to_category, title_aliases = build_job_catalog(jobs)
 
     major_code_rules, extracted_rows, unmapped = build_major_code_rules(
-        major_rows, title_to_category, title_aliases
+        majors, title_to_category, title_aliases
     )
-    major_category_rules = build_major_category_rules(major_rows, major_code_rules)
-    discipline_rules = build_discipline_rules(major_rows, major_category_rules)
+    major_category_rules = build_major_category_rules(majors, major_code_rules)
+    discipline_rules = build_discipline_rules(majors, major_category_rules)
 
     rules = {
         "_meta": {
-            "description": "由已毕业人员从业方向自动生成",
-            "note": "建议人工复核 exclude_titles 与少量误匹配"
+            "description": "由专业就业方向自动生成",
+            "priority": "major_code_rules > major_category_rules > discipline_rules",
+            "note": "建议人工复核少量误匹配和 exclude_titles"
         },
         "major_code_rules": major_code_rules,
         "major_category_rules": major_category_rules,
@@ -318,7 +271,7 @@ def main():
     }
 
     summary = {
-        "major_total": len(major_rows),
+        "major_total": len(majors),
         "job_title_total": len(all_titles),
         "major_code_rules_generated": len(major_code_rules),
         "major_category_rules_generated": len(major_category_rules),
@@ -335,7 +288,7 @@ def main():
     save_json(OUT_RULES, rules)
     save_json(OUT_SUMMARY, summary)
 
-    print("已生成:")
+    print("generated:")
     print("-", OUT_JOB_TITLES)
     print("-", OUT_MAJOR_DIRECTIONS)
     print("-", OUT_RULES)

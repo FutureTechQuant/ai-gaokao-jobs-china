@@ -34,14 +34,35 @@ def extract_job_list(data):
     )
 
 
+def parse_int(v, default=0):
+    if v is None or v == "":
+        return default
+    if isinstance(v, bool):
+        return int(v)
+    if isinstance(v, (int, float)):
+        return int(v)
+    s = str(v).replace(",", "").strip()
+    m = re.search(r"-?\d+", s)
+    return int(m.group()) if m else default
+
+
+def parse_bool(v):
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, (int, float)):
+        return bool(v)
+    s = str(v).strip().lower()
+    return s in {"true", "1", "yes", "y", "是"}
+
+
 def parse_salary_mid(s):
     if not s:
         return None
 
     text = str(s).strip().replace("＋", "+").replace("—", "-").replace("–", "-")
     text = text.replace("万+", "万")
-
     nums = re.findall(r"(\d+(?:\.\d+)?)", text)
+
     if not nums:
         return None
 
@@ -55,9 +76,9 @@ def parse_salary_mid(s):
 def normalize_one(item, idx):
     title = str(item.get("title", "")).strip()
     category = str(item.get("category", "")).strip()
-    employment_workers = int(item.get("employment_workers", 0) or 0)
-    exposure = int(item.get("exposure", 0) or 0)
-    highlighted = bool(item.get("highlighted", False))
+    employment_workers = parse_int(item.get("employment_workers", 0), 0)
+    exposure = parse_int(item.get("exposure", 0), 0)
+    highlighted = parse_bool(item.get("highlighted", False))
     avg_salary = str(item.get("avgSalary", "")).strip()
     detail = str(item.get("detail", "")).strip()
     source_url = str(item.get("source_url", "")).strip()
