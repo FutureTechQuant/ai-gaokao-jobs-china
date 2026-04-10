@@ -86,11 +86,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -108,11 +108,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -124,9 +124,13 @@
     "discipline": "哲学",
     "major_category": "哲学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "教师",
+      "行政专员/助理"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "020101",
@@ -187,15 +191,15 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
-      },
-      {
-        "standard_title": "会计与出纳",
         "matched_alias": "出纳"
       },
       {
         "standard_title": "会计与出纳",
         "matched_alias": "会计"
+      },
+      {
+        "standard_title": "会计与出纳",
+        "matched_alias": "财务"
       },
       {
         "standard_title": "教师",
@@ -274,11 +278,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -296,11 +300,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -318,11 +322,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -411,11 +415,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -452,15 +456,15 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
-      },
-      {
-        "standard_title": "会计与出纳",
         "matched_alias": "出纳"
       },
       {
         "standard_title": "会计与出纳",
         "matched_alias": "会计"
+      },
+      {
+        "standard_title": "会计与出纳",
+        "matched_alias": "财务"
       },
       {
         "standard_title": "行政专员/助理",
@@ -586,11 +590,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -608,11 +612,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -632,11 +636,11 @@
     "matched_details": [
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -740,11 +744,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -810,11 +814,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -832,11 +836,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -894,11 +898,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "行政专员/助理",
@@ -954,11 +958,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "行政专员/助理",
@@ -1129,11 +1133,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1151,11 +1155,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1173,11 +1177,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1195,11 +1199,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1216,6 +1220,7 @@
       "公务员",
       "教师",
       "数据分析师",
+      "行政专员/助理",
       "证券分析师",
       "银行柜员"
     ],
@@ -1229,9 +1234,13 @@
     "discipline": "法学",
     "major_category": "政治学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "教师",
+      "行政专员/助理"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "030301",
@@ -1246,11 +1255,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1268,11 +1277,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1290,11 +1299,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1342,11 +1351,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1401,11 +1410,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1419,7 +1428,8 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "公务员",
-      "教师"
+      "教师",
+      "行政专员/助理"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1433,7 +1443,8 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "公务员",
-      "教师"
+      "教师",
+      "行政专员/助理"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1492,11 +1503,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1508,9 +1519,13 @@
     "discipline": "法学",
     "major_category": "马克思主义理论类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "教师",
+      "行政专员/助理"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "030502",
@@ -1625,11 +1640,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1658,11 +1673,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1742,11 +1757,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1764,11 +1779,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1808,11 +1823,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1830,11 +1845,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1888,11 +1903,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1910,11 +1925,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1967,11 +1982,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -1989,11 +2004,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2011,11 +2026,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2171,11 +2186,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2406,11 +2421,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2584,11 +2599,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2606,11 +2621,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2656,11 +2671,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2678,11 +2693,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2700,11 +2715,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -2722,11 +2737,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3019,11 +3034,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3063,11 +3078,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3081,6 +3096,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -3095,6 +3111,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -3232,11 +3249,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3254,11 +3271,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3276,11 +3293,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3298,11 +3315,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3320,11 +3337,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3342,11 +3359,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3375,11 +3392,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3474,11 +3491,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3496,11 +3513,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3518,11 +3535,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3551,11 +3568,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3573,11 +3590,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3617,11 +3634,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3661,11 +3678,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -3771,11 +3788,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4144,11 +4161,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4166,11 +4183,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4657,11 +4674,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4679,11 +4696,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4701,11 +4718,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4723,11 +4740,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4789,6 +4806,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -4803,6 +4821,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -4896,11 +4915,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -4959,11 +4978,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5002,11 +5021,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5020,6 +5039,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -5231,11 +5251,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5387,11 +5407,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5555,11 +5575,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5577,11 +5597,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5593,9 +5613,12 @@
     "discipline": "理学",
     "major_category": "化学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "070306",
@@ -5604,9 +5627,12 @@
     "discipline": "理学",
     "major_category": "化学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "070307",
@@ -5615,9 +5641,12 @@
     "discipline": "理学",
     "major_category": "化学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "070401",
@@ -5632,11 +5661,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5654,11 +5683,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5676,11 +5705,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5698,11 +5727,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5720,11 +5749,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5742,11 +5771,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5795,11 +5824,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5927,11 +5956,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5943,9 +5972,12 @@
     "discipline": "理学",
     "major_category": "海洋科学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "070705",
@@ -5954,9 +5986,12 @@
     "discipline": "理学",
     "major_category": "海洋科学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "070801",
@@ -5971,11 +6006,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -5993,11 +6028,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6055,11 +6090,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6103,11 +6138,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6125,11 +6160,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6407,11 +6442,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6531,9 +6566,13 @@
     "discipline": "理学",
     "major_category": "统计学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师",
+      "软件工程师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "080101",
@@ -6752,11 +6791,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6774,11 +6813,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6796,11 +6835,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6818,11 +6857,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6900,11 +6939,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6922,11 +6961,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -6944,11 +6983,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7016,6 +7055,7 @@
     "major_category": "机械类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -7127,11 +7167,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7149,11 +7189,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7171,11 +7211,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7221,11 +7261,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7287,11 +7327,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7309,11 +7349,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7331,11 +7371,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7353,11 +7393,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7403,11 +7443,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7425,11 +7465,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7470,6 +7510,7 @@
     "major_category": "材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -7515,9 +7556,12 @@
     "discipline": "工学",
     "major_category": "材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "080420",
@@ -7744,11 +7788,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7766,11 +7810,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7788,11 +7832,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -7942,11 +7986,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "考研",
@@ -8017,11 +8061,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       }
     ],
     "rule_source": "employment_direction"
@@ -8039,11 +8083,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8061,11 +8105,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8083,11 +8127,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8105,11 +8149,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8127,11 +8171,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8151,7 +8195,7 @@
     "matched_details": [
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
@@ -8159,7 +8203,7 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "销售",
@@ -8243,11 +8287,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8309,11 +8353,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8405,9 +8449,12 @@
     "discipline": "工学",
     "major_category": "电子信息类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "080719",
@@ -8593,6 +8640,7 @@
     "major_category": "自动化类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -8636,11 +8684,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "开发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "开发工程师"
       },
       {
         "standard_title": "测试工程师",
@@ -8703,11 +8751,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "开发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "开发工程师"
       },
       {
         "standard_title": "测试工程师",
@@ -8741,11 +8789,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8812,11 +8860,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8931,11 +8979,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -8953,11 +9001,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9051,9 +9099,14 @@
     "discipline": "工学",
     "major_category": "计算机类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "产品经理",
+      "数据分析师",
+      "测试工程师",
+      "软件工程师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "080918",
@@ -9062,9 +9115,14 @@
     "discipline": "工学",
     "major_category": "计算机类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "产品经理",
+      "数据分析师",
+      "测试工程师",
+      "软件工程师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "080919",
@@ -9090,11 +9148,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9112,11 +9170,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9134,11 +9192,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9156,11 +9214,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9178,11 +9236,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9200,11 +9258,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9238,9 +9296,14 @@
     "discipline": "工学",
     "major_category": "土木类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081010",
@@ -9249,9 +9312,13 @@
     "discipline": "工学",
     "major_category": "土木类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081011",
@@ -9299,11 +9366,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9399,11 +9466,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9443,11 +9510,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9465,11 +9532,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9498,11 +9565,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9514,9 +9581,12 @@
     "discipline": "工学",
     "major_category": "测绘类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081206",
@@ -9586,11 +9656,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9608,11 +9678,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9630,11 +9700,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9646,9 +9716,12 @@
     "discipline": "工学",
     "major_category": "化工与制药类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081306",
@@ -9746,11 +9819,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9768,11 +9841,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9790,11 +9863,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9845,11 +9918,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9867,11 +9940,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9889,11 +9962,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9911,11 +9984,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9933,11 +10006,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9955,11 +10028,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -9999,11 +10072,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10021,11 +10094,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10043,11 +10116,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10065,11 +10138,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10082,6 +10155,7 @@
     "major_category": "纺织类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -10100,11 +10174,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10122,11 +10196,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10219,9 +10293,12 @@
     "discipline": "工学",
     "major_category": "轻工类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081707",
@@ -10230,9 +10307,12 @@
     "discipline": "工学",
     "major_category": "轻工类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081801",
@@ -10340,11 +10420,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10362,11 +10442,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10413,11 +10493,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10435,11 +10515,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10501,11 +10581,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10523,11 +10603,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10545,11 +10625,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10561,9 +10641,12 @@
     "discipline": "工学",
     "major_category": "海洋工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081905",
@@ -10572,9 +10655,12 @@
     "discipline": "工学",
     "major_category": "海洋工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "081906",
@@ -10583,9 +10669,12 @@
     "discipline": "工学",
     "major_category": "海洋工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "082001",
@@ -10600,11 +10689,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10622,11 +10711,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10644,11 +10733,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10666,11 +10755,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10688,11 +10777,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10721,11 +10810,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10808,11 +10897,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10830,11 +10919,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -10958,11 +11047,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11040,9 +11129,12 @@
     "discipline": "工学",
     "major_category": "核工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "082204",
@@ -11057,11 +11149,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11079,11 +11171,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11160,11 +11252,11 @@
     "matched_details": [
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       }
     ],
     "rule_source": "employment_direction"
@@ -11226,11 +11318,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11270,11 +11362,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11292,11 +11384,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11314,11 +11406,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11331,6 +11423,7 @@
     "major_category": "林业工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -11343,9 +11436,13 @@
     "discipline": "工学",
     "major_category": "林业工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "082501",
@@ -11360,11 +11457,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11382,11 +11479,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11404,11 +11501,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11420,9 +11517,12 @@
     "discipline": "工学",
     "major_category": "环境科学与工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "082505",
@@ -11437,11 +11537,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11459,11 +11559,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11481,11 +11581,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11661,11 +11761,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11683,11 +11783,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11705,11 +11805,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11727,11 +11827,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11749,11 +11849,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11771,11 +11871,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11793,11 +11893,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11870,11 +11970,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11959,11 +12059,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -11987,6 +12087,7 @@
     "major_category": "建筑类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -11999,9 +12100,13 @@
     "discipline": "工学",
     "major_category": "建筑类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "082901",
@@ -12170,9 +12275,12 @@
     "discipline": "工学",
     "major_category": "生物工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "083101",
@@ -12187,11 +12295,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12209,11 +12317,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12231,11 +12339,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12253,11 +12361,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12311,11 +12419,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12449,11 +12557,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12510,11 +12618,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12532,11 +12640,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12554,11 +12662,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12576,11 +12684,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12679,11 +12787,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12701,11 +12809,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12723,11 +12831,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12772,9 +12880,12 @@
     "discipline": "农学",
     "major_category": "植物生产类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "090116",
@@ -12783,9 +12894,12 @@
     "discipline": "农学",
     "major_category": "植物生产类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "090117",
@@ -12794,9 +12908,12 @@
     "discipline": "农学",
     "major_category": "植物生产类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "090201",
@@ -12811,11 +12928,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12833,11 +12950,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12855,11 +12972,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12871,9 +12988,12 @@
     "discipline": "农学",
     "major_category": "自然保护与环境生态类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "090205",
@@ -12915,9 +13035,12 @@
     "discipline": "农学",
     "major_category": "自然保护与环境生态类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "090301",
@@ -12932,11 +13055,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12954,11 +13077,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -12976,11 +13099,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13047,11 +13170,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13069,11 +13192,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13091,11 +13214,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13149,11 +13272,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13171,11 +13294,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13280,11 +13403,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13302,11 +13425,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13319,8 +13442,11 @@
     "major_category": "水产类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "公务员",
       "医生",
-      "护士"
+      "护士",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13393,11 +13519,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13411,7 +13537,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "医生",
-      "护士"
+      "护士",
+      "教师",
+      "数据分析师"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13425,7 +13553,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "医生",
-      "护士"
+      "护士",
+      "教师",
+      "数据分析师"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13453,11 +13583,11 @@
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医生"
+        "matched_alias": "医师"
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医师"
+        "matched_alias": "医生"
       }
     ],
     "rule_source": "employment_direction"
@@ -13475,11 +13605,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13534,11 +13664,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13561,11 +13691,11 @@
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医生"
+        "matched_alias": "医师"
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医师"
+        "matched_alias": "医生"
       }
     ],
     "rule_source": "employment_direction"
@@ -13577,9 +13707,12 @@
     "discipline": "医学",
     "major_category": "临床医学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "医生",
+      "护士"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "100301",
@@ -13594,11 +13727,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13616,11 +13749,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13638,11 +13771,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13735,11 +13868,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13757,11 +13890,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13779,11 +13912,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13801,11 +13934,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13823,11 +13956,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -13906,9 +14039,12 @@
     "discipline": "医学",
     "major_category": "中医学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "医生",
+      "护士"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "100513",
@@ -14111,11 +14247,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14133,11 +14269,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14165,11 +14301,11 @@
       },
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14214,11 +14350,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14290,11 +14426,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14513,11 +14649,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14577,7 +14713,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "医生",
-      "护士"
+      "护士",
+      "教师",
+      "数据分析师"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14619,6 +14757,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "产品经理",
+      "教师",
       "数据分析师",
       "测试工程师",
       "软件工程师"
@@ -14697,11 +14836,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -14713,9 +14852,12 @@
     "discipline": "医学",
     "major_category": "护理学类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "医生",
+      "护士"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "120101",
@@ -15175,15 +15317,15 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
-      },
-      {
-        "standard_title": "会计与出纳",
         "matched_alias": "出纳"
       },
       {
         "standard_title": "会计与出纳",
         "matched_alias": "会计"
+      },
+      {
+        "standard_title": "会计与出纳",
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -15209,11 +15351,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15348,11 +15490,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15580,15 +15722,15 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
-      },
-      {
-        "standard_title": "会计与出纳",
         "matched_alias": "出纳"
       },
       {
         "standard_title": "会计与出纳",
         "matched_alias": "会计"
+      },
+      {
+        "standard_title": "会计与出纳",
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -15862,11 +16004,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15884,11 +16026,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15906,11 +16048,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15928,11 +16070,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15950,11 +16092,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -15983,11 +16125,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16005,11 +16147,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16292,11 +16434,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16314,11 +16456,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16341,9 +16483,13 @@
     "discipline": "管理学",
     "major_category": "物流管理与工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "120701",
@@ -16358,11 +16504,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16380,11 +16526,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16402,11 +16548,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16488,11 +16634,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16504,9 +16650,13 @@
     "discipline": "管理学",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "120901",
@@ -16521,11 +16671,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16543,11 +16693,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16565,11 +16715,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16587,11 +16737,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16653,11 +16803,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16675,11 +16825,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16697,11 +16847,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16719,11 +16869,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16741,11 +16891,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16883,11 +17033,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16905,11 +17055,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16927,11 +17077,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16949,11 +17099,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16971,11 +17121,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -16993,11 +17143,11 @@
     "matched_details": [
       {
         "standard_title": "考研",
-        "matched_alias": "升学"
+        "matched_alias": "考研"
       },
       {
         "standard_title": "考研",
-        "matched_alias": "考研"
+        "matched_alias": "升学"
       }
     ],
     "rule_source": "employment_direction"
@@ -17076,6 +17226,7 @@
     "major_category": "美术学类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "初中教师",
       "大学教师",
       "平面设计师",
@@ -17136,9 +17287,13 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "210105",
@@ -17225,8 +17380,11 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "公务员",
       "医生",
-      "护士"
+      "护士",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17329,9 +17487,12 @@
     "discipline": "资源环境与安全",
     "major_category": "测绘地理信息类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "220401",
@@ -17384,9 +17545,12 @@
     "discipline": "资源环境与安全",
     "major_category": "环境保护类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "220802",
@@ -17395,9 +17559,12 @@
     "discipline": "资源环境与安全",
     "major_category": "环境保护类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "220803",
@@ -17582,9 +17749,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240101",
@@ -17594,7 +17765,11 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "平面设计师"
+      "内容创作者/编辑",
+      "平面设计师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17606,9 +17781,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240103",
@@ -17617,9 +17796,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240104",
@@ -17640,6 +17823,7 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -17652,9 +17836,13 @@
     "discipline": "土木建筑",
     "major_category": "城乡规划与管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240301",
@@ -17663,9 +17851,13 @@
     "discipline": "土木建筑",
     "major_category": "土建施工类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240302",
@@ -17696,9 +17888,13 @@
     "discipline": "土木建筑",
     "major_category": "土建施工类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240401",
@@ -17707,9 +17903,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240402",
@@ -17718,9 +17918,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240501",
@@ -17729,9 +17933,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240502",
@@ -17740,9 +17948,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "240601",
@@ -17828,9 +18040,12 @@
     "discipline": "水利",
     "major_category": "水土保持与水环境类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "250402",
@@ -17851,6 +18066,7 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -17886,6 +18102,7 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -18129,9 +18346,12 @@
     "discipline": "生物与化工",
     "major_category": "生物技术类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "270103",
@@ -18140,9 +18360,12 @@
     "discipline": "生物与化工",
     "major_category": "生物技术类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "270201",
@@ -18701,7 +18924,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "医生",
-      "护士"
+      "护士",
+      "教师",
+      "数据分析师"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18878,9 +19103,13 @@
     "discipline": "财经商贸",
     "major_category": "统计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师",
+      "软件工程师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "330601",
@@ -18901,6 +19130,7 @@
     "major_category": "工商管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "数据分析师",
       "行政专员/助理",
       "销售"
     ],
@@ -18914,9 +19144,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "330702",
@@ -18925,9 +19159,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "330703",
@@ -18947,9 +19185,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "330802",
@@ -18958,9 +19200,13 @@
     "discipline": "财经商贸",
     "major_category": "物流类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "340101",
@@ -18969,9 +19215,13 @@
     "discipline": "旅游",
     "major_category": "旅游类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "340102",
@@ -18980,9 +19230,13 @@
     "discipline": "旅游",
     "major_category": "旅游类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "340103",
@@ -18992,6 +19246,7 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19027,6 +19282,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19040,6 +19296,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19053,6 +19310,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19066,6 +19324,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19079,6 +19338,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19092,6 +19352,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19105,6 +19366,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19118,6 +19380,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19131,6 +19394,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19144,6 +19408,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19157,6 +19422,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19237,6 +19503,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -19250,6 +19517,7 @@
     "major_category": "广播影视类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19441,9 +19709,13 @@
     "discipline": "公共管理与服务",
     "major_category": "公共事业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "教师",
+      "行政专员/助理"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "390102",
@@ -19486,6 +19758,7 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "数据分析师",
       "行政专员/助理",
       "销售"
     ],
@@ -19500,6 +19773,7 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "数据分析师",
       "行政专员/助理",
       "销售"
     ],
@@ -19579,9 +19853,12 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410105",
@@ -19590,9 +19867,13 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410106",
@@ -19601,9 +19882,13 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410107",
@@ -19809,9 +20094,13 @@
     "discipline": "农林牧渔",
     "major_category": "林业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410205",
@@ -19847,9 +20136,12 @@
     "discipline": "农林牧渔",
     "major_category": "林业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410208",
@@ -19880,9 +20172,12 @@
     "discipline": "农林牧渔",
     "major_category": "林业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410211",
@@ -19903,6 +20198,7 @@
     "major_category": "林业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19916,6 +20212,7 @@
     "major_category": "林业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -19929,8 +20226,11 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "公务员",
       "医生",
-      "护士"
+      "护士",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20055,9 +20355,12 @@
     "discipline": "农林牧渔",
     "major_category": "渔业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "410403",
@@ -20078,8 +20381,11 @@
     "major_category": "渔业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "公务员",
       "医生",
-      "护士"
+      "护士",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20113,9 +20419,12 @@
     "discipline": "资源环境与安全",
     "major_category": "资源勘查类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420103",
@@ -20124,9 +20433,12 @@
     "discipline": "资源环境与安全",
     "major_category": "资源勘查类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420105",
@@ -20135,9 +20447,12 @@
     "discipline": "资源环境与安全",
     "major_category": "资源勘查类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420106",
@@ -20157,9 +20472,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420202",
@@ -20168,9 +20486,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420203",
@@ -20179,9 +20500,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420204",
@@ -20212,9 +20536,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420207",
@@ -20223,9 +20550,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420208",
@@ -20234,9 +20564,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420209",
@@ -20245,9 +20578,12 @@
     "discipline": "资源环境与安全",
     "major_category": "地质类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420301",
@@ -20278,9 +20614,12 @@
     "discipline": "资源环境与安全",
     "major_category": "测绘地理信息类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420304",
@@ -20377,9 +20716,12 @@
     "discipline": "资源环境与安全",
     "major_category": "石油与天然气类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420403",
@@ -20410,9 +20752,12 @@
     "discipline": "资源环境与安全",
     "major_category": "石油与天然气类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420406",
@@ -20454,9 +20799,12 @@
     "discipline": "资源环境与安全",
     "major_category": "环境保护类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420702",
@@ -20465,9 +20813,12 @@
     "discipline": "资源环境与安全",
     "major_category": "环境保护类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420703",
@@ -20520,9 +20871,12 @@
     "discipline": "资源环境与安全",
     "major_category": "安全类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420804",
@@ -20531,9 +20885,12 @@
     "discipline": "资源环境与安全",
     "major_category": "安全类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "420805",
@@ -20762,9 +21119,12 @@
     "discipline": "能源动力与材料",
     "major_category": "热能与发电工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430301",
@@ -20795,9 +21155,12 @@
     "discipline": "能源动力与材料",
     "major_category": "新能源发电工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430304",
@@ -21048,9 +21411,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430702",
@@ -21059,9 +21426,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430703",
@@ -21070,9 +21441,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430704",
@@ -21081,9 +21456,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "430705",
@@ -21092,9 +21471,13 @@
     "discipline": "能源动力与材料",
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440101",
@@ -21104,7 +21487,11 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "平面设计师"
+      "内容创作者/编辑",
+      "平面设计师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21116,9 +21503,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440103",
@@ -21127,9 +21518,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440104",
@@ -21150,7 +21545,11 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "平面设计师"
+      "内容创作者/编辑",
+      "平面设计师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21163,7 +21562,11 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "平面设计师"
+      "内容创作者/编辑",
+      "平面设计师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21176,7 +21579,11 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "平面设计师"
+      "内容创作者/编辑",
+      "平面设计师",
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21199,9 +21606,13 @@
     "discipline": "土木建筑",
     "major_category": "土建施工类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440203",
@@ -21221,9 +21632,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440302",
@@ -21232,9 +21647,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440303",
@@ -21243,9 +21662,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440304",
@@ -21276,9 +21699,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440307",
@@ -21287,9 +21714,13 @@
     "discipline": "土木建筑",
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440401",
@@ -21298,9 +21729,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440402",
@@ -21309,9 +21744,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440403",
@@ -21331,9 +21770,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440405",
@@ -21353,9 +21796,13 @@
     "discipline": "土木建筑",
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440501",
@@ -21364,9 +21811,13 @@
     "discipline": "土木建筑",
     "major_category": "市政工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440502",
@@ -21375,9 +21826,13 @@
     "discipline": "土木建筑",
     "major_category": "市政工程类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "440503",
@@ -21389,8 +21844,10 @@
     "matched_titles": [
       "会计与出纳",
       "数据分析师",
+      "行政专员/助理",
       "证券分析师",
-      "银行柜员"
+      "银行柜员",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21512,9 +21969,13 @@
     "discipline": "水利",
     "major_category": "水利工程与管理类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "450206",
@@ -21600,9 +22061,12 @@
     "discipline": "水利",
     "major_category": "水土保持与水环境类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "460101",
@@ -21612,6 +22076,7 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -21647,6 +22112,7 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -21715,6 +22181,7 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22079,9 +22546,12 @@
     "discipline": "生物与化工",
     "major_category": "生物技术类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "470102",
@@ -22090,9 +22560,12 @@
     "discipline": "生物与化工",
     "major_category": "生物技术类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "470106",
@@ -22101,9 +22574,12 @@
     "discipline": "生物与化工",
     "major_category": "生物技术类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "480101",
@@ -22135,6 +22611,7 @@
     "major_category": "轻化工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22148,6 +22625,7 @@
     "major_category": "轻化工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22238,6 +22716,7 @@
     "major_category": "包装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22339,6 +22818,7 @@
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22352,6 +22832,7 @@
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -22397,9 +22878,13 @@
     "discipline": "轻工纺织",
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "480412",
@@ -22474,9 +22959,12 @@
     "discipline": "食品药品与粮食",
     "major_category": "粮食类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "490204",
@@ -22485,9 +22973,12 @@
     "discipline": "食品药品与粮食",
     "major_category": "粮食类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "490205",
@@ -22774,9 +23265,13 @@
     "discipline": "交通运输",
     "major_category": "道路运输类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "500206",
@@ -23564,6 +24059,7 @@
     "major_category": "通信类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -23739,7 +24235,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "医生",
-      "护士"
+      "护士",
+      "教师",
+      "数据分析师"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23951,9 +24449,13 @@
     "discipline": "财经商贸",
     "major_category": "统计类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "教师",
+      "数据分析师",
+      "软件工程师"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530402",
@@ -23964,8 +24466,10 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "会计与出纳",
+      "教师",
       "数据分析师",
       "证券分析师",
+      "软件工程师",
       "银行柜员"
     ],
     "matched_details": [],
@@ -23981,8 +24485,10 @@
     "matched_titles": [
       "会计与出纳",
       "数据分析师",
+      "行政专员/助理",
       "证券分析师",
-      "银行柜员"
+      "银行柜员",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23994,9 +24500,13 @@
     "discipline": "财经商贸",
     "major_category": "经济贸易类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530503",
@@ -24027,9 +24537,13 @@
     "discipline": "财经商贸",
     "major_category": "经济贸易类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530701",
@@ -24038,9 +24552,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530702",
@@ -24049,9 +24567,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530703",
@@ -24060,9 +24582,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "530706",
@@ -24071,9 +24597,13 @@
     "discipline": "财经商贸",
     "major_category": "电子商务类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "540101",
@@ -24082,9 +24612,13 @@
     "discipline": "旅游",
     "major_category": "旅游类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "540102",
@@ -24137,9 +24671,13 @@
     "discipline": "旅游",
     "major_category": "旅游类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "540107",
@@ -24270,6 +24808,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24283,6 +24822,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24296,6 +24836,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24309,6 +24850,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24333,6 +24875,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24346,6 +24889,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24359,6 +24903,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24383,6 +24928,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24398,6 +24944,7 @@
     "matched_titles": [
       "内容创作者/编辑",
       "平面设计师",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -24411,6 +24958,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24424,6 +24972,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24437,6 +24986,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24450,6 +25000,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24474,6 +25025,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24487,6 +25039,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24500,6 +25053,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24513,6 +25067,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24526,6 +25081,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24539,6 +25095,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24552,6 +25109,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24565,6 +25123,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24578,6 +25137,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24591,6 +25151,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24604,6 +25165,7 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24617,6 +25179,7 @@
     "major_category": "民族文化艺术类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24664,6 +25227,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -24687,9 +25251,13 @@
     "discipline": "新闻传播",
     "major_category": "新闻出版类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "数据分析师",
+      "行政专员/助理",
+      "销售"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "560105",
@@ -24766,6 +25334,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -24779,6 +25348,7 @@
     "major_category": "广播影视类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "平面设计师"
     ],
     "matched_details": [],
@@ -24859,6 +25429,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -24873,6 +25444,7 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "内容创作者/编辑",
+      "教师",
       "新闻记者"
     ],
     "matched_details": [],
@@ -24964,6 +25536,8 @@
       "初中教师",
       "大学教师",
       "教师",
+      "数据分析师",
+      "软件工程师",
       "高中教师"
     ],
     "matched_details": [],
@@ -25025,6 +25599,7 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "内容创作者/编辑",
       "初中教师",
       "大学教师",
       "平面设计师",
@@ -25591,9 +26166,13 @@
     "discipline": "公共管理与服务",
     "major_category": "公共事业类",
     "employment_direction_raw": "",
-    "matched_titles": [],
+    "matched_titles": [
+      "公务员",
+      "教师",
+      "行政专员/助理"
+    ],
     "matched_details": [],
-    "rule_source": "unmapped"
+    "rule_source": "major_name_inference"
   },
   {
     "major_code": "590102",
@@ -25680,6 +26259,7 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "数据分析师",
       "行政专员/助理",
       "销售"
     ],
@@ -25727,6 +26307,7 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "数据分析师",
       "行政专员/助理",
       "销售"
     ],
