@@ -894,11 +894,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "行政专员/助理",
@@ -954,11 +954,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "行政专员/助理",
@@ -7942,11 +7942,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "考研",
@@ -8017,11 +8017,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       }
     ],
     "rule_source": "employment_direction"
@@ -8151,15 +8151,15 @@
     "matched_details": [
       {
         "standard_title": "软件工程师",
+        "matched_alias": "研发工程师"
+      },
+      {
+        "standard_title": "软件工程师",
         "matched_alias": "开发工程师"
       },
       {
         "standard_title": "软件工程师",
         "matched_alias": "软件工程师"
-      },
-      {
-        "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "销售",
@@ -11160,11 +11160,11 @@
     "matched_details": [
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "研发工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "研发工程师"
+        "matched_alias": "软件工程师"
       }
     ],
     "rule_source": "employment_direction"
@@ -13453,11 +13453,11 @@
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医师"
+        "matched_alias": "医生"
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医生"
+        "matched_alias": "医师"
       }
     ],
     "rule_source": "employment_direction"
@@ -13561,11 +13561,11 @@
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医师"
+        "matched_alias": "医生"
       },
       {
         "standard_title": "医生",
-        "matched_alias": "医生"
+        "matched_alias": "医师"
       }
     ],
     "rule_source": "employment_direction"
