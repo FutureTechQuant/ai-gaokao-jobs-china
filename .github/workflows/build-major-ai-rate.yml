@@ -38,6 +38,7 @@ jobs:
           python scripts/normalize_majors.py
           python scripts/normalize_jobs.py
           python scripts/generate_rules_from_employment.py
+          python scripts/build_major_ai_rate.py
     
       - name: Upload artifact
         uses: actions/upload-artifact@v4
