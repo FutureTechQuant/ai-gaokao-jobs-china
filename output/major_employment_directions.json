@@ -191,11 +191,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "教师",
@@ -411,11 +411,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -456,11 +456,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "行政专员/助理",
@@ -632,11 +632,11 @@
     "matched_details": [
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -894,11 +894,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "行政专员/助理",
@@ -954,11 +954,11 @@
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "律师助理"
+        "matched_alias": "法务专员"
       },
       {
         "standard_title": "律师助理/法务专员",
-        "matched_alias": "法务专员"
+        "matched_alias": "律师助理"
       },
       {
         "standard_title": "行政专员/助理",
@@ -4619,11 +4619,11 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
+        "matched_alias": "文案"
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "文案"
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "新闻记者",
@@ -4752,11 +4752,11 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
+        "matched_alias": "文案"
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "文案"
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "教师",
@@ -8151,15 +8151,15 @@
     "matched_details": [
       {
         "standard_title": "软件工程师",
+        "matched_alias": "开发工程师"
+      },
+      {
+        "standard_title": "软件工程师",
         "matched_alias": "软件工程师"
       },
       {
         "standard_title": "软件工程师",
         "matched_alias": "研发工程师"
-      },
-      {
-        "standard_title": "软件工程师",
-        "matched_alias": "开发工程师"
       },
       {
         "standard_title": "销售",
@@ -8636,11 +8636,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "开发工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "开发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "测试工程师",
@@ -8703,11 +8703,11 @@
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "软件工程师"
+        "matched_alias": "开发工程师"
       },
       {
         "standard_title": "软件工程师",
-        "matched_alias": "开发工程师"
+        "matched_alias": "软件工程师"
       },
       {
         "standard_title": "测试工程师",
@@ -15179,11 +15179,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -15584,11 +15584,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
