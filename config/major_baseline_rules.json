@@ -1,95 +1,227 @@
 {
   "baseline_rules": [
     {
-      "name": "外国语言文学类下限",
+      "name": "经济学类下限",
       "when": {
-        "major_category_in": ["外国语言文学类"]
+        "major_category_in": ["经济学类"]
       },
-      "min_replace_rate": 0.52
+      "min_replace_rate": 0.41
     },
     {
-      "name": "专业名含管理下限",
+      "name": "资源与环境经济学下限",
       "when": {
-        "major_name_contains": ["管理"]
-      },
-      "min_replace_rate": 0.42
-    },
-    {
-      "name": "工商管理类下限",
-      "when": {
-        "major_category_in": ["工商管理类"]
+        "major_name_contains": ["资源与环境经济学"]
       },
       "min_replace_rate": 0.42
     },
     {
-      "name": "公共管理类下限",
+      "name": "商务经济学下限",
       "when": {
-        "major_category_in": ["公共管理类"]
-      },
-      "min_replace_rate": 0.40
-    },
-    {
-      "name": "物流管理与工程类下限",
-      "when": {
-        "major_category_in": ["物流管理与工程类"]
-      },
-      "min_replace_rate": 0.40
-    },
-    {
-      "name": "电子商务类下限",
-      "when": {
-        "major_category_in": ["电子商务类"]
+        "major_name_contains": ["商务经济学"]
       },
       "min_replace_rate": 0.45
     },
     {
-      "name": "旅游管理类下限",
+      "name": "能源经济下限",
       "when": {
-        "major_category_in": ["旅游管理类"]
+        "major_name_contains": ["能源经济"]
+      },
+      "min_replace_rate": 0.41
+    },
+
+    {
+      "name": "金融学类下限增强",
+      "when": {
+        "major_category_in": ["金融学类"]
+      },
+      "min_replace_rate": 0.43
+    },
+    {
+      "name": "保险学下限",
+      "when": {
+        "major_name_contains": ["保险学"]
+      },
+      "min_replace_rate": 0.45
+    },
+    {
+      "name": "投资学下限",
+      "when": {
+        "major_name_contains": ["投资学"]
+      },
+      "min_replace_rate": 0.46
+    },
+
+    {
+      "name": "经济与贸易类下限增强",
+      "when": {
+        "major_category_in": ["经济与贸易类"]
+      },
+      "min_replace_rate": 0.45
+    },
+    {
+      "name": "国际经济与贸易下限",
+      "when": {
+        "major_name_contains": ["国际经济与贸易"]
+      },
+      "min_replace_rate": 0.47
+    },
+    {
+      "name": "贸易经济下限",
+      "when": {
+        "major_name_contains": ["贸易经济"]
+      },
+      "min_replace_rate": 0.44
+    },
+
+    {
+      "name": "马克思主义理论类下限",
+      "when": {
+        "major_category_in": ["马克思主义理论类"]
+      },
+      "min_replace_rate": 0.43
+    },
+    {
+      "name": "思想政治教育下限",
+      "when": {
+        "major_name_contains": ["思想政治教育"]
+      },
+      "min_replace_rate": 0.46
+    },
+
+    {
+      "name": "公安学类下限",
+      "when": {
+        "major_category_in": ["公安学类"]
+      },
+      "min_replace_rate": 0.16
+    },
+    {
+      "name": "治安学下限",
+      "when": {
+        "major_name_contains": ["治安学"]
+      },
+      "min_replace_rate": 0.18
+    },
+    {
+      "name": "禁毒学下限",
+      "when": {
+        "major_name_contains": ["禁毒学"]
+      },
+      "min_replace_rate": 0.17
+    },
+    {
+      "name": "经济犯罪侦查下限",
+      "when": {
+        "major_name_contains": ["经济犯罪侦查"]
+      },
+      "min_replace_rate": 0.23
+    },
+    {
+      "name": "公安情报学下限",
+      "when": {
+        "major_name_contains": ["公安情报学"]
+      },
+      "min_replace_rate": 0.24
+    },
+    {
+      "name": "犯罪学下限",
+      "when": {
+        "major_name_contains": ["犯罪学"]
+      },
+      "min_replace_rate": 0.22
+    },
+    {
+      "name": "涉外警务下限",
+      "when": {
+        "major_name_contains": ["涉外警务"]
+      },
+      "min_replace_rate": 0.19
+    },
+    {
+      "name": "国内安全保卫下限",
+      "when": {
+        "major_name_contains": ["国内安全保卫"]
+      },
+      "min_replace_rate": 0.16
+    },
+    {
+      "name": "警务指挥与战术下限",
+      "when": {
+        "major_name_contains": ["警务指挥与战术"]
+      },
+      "min_replace_rate": 0.13
+    },
+
+    {
+      "name": "教育学类下限",
+      "when": {
+        "major_category_in": ["教育学类"]
+      },
+      "min_replace_rate": 0.34
+    },
+    {
+      "name": "科学教育下限",
+      "when": {
+        "major_name_contains": ["科学教育"]
+      },
+      "min_replace_rate": 0.39
+    },
+    {
+      "name": "人文教育下限",
+      "when": {
+        "major_name_contains": ["人文教育"]
+      },
+      "min_replace_rate": 0.40
+    },
+    {
+      "name": "教育技术学下限",
+      "when": {
+        "major_name_contains": ["教育技术学"]
+      },
+      "min_replace_rate": 0.52
+    },
+    {
+      "name": "艺术教育下限",
+      "when": {
+        "major_name_contains": ["艺术教育"]
       },
       "min_replace_rate": 0.38
     },
     {
-      "name": "经济与贸易类下限",
+      "name": "学前教育下限",
       "when": {
-        "major_category_in": ["经济与贸易类"]
+        "major_name_contains": ["学前教育"]
       },
-      "min_replace_rate": 0.40
+      "min_replace_rate": 0.30
     },
     {
-      "name": "金融学类下限",
+      "name": "小学教育下限",
       "when": {
-        "major_category_in": ["金融学类"]
-      },
-      "min_replace_rate": 0.40
-    },
-    {
-      "name": "法学类下限",
-      "when": {
-        "major_category_in": ["法学类"]
+        "major_name_contains": ["小学教育"]
       },
       "min_replace_rate": 0.32
     },
     {
-      "name": "政治学类下限",
+      "name": "特殊教育下限",
       "when": {
-        "major_category_in": ["政治学类"]
+        "major_name_contains": ["特殊教育"]
       },
-      "min_replace_rate": 0.35
+      "min_replace_rate": 0.26
+    },
+
+    {
+      "name": "体育学类下限",
+      "when": {
+        "major_category_in": ["体育学类"]
+      },
+      "min_replace_rate": 0.22
     },
     {
-      "name": "社会学类下限",
+      "name": "体育教育下限",
       "when": {
-        "major_category_in": ["社会学类"]
+        "major_name_contains": ["体育教育"]
       },
-      "min_replace_rate": 0.36
-    },
-    {
-      "name": "哲学类下限",
-      "when": {
-        "major_category_in": ["哲学类"]
-      },
-      "min_replace_rate": 0.30
+      "min_replace_rate": 0.24
     }
   ]
 }
