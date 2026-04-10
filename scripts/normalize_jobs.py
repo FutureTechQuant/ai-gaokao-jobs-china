@@ -16,6 +16,24 @@ def load_json(path):
         return json.load(f)
 
 
+def extract_job_list(data):
+    if isinstance(data, list):
+        return data
+
+    if isinstance(data, dict):
+        for key in ["data", "jobs", "list", "rows", "items", "result"]:
+            value = data.get(key)
+            if isinstance(value, list):
+                return value
+
+        if all(k in data for k in ["title", "category"]):
+            return [data]
+
+    raise ValueError(
+        "data.json 无法识别岗位列表结构；支持 list 或包含 data/jobs/list/rows/items/result 的 dict"
+    )
+
+
 def parse_salary_mid(s):
     if not s:
         return None
@@ -23,15 +41,15 @@ def parse_salary_mid(s):
     text = str(s).strip().replace("＋", "+").replace("—", "-").replace("–", "-")
     text = text.replace("万+", "万")
 
-    m = re.findall(r"(\d+(?:\.\d+)?)", text)
-    if not m:
+    nums = re.findall(r"(\d+(?:\.\d+)?)", text)
+    if not nums:
         return None
 
-    nums = [float(x) for x in m]
-    if len(nums) == 1:
-        return nums[0]
+    vals = [float(x) for x in nums]
+    if len(vals) == 1:
+        return vals[0]
 
-    return round((nums[0] + nums[1]) / 2, 2)
+    return round((vals[0] + vals[1]) / 2, 2)
 
 
 def normalize_one(item, idx):
@@ -71,12 +89,12 @@ def normalize_one(item, idx):
 def main():
     ensure_output()
     data = load_json(INPUT_FILE)
-
-    if not isinstance(data, list):
-        raise ValueError("data.json 顶层应为 list")
+    raw_jobs = extract_job_list(data)
 
     rows = []
-    for idx, item in enumerate(data, start=1):
+    for idx, item in enumerate(raw_jobs, start=1):
+        if not isinstance(item, dict):
+            continue
         row = normalize_one(item, idx)
         if not row["job_title"]:
             continue
@@ -86,6 +104,8 @@ def main():
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
+
+    print(f"jobs normalized: {len(rows)}")
 
 
 if __name__ == "__main__":
