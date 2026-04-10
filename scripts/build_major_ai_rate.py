@@ -1,182 +1,192 @@
 import json
 import math
 import os
-import re
-from collections import defaultdict
-from typing import Any, Dict, List, Tuple
-
-MAJORS_INPUT = "output/majors.normalized.json"
-JOBS_INPUT = "output/jobs.normalized.json"
-RULES_INPUT = "config/major_job_rules.json"
-AI_RULES_INPUT = "config/ai_replace_rules.json"
-OUTPUT_JSON = "output/major_ai_rate.json"
-OUTPUT_DEBUG = "output/major_ai_rate.debug.json"
 
 
-def load_json(path: str) -> Any:
+MAJORS_FILE = "output/majors.normalized.json"
+JOBS_FILE = "output/jobs.normalized.json"
+MAJOR_JOB_RULES_FILE = "config/major_job_rules.json"
+AI_RULES_FILE = "config/ai_replace_rules.json"
+
+OUTPUT_FILE = "output/major_ai_rate.json"
+DEBUG_FILE = "output/major_ai_rate.debug.json"
+
+
+def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def clamp(value: float, low: float = 0.0, high: float = 1.0) -> float:
-    return max(low, min(high, value))
+def clamp(x, lo=0.0, hi=1.0):
+    return max(lo, min(hi, x))
 
 
-def contains_keyword(text: str, keyword: str) -> bool:
-    keyword = keyword.strip().lower()
-    if not keyword:
-        return False
-    if keyword in text:
-        return True
-    if any(ch in keyword for ch in "|,+"):
-        parts = [x.strip() for x in re.split(r"[|,+]", keyword) if x.strip()]
-        return all(part in text for part in parts)
+def contains_any(text, keywords):
+    text = (text or "").lower()
+    for kw in keywords:
+        if kw.lower() in text:
+            return True
     return False
 
 
-def score_job(job: Dict[str, Any], rules: Dict[str, Any]) -> Tuple[float, List[str]]:
+def score_job(job, ai_rules):
+    exposure = int(job.get("exposure", 0) or 0)
+    base = exposure / 10.0
+
     text = " ".join([
-        str(job.get("job_title", "")),
-        str(job.get("job_desc", "")),
-        str(job.get("skills", "")),
-        str(job.get("degree", "")),
-        str(job.get("experience", "")),
+        job.get("job_title", ""),
+        job.get("category", ""),
+        job.get("job_desc", ""),
+        job.get("avg_salary", "")
     ]).lower()
 
-    score = float(rules.get("base", 0.35))
-    reasons: List[str] = []
+    score = base
+    reasons = [f"base_from_exposure:{exposure}/10"]
 
-    for item in rules.get("high_plus", []):
-        kw = item["keyword"] if isinstance(item, dict) else str(item)
-        delta = float(item.get("score", 0.12)) if isinstance(item, dict) else 0.12
-        if contains_keyword(text, kw):
+    for item in ai_rules.get("plus_if_contains", []):
+        keywords = item.get("keywords", [])
+        delta = float(item.get("score", 0))
+        if contains_any(text, keywords):
             score += delta
-            reasons.append(f"+{delta:.2f}:{kw}")
+            reasons.append(f"+{delta}:{'/'.join(keywords)}")
 
-    for item in rules.get("mid_plus", []):
-        kw = item["keyword"] if isinstance(item, dict) else str(item)
-        delta = float(item.get("score", 0.06)) if isinstance(item, dict) else 0.06
-        if contains_keyword(text, kw):
-            score += delta
-            reasons.append(f"+{delta:.2f}:{kw}")
-
-    for item in rules.get("minus", []):
-        kw = item["keyword"] if isinstance(item, dict) else str(item)
-        delta = float(item.get("score", 0.10)) if isinstance(item, dict) else 0.10
-        if contains_keyword(text, kw):
+    for item in ai_rules.get("minus_if_contains", []):
+        keywords = item.get("keywords", [])
+        delta = float(item.get("score", 0))
+        if contains_any(text, keywords):
             score -= delta
-            reasons.append(f"-{delta:.2f}:{kw}")
+            reasons.append(f"-{delta}:{'/'.join(keywords)}")
 
-    for item in rules.get("title_overrides", []):
-        kw = item["keyword"]
-        value = float(item["set_score"])
-        if contains_keyword(str(job.get("job_title", "")).lower(), kw):
-            score = value
-            reasons.append(f"set:{value:.2f}:{kw}")
+    for item in ai_rules.get("title_set_score", []):
+        keywords = item.get("keywords", [])
+        set_score = float(item.get("set_score", score))
+        if contains_any(job.get("job_title", ""), keywords):
+            score = set_score
+            reasons.append(f"set:{set_score}:{'/'.join(keywords)}")
+
+    if job.get("highlighted"):
+        bonus = float(ai_rules.get("highlighted_bonus", 0))
+        score += bonus
+        reasons.append(f"+{bonus}:highlighted")
 
     return clamp(score), reasons
 
 
-def confidence_label(job_count: int, matched_weight: float) -> str:
-    if job_count >= 30 and matched_weight >= 10:
+def confidence(job_count, total_workers):
+    if job_count >= 8 and total_workers >= 5000000:
         return "high"
-    if job_count >= 10 and matched_weight >= 3:
+    if job_count >= 4 and total_workers >= 1000000:
         return "medium"
     return "low"
 
 
-def main() -> None:
+def main():
     os.makedirs("output", exist_ok=True)
 
-    majors: List[Dict[str, Any]] = load_json(MAJORS_INPUT)
-    jobs: List[Dict[str, Any]] = load_json(JOBS_INPUT)
-    major_rules: Dict[str, List[Dict[str, Any]]] = load_json(RULES_INPUT)
-    ai_rules: Dict[str, Any] = load_json(AI_RULES_INPUT)
+    majors = load_json(MAJORS_FILE)
+    jobs = load_json(JOBS_FILE)
+    major_job_rules = load_json(MAJOR_JOB_RULES_FILE)
+    ai_rules = load_json(AI_RULES_FILE)
 
-    scored_jobs: List[Dict[str, Any]] = []
+    scored_jobs = []
     for job in jobs:
         score, reasons = score_job(job, ai_rules)
-        item = dict(job)
-        item["ai_replace_score"] = round(score, 4)
-        item["ai_score_reasons"] = reasons
-        scored_jobs.append(item)
+        one = dict(job)
+        one["ai_replace_score"] = round(score, 4)
+        one["ai_score_reasons"] = reasons
+        scored_jobs.append(one)
 
-    result: List[Dict[str, Any]] = []
-    debug_rows: List[Dict[str, Any]] = []
+    results = []
+    debug = []
 
     for major in majors:
-        code = major.get("major_code", "")
-        name = major.get("major_name", "")
-        mappings = major_rules.get(code, [])
+        code = major["major_code"]
+        name = major["major_name"]
+        rule = major_job_rules.get(code)
 
-        weighted_sum = 0.0
-        weight_sum = 0.0
-        job_count = 0
-        matched_titles = []
-
-        for rule in mappings:
-            keyword = str(rule.get("job_keyword", "")).lower().strip()
-            weight = float(rule.get("weight", 0))
-            if not keyword or weight <= 0:
-                continue
-
-            matched_for_rule = 0
-            for job in scored_jobs:
-                haystack = " ".join([
-                    str(job.get("job_title", "")),
-                    str(job.get("job_desc", "")),
-                    str(job.get("skills", "")),
-                ]).lower()
-                if contains_keyword(haystack, keyword):
-                    weighted_sum += float(job["ai_replace_score"]) * weight
-                    weight_sum += weight
-                    job_count += 1
-                    matched_for_rule += 1
-                    if len(matched_titles) < 20:
-                        matched_titles.append({
-                            "job_title": job.get("job_title", ""),
-                            "company": job.get("company", ""),
-                            "keyword": keyword,
-                            "score": job.get("ai_replace_score", 0),
-                        })
-
-            debug_rows.append({
+        if not rule:
+            results.append({
                 "major_code": code,
                 "major_name": name,
-                "job_keyword": keyword,
-                "weight": weight,
-                "matched_jobs": matched_for_rule,
+                "degree_level": major["degree_level"],
+                "discipline": major["discipline"],
+                "major_category": major["major_category"],
+                "replace_rate": None,
+                "exposure_score": None,
+                "matched_jobs": 0,
+                "total_workers": 0,
+                "confidence": "unmapped",
+                "sample_matches": []
+            })
+            continue
+
+        include_categories = rule.get("include_categories", [])
+        include_titles = rule.get("include_titles", [])
+        exclude_titles = rule.get("exclude_titles", [])
+
+        matched = []
+        for job in scored_jobs:
+            hit_category = job["category"] in include_categories if include_categories else False
+            hit_title = contains_any(job["job_title"], include_titles) if include_titles else False
+            excluded = contains_any(job["job_title"], exclude_titles) if exclude_titles else False
+
+            if excluded:
+                continue
+
+            if hit_category or hit_title:
+                matched.append(job)
+
+        total_workers = sum(x.get("employment_workers", 0) for x in matched)
+        weighted_score_sum = sum(x.get("employment_workers", 0) * x.get("ai_replace_score", 0) for x in matched)
+
+        if total_workers > 0:
+            replace_rate = round(weighted_score_sum / total_workers, 4)
+            exposure_score = round(replace_rate * 100, 2)
+        else:
+            replace_rate = None
+            exposure_score = None
+
+        sample_matches = []
+        for x in sorted(matched, key=lambda z: z.get("employment_workers", 0), reverse=True)[:8]:
+            sample_matches.append({
+                "job_title": x["job_title"],
+                "category": x["category"],
+                "employment_workers": x["employment_workers"],
+                "exposure": x["exposure"],
+                "ai_replace_score": x["ai_replace_score"]
             })
 
-        replace_rate = round((weighted_sum / weight_sum), 4) if weight_sum > 0 else 0.0
-        exposure_score = round(replace_rate * 100, 2)
-
-        result.append({
+        results.append({
             "major_code": code,
             "major_name": name,
-            "discipline": major.get("discipline", ""),
-            "major_category": major.get("major_category", ""),
-            "degree_level": major.get("degree_level", ""),
+            "degree_level": major["degree_level"],
+            "discipline": major["discipline"],
+            "major_category": major["major_category"],
             "replace_rate": replace_rate,
             "exposure_score": exposure_score,
-            "job_count": job_count,
-            "matched_weight": round(weight_sum, 4),
-            "confidence": confidence_label(job_count, weight_sum),
-            "sample_matches": matched_titles,
+            "matched_jobs": len(matched),
+            "total_workers": total_workers,
+            "confidence": confidence(len(matched), total_workers),
+            "sample_matches": sample_matches
         })
 
-    result.sort(key=lambda x: (-x["replace_rate"], x["major_code"], x["major_name"]))
+        debug.append({
+            "major_code": code,
+            "major_name": name,
+            "matched_job_titles": [x["job_title"] for x in matched]
+        })
 
-    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    results.sort(key=lambda x: (
+        x["replace_rate"] is None,
+        -(x["replace_rate"] or -1),
+        x["major_code"]
+    ))
 
-    with open(OUTPUT_DEBUG, "w", encoding="utf-8") as f:
-        json.dump({
-            "rules_count": len(major_rules),
-            "majors_count": len(majors),
-            "jobs_count": len(scored_jobs),
-            "debug_rows": debug_rows,
-        }, f, ensure_ascii=False, indent=2)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    with open(DEBUG_FILE, "w", encoding="utf-8") as f:
+        json.dump(debug, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
