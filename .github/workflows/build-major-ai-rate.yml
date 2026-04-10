@@ -8,20 +8,35 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/**"
+      - "site/**"
       - ".github/workflows/build-major-ai-rate.yml"
   schedule:
     - cron: "0 2 * * 1"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-major-ai-rate-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      UPSTREAM_API_URL: https://api.github.com/repos/liyizhouAI/AI-jobs-China/contents/data.json?ref=main
+      UPSTREAM_RAW_URL: https://raw.githubusercontent.com/liyizhouAI/AI-jobs-China/main/data.json
+      LOCAL_DATA_FILE: data/data.json
+      LOCAL_SHA_FILE: data/upstream_ai_jobs_china_data.sha
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -33,23 +48,108 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas
 
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Sync upstream AI jobs data
+        id: sync_upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p data
+
+          remote_sha=$(
+            curl -fsSL \
+              -H "Accept: application/vnd.github+json" \
+              "$UPSTREAM_API_URL" \
+            | jq -r '.sha'
+          )
+
+          local_sha=""
+          if [ -f "$LOCAL_SHA_FILE" ]; then
+            local_sha="$(cat "$LOCAL_SHA_FILE")"
+          fi
+
+          echo "remote_sha=$remote_sha" >> "$GITHUB_OUTPUT"
+          echo "local_sha=$local_sha" >> "$GITHUB_OUTPUT"
+
+          if [ "$remote_sha" != "$local_sha" ]; then
+            echo "Upstream data.json changed, downloading latest file..."
+            curl -fsSL "$UPSTREAM_RAW_URL" -o "$LOCAL_DATA_FILE"
+            jq empty "$LOCAL_DATA_FILE"
+            printf "%s" "$remote_sha" > "$LOCAL_SHA_FILE"
+            echo "upstream_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Upstream data.json unchanged."
+            echo "upstream_changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run pipeline
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
         run: |
           python scripts/normalize_majors.py
           python scripts/normalize_jobs.py
           python scripts/generate_rules_from_employment.py
           python scripts/build_major_ai_rate.py
-    
+
+      - name: Prepare Pages site data
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
+        run: |
+          mkdir -p site/data
+          cp output/major_ai_rate.json site/data/
+          cp output/major_job_rules.auto.summary.json site/data/
+          cp output/major_rule_generation_report.json site/data/
+          cp output/all_job_titles.json site/data/
+          touch site/.nojekyll
+
       - name: Upload artifact
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: major-ai-rate
           path: output/
 
-      - name: Commit outputs
+      - name: Upload Pages artifact
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Commit synced data and outputs
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/
-          git diff --cached --quiet || git commit -m "chore: update major ai rate"
+
+          git add data/data.json data/upstream_ai_jobs_china_data.sha output/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          if [ "${{ steps.sync_upstream.outputs.upstream_changed }}" = "true" ]; then
+            git commit -m "[skip ci] chore: sync upstream AI-jobs-China data and update outputs"
+          else
+            git commit -m "[skip ci] chore: update major ai rate outputs"
+          fi
+
           git push
+
+  deploy:
+    needs: build
+    if: github.event_name != 'schedule' || needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

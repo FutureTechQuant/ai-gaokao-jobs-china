@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>中国专业 AI 替代率</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="wrap hero">
+    <div>
+      <p class="eyebrow">FutureTechQuant</p>
+      <h1>中国专业 AI 替代率</h1>
+      <p class="sub">
+        基于阳光高考专业数据与 AI Jobs China 岗位数据生成的专业替代风险看板。
+      </p>
+    </div>
+    <div class="hero-note">
+      <div class="legend-title">风险区间</div>
+      <div class="legend">
+        <span class="l1">低</span>
+        <span class="l2">中低</span>
+        <span class="l3">中</span>
+        <span class="l4">中高</span>
+        <span class="l5">高</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="kpis" id="kpis">
+      <article class="kpi">
+        <div class="label">专业总数</div>
+        <div class="value" id="kpi-total">-</div>
+      </article>
+      <article class="kpi">
+        <div class="label">平均替代率</div>
+        <div class="value" id="kpi-avg">-</div>
+      </article>
+      <article class="kpi">
+        <div class="label">高风险专业数</div>
+        <div class="value" id="kpi-high">-</div>
+      </article>
+      <article class="kpi">
+        <div class="label">高置信度专业数</div>
+        <div class="value" id="kpi-confidence">-</div>
+      </article>
+    </section>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="搜索专业名 / 专业代码 / 学科门类" />
+      <select id="disciplineFilter">
+        <option value="">全部学科门类</option>
+      </select>
+      <select id="sortBy">
+        <option value="replace_desc">替代率从高到低</option>
+        <option value="replace_asc">替代率从低到高</option>
+        <option value="count_desc">岗位数从高到低</option>
+        <option value="code_asc">专业代码升序</option>
+      </select>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>专业列表</h2>
+        <div id="resultCount" class="muted">-</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>专业代码</th>
+              <th>专业名称</th>
+              <th>门类</th>
+              <th>专业类</th>
+              <th>替代率</th>
+              <th>岗位数</th>
+              <th>置信度</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>高风险 Top 20</h2>
+        </div>
+        <div id="topRisk" class="rank-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>学科平均替代率</h2>
+        </div>
+        <div id="disciplineStats" class="rank-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>Data: output/major_ai_rate.json</span>
+    <span id="updatedAt">Updated: -</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
