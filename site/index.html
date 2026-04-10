@@ -39,8 +39,8 @@
       <section class="detail-block">
         <div class="panel-title">说明</div>
         <div class="hint-text">
-          左侧展示总体分布，右侧是按“学科门类 / 专业类 / 专业”展开的风险树图。<br />
-          单击树图可放大层级；悬停可查看专业替代率、命中岗位数与置信度。
+          顶部保留筛选下拉框，可按学科门类、专业类和零值显示方式过滤。<br />
+          风险树图按“学科门类 → 专业类 → 专业”展开，悬停可查看替代率、岗位数与置信度。
         </div>
       </section>
 
@@ -55,70 +55,47 @@
     </aside>
 
     <main class="main-area">
-      <section class="hero-card">
-        <div>
-          <h1>专业 AI 当前替代率看板</h1>
-          <p>基于专业数据与岗位数据整合，展示各专业在当前 AI 语境下的相对替代风险。</p>
+      <section class="toolbar-card">
+        <div class="toolbar-group">
+          <label for="disciplineSelect">学科门类</label>
+          <select id="disciplineSelect"></select>
         </div>
-        <div class="hero-meta" id="updatedAt">加载中…</div>
+        <div class="toolbar-group">
+          <label for="categorySelect">专业类</label>
+          <select id="categorySelect"></select>
+        </div>
+        <div class="toolbar-group">
+          <label for="zeroSelect">零值显示</label>
+          <select id="zeroSelect">
+            <option value="all">全部专业</option>
+            <option value="nonzero">仅非零专业</option>
+            <option value="zero">仅零值专业</option>
+          </select>
+        </div>
+        <div class="toolbar-meta" id="updatedAt">加载中…</div>
       </section>
 
       <section class="treemap-card">
         <div class="card-head">
           <div>
             <div class="card-title">风险树图</div>
-            <div class="card-sub">按学科门类 → 专业类 → 专业分层，颜色越偏红风险越高。</div>
+            <div class="card-sub">颜色越偏红风险越高，容器已固定包裹图表区域。</div>
           </div>
         </div>
-        <div id="treemap" class="treemap"></div>
+        <div class="treemap-frame">
+          <div id="treemap" class="treemap"></div>
+        </div>
       </section>
 
-      <section class="bottom-grid">
-        <section class="table-card">
-          <div class="card-head">
-            <div>
-              <div class="card-title">Top 20 专业</div>
-              <div class="card-sub">按替代率从高到低排序。</div>
-            </div>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>专业</th>
-                  <th>专业类</th>
-                  <th>替代率</th>
-                  <th>岗位数</th>
-                  <th>置信度</th>
-                </tr>
-              </thead>
-              <tbody id="top20Body"></tbody>
-            </table>
-          </div>
-        </section>
-
-        <section class="table-card">
-          <div class="card-head">
-            <div>
-              <div class="card-title">学科平均替代率</div>
-              <div class="card-sub">按 discipline 聚合后的平均水平。</div>
-            </div>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>学科门类</th>
-                  <th>平均替代率</th>
-                  <th>专业数</th>
-                </tr>
-              </thead>
-              <tbody id="disciplineBody"></tbody>
-            </table>
-          </div>
-        </section>
+      <section class="link-grid">
+        <a class="link-card" href="./data/major_ai_rate.json" target="_blank" rel="noopener noreferrer">
+          <div class="link-title">Top 20 专业</div>
+          <div class="link-sub">打开完整结果数据，自行检索最高替代率专业。</div>
+        </a>
+        <a class="link-card" href="./data/major_ai_rate.json" target="_blank" rel="noopener noreferrer">
+          <div class="link-title">学科平均替代率</div>
+          <div class="link-sub">打开同一数据源，按 discipline 聚合查看学科平均值。</div>
+        </a>
       </section>
     </main>
   </div>
@@ -126,6 +103,7 @@
   <script>
     const RISK_COLORS = ['#1e7a40', '#5aad3e', '#a8c020', '#f0b323', '#f97316', '#d7263d'];
     const RISK_LABELS = ['极安全', '低风险', '中低', '中高', '高风险', '极高'];
+    let RAW_ROWS = [];
 
     function pct(v) {
       const n = Number(v || 0);
@@ -146,78 +124,67 @@
       return (v ?? '').toString().trim() || fallback;
     }
 
+    function setOptions(select, values, firstLabel) {
+      select.innerHTML = [`<option value="all">${firstLabel}</option>`]
+        .concat(values.map(v => `<option value="${String(v).replace(/"/g, '&quot;')}">${v}</option>`))
+        .join('');
+    }
+
+    function buildFilters(rows) {
+      const disciplineSet = [...new Set(rows.map(r => safeText(r.discipline, '其他')))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+      setOptions(document.getElementById('disciplineSelect'), disciplineSet, '全部学科门类');
+      refreshCategoryOptions(rows);
+    }
+
+    function refreshCategoryOptions(rows) {
+      const discipline = document.getElementById('disciplineSelect').value;
+      let list = rows;
+      if (discipline !== 'all') {
+        list = list.filter(r => safeText(r.discipline, '其他') === discipline);
+      }
+      const categorySet = [...new Set(list.map(r => safeText(r.major_category, '未分类')))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+      const categorySelect = document.getElementById('categorySelect');
+      const prev = categorySelect.value;
+      setOptions(categorySelect, categorySet, '全部专业类');
+      if (categorySet.includes(prev)) categorySelect.value = prev;
+    }
+
+    function getFilteredRows() {
+      const discipline = document.getElementById('disciplineSelect').value;
+      const category = document.getElementById('categorySelect').value;
+      const zeroMode = document.getElementById('zeroSelect').value;
+      return RAW_ROWS.filter(row => {
+        if (discipline !== 'all' && safeText(row.discipline, '其他') !== discipline) return false;
+        if (category !== 'all' && safeText(row.major_category, '未分类') !== category) return false;
+        const v = Number(row.replace_rate || 0);
+        if (zeroMode === 'nonzero' && v === 0) return false;
+        if (zeroMode === 'zero' && v !== 0) return false;
+        return true;
+      });
+    }
+
     function renderHistogram(rows) {
       const histogram = document.getElementById('histogram');
       const tierList = document.getElementById('tierList');
       const counts = [0, 0, 0, 0, 0, 0];
       rows.forEach(row => counts[levelIndex(row.replace_rate)] += 1);
       const max = Math.max(...counts, 1);
-
       histogram.innerHTML = counts.map((count, i) => {
         const h = Math.max(4, Math.round((count / max) * 48));
         return `<div class="hbar" style="height:${h}px;background:${RISK_COLORS[i]}"></div>`;
       }).join('');
-
       tierList.innerHTML = counts.map((count, i) => {
         const p = rows.length ? ((count / rows.length) * 100).toFixed(1) : '0.0';
-        return `
-          <div class="tier-row">
-            <i class="tier-dot" style="background:${RISK_COLORS[i]}"></i>
-            <span class="tier-label">${RISK_LABELS[i]}</span>
-            <span class="tier-value">${count}</span>
-            <span class="tier-pct">${p}%</span>
-          </div>
-        `;
+        return `<div class="tier-row"><i class="tier-dot" style="background:${RISK_COLORS[i]}"></i><span class="tier-label">${RISK_LABELS[i]}</span><span class="tier-value">${count}</span><span class="tier-pct">${p}%</span></div>`;
       }).join('');
     }
 
-    function renderTop20(rows) {
-      const body = document.getElementById('top20Body');
-      const top20 = [...rows]
-        .sort((a, b) => (b.replace_rate ?? 0) - (a.replace_rate ?? 0))
-        .slice(0, 20);
-
-      body.innerHTML = top20.map((row, i) => `
-        <tr>
-          <td>${i + 1}</td>
-          <td>${safeText(row.major_name)}</td>
-          <td>${safeText(row.major_category)}</td>
-          <td><span class="risk-badge level-${levelIndex(row.replace_rate) + 1}">${pct(row.replace_rate)}</span></td>
-          <td>${row.job_count ?? 0}</td>
-          <td>${safeText(row.confidence, 'low')}</td>
-        </tr>
-      `).join('');
-    }
-
-    function renderDiscipline(rows) {
-      const groups = new Map();
-      rows.forEach(row => {
-        const key = safeText(row.discipline, '其他');
-        if (!groups.has(key)) groups.set(key, { total: 0, count: 0 });
-        const item = groups.get(key);
-        item.total += Number(row.replace_rate || 0);
-        item.count += 1;
-      });
-
-      const data = [...groups.entries()]
-        .map(([name, item]) => ({
-          name,
-          avg: item.count ? item.total / item.count : 0,
-          count: item.count
-        }))
-        .sort((a, b) => b.avg - a.avg);
-
-      document.getElementById('disciplineBody').innerHTML = data.map((row, i) => `
-        <tr>
-          <td>${i + 1}</td>
-          <td>${row.name}</td>
-          <td><span class="risk-badge level-${levelIndex(row.avg) + 1}">${pct(row.avg)}</span></td>
-          <td>${row.count}</td>
-        </tr>
-      `).join('');
-    }
-
     function buildTreemap(rows) {
+      const container = document.getElementById('treemap');
+      if (!rows.length) {
+        container.innerHTML = '<div class="empty-state">当前筛选条件下没有数据。</div>';
+        return;
+      }
       const labels = [];
       const parents = [];
       const values = [];
@@ -228,16 +195,10 @@
       const addNode = (id, label, parent, value, color, extra = {}) => {
         if (seen.has(id)) return;
         seen.add(id);
-        ids.push(id);
-        labels.push(label);
-        parents.push(parent);
-        values.push(value);
-        colors.push(color);
-        custom.push(extra);
+        ids.push(id); labels.push(label); parents.push(parent); values.push(value); colors.push(color); custom.push(extra);
       };
 
-      addNode('root', '全部专业', '', rows.length, '#1b2430', { type: 'root' });
-
+      addNode('root', '全部专业', '', rows.length, '#1b2430', { type: 'root', replace_rate: '-', count: rows.length, confidence: '-' });
       const disciplineMap = new Map();
       const categoryMap = new Map();
 
@@ -250,113 +211,79 @@
         const mId = `m:${row.major_code || major}:${major}`;
 
         if (!disciplineMap.has(dId)) disciplineMap.set(dId, { label: discipline, count: 0, total: 0 });
-        const d = disciplineMap.get(dId);
-        d.count += 1;
-        d.total += Number(row.replace_rate || 0);
-
+        const d = disciplineMap.get(dId); d.count += 1; d.total += Number(row.replace_rate || 0);
         if (!categoryMap.has(cId)) categoryMap.set(cId, { label: category, parent: dId, count: 0, total: 0 });
-        const c = categoryMap.get(cId);
-        c.count += 1;
-        c.total += Number(row.replace_rate || 0);
+        const c = categoryMap.get(cId); c.count += 1; c.total += Number(row.replace_rate || 0);
 
-        addNode(
-          mId,
-          major,
-          cId,
-          1,
-          RISK_COLORS[levelIndex(row.replace_rate)],
-          {
-            type: 'major',
-            replace_rate: pct(row.replace_rate),
-            job_count: row.job_count ?? 0,
-            confidence: safeText(row.confidence, 'low'),
-            category
-          }
-        );
+        addNode(mId, major, cId, 1, RISK_COLORS[levelIndex(row.replace_rate)], {
+          type: '专业',
+          replace_rate: pct(row.replace_rate),
+          count: row.job_count ?? 0,
+          confidence: safeText(row.confidence, 'low')
+        });
       });
 
       for (const [id, item] of disciplineMap.entries()) {
         const avg = item.count ? item.total / item.count : 0;
-        addNode(id, item.label, 'root', item.count, RISK_COLORS[levelIndex(avg)], {
-          type: 'discipline',
-          replace_rate: pct(avg),
-          major_count: item.count
-        });
+        addNode(id, item.label, 'root', item.count, RISK_COLORS[levelIndex(avg)], { type: '学科门类', replace_rate: pct(avg), count: item.count, confidence: '-' });
       }
-
       for (const [id, item] of categoryMap.entries()) {
         const avg = item.count ? item.total / item.count : 0;
-        addNode(id, item.label, item.parent, item.count, RISK_COLORS[levelIndex(avg)], {
-          type: 'category',
-          replace_rate: pct(avg),
-          major_count: item.count
-        });
+        addNode(id, item.label, item.parent, item.count, RISK_COLORS[levelIndex(avg)], { type: '专业类', replace_rate: pct(avg), count: item.count, confidence: '-' });
       }
 
-      const trace = {
-        type: 'treemap',
-        ids,
-        labels,
-        parents,
-        values,
-        branchvalues: 'total',
-        marker: {
-          colors,
-          line: { width: 1, color: 'rgba(255,255,255,0.08)' }
-        },
-        customdata: custom,
-        textinfo: 'label',
-        textfont: { color: '#e6eaf0', size: 14 },
+      Plotly.react('treemap', [{
+        type: 'treemap', ids, labels, parents, values, customdata: custom,
+        branchvalues: 'total', sort: false, maxdepth: 3,
+        marker: { colors, line: { width: 1, color: 'rgba(255,255,255,0.08)' } },
+        textinfo: 'label', textfont: { color: '#e6eaf0', size: 14 },
         tiling: { packing: 'squarify', pad: 2 },
-        hoverlabel: {
-          bgcolor: '#0d1117',
-          bordercolor: 'rgba(255,255,255,0.13)',
-          font: { color: '#e6eaf0' }
-        },
-        hovertemplate:
-          '<b>%{label}</b><br>' +
-          '类型：%{customdata.type}<br>' +
-          '替代率：%{customdata.replace_rate}<br>' +
-          '岗位数/专业数：%{customdata.job_count}%{customdata.major_count}<br>' +
-          '置信度：%{customdata.confidence}<extra></extra>',
+        hoverlabel: { bgcolor: '#0d1117', bordercolor: 'rgba(255,255,255,0.13)', font: { color: '#e6eaf0' } },
+        hovertemplate: '<b>%{label}</b><br>类型：%{customdata.type}<br>替代率：%{customdata.replace_rate}<br>岗位数/专业数：%{customdata.count}<br>置信度：%{customdata.confidence}<extra></extra>',
         pathbar: { visible: false },
-        maxdepth: 3,
-        sort: false
-      };
-
-      const layout = {
+        showscale: false
+      }], {
         margin: { t: 8, r: 8, b: 8, l: 8 },
-        paper_bgcolor: '#161b22',
-        plot_bgcolor: '#161b22',
+        paper_bgcolor: '#161b22', plot_bgcolor: '#161b22', autosize: true,
         font: { color: '#e6eaf0', family: 'system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif' }
-      };
+      }, { responsive: true, displayModeBar: false });
+    }
 
-      Plotly.newPlot('treemap', [trace], layout, { responsive: true, displayModeBar: false });
+    function renderAll() {
+      const rows = getFilteredRows();
+      document.getElementById('totalMajors').textContent = rows.length.toLocaleString('zh-CN');
+      const avg = rows.length ? rows.reduce((s, x) => s + Number(x.replace_rate || 0), 0) / rows.length : 0;
+      const zeroCount = rows.filter(x => Number(x.replace_rate || 0) === 0).length;
+      document.getElementById('avgRate').textContent = pct(avg);
+      document.getElementById('zeroCount').textContent = zeroCount.toLocaleString('zh-CN');
+      renderHistogram(rows);
+      buildTreemap(rows);
+      document.getElementById('updatedAt').textContent = `当前筛选 ${rows.length.toLocaleString('zh-CN')} 个专业`;
     }
 
     async function init() {
       try {
         const res = await fetch('./data/major_ai_rate.json');
-        const rows = await res.json();
-        const total = rows.length;
-        const avg = total ? rows.reduce((s, x) => s + Number(x.replace_rate || 0), 0) / total : 0;
-        const zeroCount = rows.filter(x => Number(x.replace_rate || 0) === 0).length;
-
-        document.getElementById('totalMajors').textContent = total.toLocaleString('zh-CN');
-        document.getElementById('avgRate').textContent = pct(avg);
-        document.getElementById('zeroCount').textContent = zeroCount.toLocaleString('zh-CN');
-        document.getElementById('updatedAt').textContent = `数据条目 ${total.toLocaleString('zh-CN')} 条`;
-
-        renderHistogram(rows);
-        renderTop20(rows);
-        renderDiscipline(rows);
-        buildTreemap(rows);
+        RAW_ROWS = await res.json();
+        buildFilters(RAW_ROWS);
+        document.getElementById('disciplineSelect').addEventListener('change', () => {
+          refreshCategoryOptions(RAW_ROWS);
+          renderAll();
+        });
+        document.getElementById('categorySelect').addEventListener('change', renderAll);
+        document.getElementById('zeroSelect').addEventListener('change', renderAll);
+        renderAll();
       } catch (err) {
         console.error(err);
         document.getElementById('updatedAt').textContent = '数据加载失败';
         document.getElementById('treemap').innerHTML = '<div class="empty-state">无法加载 ./data/major_ai_rate.json，请确认 GitHub Pages 已复制数据文件。</div>';
       }
     }
+
+    window.addEventListener('resize', () => {
+      const el = document.getElementById('treemap');
+      if (el && el.data) Plotly.Plots.resize(el);
+    });
 
     init();
   </script>
