@@ -2,13 +2,13 @@
   "major_total": 1570,
   "job_title_total": 134,
   "major_code_rules_generated": 1570,
-  "major_category_rules_generated": 139,
+  "major_category_rules_generated": 137,
   "discipline_rules_generated": 31,
   "rule_source_count": {
     "employment_direction": 400,
-    "major_name_inference": 344,
-    "major_category_fallback": 617,
-    "discipline_fallback": 209
+    "major_name_inference": 323,
+    "major_category_fallback": 629,
+    "discipline_fallback": 218
   },
   "unmapped_major_count": 0,
   "unmapped_examples": []

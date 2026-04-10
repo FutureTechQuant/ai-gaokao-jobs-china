@@ -125,9 +125,11 @@
     "major_category": "哲学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "产品经理",
+      "内容创作者/编辑",
       "教师",
-      "行政专员/助理"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -339,10 +341,11 @@
     "major_category": "经济学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -354,14 +357,9 @@
     "discipline": "经济学",
     "major_category": "经济学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "020109",
@@ -371,10 +369,11 @@
     "major_category": "经济学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -481,10 +480,11 @@
     "major_category": "财政学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -761,10 +761,11 @@
     "major_category": "金融学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -777,10 +778,11 @@
     "major_category": "金融学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -793,10 +795,11 @@
     "major_category": "金融学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -852,14 +855,9 @@
     "discipline": "经济学",
     "major_category": "经济与贸易类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030101",
@@ -1014,8 +1012,11 @@
     "major_category": "法学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1039,8 +1040,11 @@
     "major_category": "法学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1064,8 +1068,11 @@
     "major_category": "法学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1089,8 +1096,11 @@
     "major_category": "法学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1103,8 +1113,11 @@
     "major_category": "法学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1216,13 +1229,13 @@
     "major_category": "政治学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
-      "公务员",
+      "产品经理",
+      "内容创作者/编辑",
       "教师",
       "数据分析师",
       "行政专员/助理",
-      "证券分析师",
-      "银行柜员"
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1235,9 +1248,11 @@
     "major_category": "政治学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "教师",
-      "行政专员/助理"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1427,9 +1442,11 @@
     "major_category": "社会学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "教师",
-      "行政专员/助理"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1442,9 +1459,11 @@
     "major_category": "社会学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "教师",
-      "行政专员/助理"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -1519,13 +1538,9 @@
     "discipline": "法学",
     "major_category": "马克思主义理论类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "教师",
-      "行政专员/助理"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030502",
@@ -1861,12 +1876,9 @@
     "discipline": "法学",
     "major_category": "公安学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030608",
@@ -2053,12 +2065,9 @@
     "discipline": "法学",
     "major_category": "公安学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030618",
@@ -2067,12 +2076,9 @@
     "discipline": "法学",
     "major_category": "公安学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030619",
@@ -2103,12 +2109,9 @@
     "discipline": "法学",
     "major_category": "公安学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "030622",
@@ -2128,12 +2131,9 @@
     "discipline": "法学",
     "major_category": "公安学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "040101",
@@ -2438,10 +2438,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2454,12 +2454,11 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "医生",
-      "大学教师",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2472,10 +2471,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2499,10 +2498,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2515,10 +2514,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2531,10 +2530,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2547,10 +2546,10 @@
     "major_category": "教育学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -2564,13 +2563,13 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "产品经理",
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
       "数据分析师",
       "测试工程师",
+      "行政专员/助理",
       "软件工程师",
-      "高中教师"
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -3097,7 +3096,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -3112,7 +3113,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -4636,11 +4639,11 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "文案"
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
+        "matched_alias": "文案"
       },
       {
         "standard_title": "新闻记者",
@@ -4769,11 +4772,11 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "文案"
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
+        "matched_alias": "文案"
       },
       {
         "standard_title": "教师",
@@ -4807,7 +4810,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -4822,7 +4827,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5040,7 +5047,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5615,7 +5624,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5629,7 +5640,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5643,7 +5656,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5974,7 +5989,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -5988,7 +6005,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -6554,7 +6573,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -6569,7 +6589,10 @@
     "matched_titles": [
       "教师",
       "数据分析师",
-      "软件工程师"
+      "测试工程师",
+      "行政专员/助理",
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -7055,8 +7078,10 @@
     "major_category": "机械类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -7510,8 +7535,10 @@
     "major_category": "材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -7558,7 +7585,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -8437,7 +8466,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -8451,7 +8481,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -8640,8 +8672,10 @@
     "major_category": "自动化类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -9021,7 +9055,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -9103,7 +9138,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -9119,7 +9155,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -9297,9 +9334,11 @@
     "major_category": "土木类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "教师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -9313,8 +9352,10 @@
     "major_category": "土木类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -9583,7 +9624,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -9718,7 +9761,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10155,8 +10200,10 @@
     "major_category": "纺织类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10295,7 +10342,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10309,7 +10358,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10643,7 +10694,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10657,7 +10710,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -10671,7 +10726,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -11131,7 +11188,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -11423,8 +11482,10 @@
     "major_category": "林业工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -11437,8 +11498,10 @@
     "major_category": "林业工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -11519,7 +11582,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -11658,8 +11723,10 @@
     "major_category": "生物医学工程类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -11672,8 +11739,10 @@
     "major_category": "生物医学工程类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12087,8 +12156,10 @@
     "major_category": "建筑类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12101,8 +12172,10 @@
     "major_category": "建筑类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -12277,7 +12350,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12377,12 +12452,9 @@
     "discipline": "工学",
     "major_category": "公安技术类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "083106",
@@ -12446,12 +12518,9 @@
     "discipline": "工学",
     "major_category": "公安技术类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "083111",
@@ -12460,12 +12529,9 @@
     "discipline": "工学",
     "major_category": "公安技术类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "083112",
@@ -12882,7 +12948,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12896,7 +12964,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12910,7 +12980,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -12990,7 +13062,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13037,7 +13111,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13115,14 +13191,9 @@
     "discipline": "农学",
     "major_category": "动物生产类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "090305",
@@ -13242,8 +13313,10 @@
     "major_category": "动物医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13321,14 +13394,9 @@
     "discipline": "农学",
     "major_category": "林学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "090505",
@@ -13442,10 +13510,9 @@
     "major_category": "水产类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -13536,10 +13603,12 @@
     "major_category": "基础医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13552,10 +13621,12 @@
     "major_category": "基础医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13645,8 +13716,10 @@
     "major_category": "临床医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13708,8 +13781,10 @@
     "major_category": "临床医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13788,8 +13863,10 @@
     "major_category": "公共卫生与预防医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13973,8 +14050,10 @@
     "major_category": "中医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -13987,8 +14066,10 @@
     "major_category": "中医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14001,8 +14082,10 @@
     "major_category": "中医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14015,8 +14098,10 @@
     "major_category": "中医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14040,8 +14125,10 @@
     "major_category": "中医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14328,14 +14415,9 @@
     "discipline": "医学",
     "major_category": "药学类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "100801",
@@ -14584,8 +14666,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14666,8 +14750,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14698,8 +14784,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14712,10 +14800,12 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14728,8 +14818,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14742,8 +14834,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14760,7 +14854,9 @@
       "教师",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "行政专员/助理",
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14817,8 +14913,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -14853,8 +14951,10 @@
     "major_category": "护理学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -15129,10 +15229,11 @@
     "major_category": "管理科学与工程类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -15145,10 +15246,11 @@
     "major_category": "管理科学与工程类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -15673,14 +15775,9 @@
     "discipline": "管理学",
     "major_category": "工商管理类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "120213",
@@ -15803,10 +15900,11 @@
     "major_category": "工商管理类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -16174,12 +16272,9 @@
     "discipline": "管理学",
     "major_category": "公共管理类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "120412",
@@ -16200,10 +16295,11 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -16484,8 +16580,10 @@
     "major_category": "物流管理与工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -16651,8 +16749,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -16919,10 +17019,10 @@
     "major_category": "戏剧与影视学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -16979,10 +17079,10 @@
     "major_category": "戏剧与影视学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17226,12 +17326,12 @@
     "major_category": "美术学类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "初中教师",
-      "大学教师",
       "平面设计师",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17288,8 +17388,9 @@
     "major_category": "农业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17380,10 +17481,9 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17397,8 +17497,10 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17489,7 +17591,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17547,7 +17651,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17561,7 +17667,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17750,8 +17858,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17765,10 +17875,12 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17782,8 +17894,10 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17797,8 +17911,10 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17823,8 +17939,10 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -17837,8 +17955,10 @@
     "major_category": "城乡规划与管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17852,8 +17972,10 @@
     "major_category": "土建施工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17889,8 +18011,10 @@
     "major_category": "土建施工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17904,8 +18028,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17919,8 +18045,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17934,8 +18062,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -17949,8 +18079,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -18042,7 +18174,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18066,8 +18200,10 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18102,8 +18238,10 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18348,7 +18486,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18362,7 +18502,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18785,7 +18927,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18853,8 +18996,10 @@
     "major_category": "护理类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18867,8 +19012,10 @@
     "major_category": "药学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18881,8 +19028,10 @@
     "major_category": "中医药类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18895,8 +19044,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18909,8 +19060,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18923,10 +19076,12 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18939,8 +19094,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18964,8 +19121,10 @@
     "major_category": "康复治疗类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18978,8 +19137,10 @@
     "major_category": "康复治疗类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -18992,8 +19153,10 @@
     "major_category": "康复治疗类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19072,10 +19235,11 @@
     "major_category": "财务会计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19088,10 +19252,11 @@
     "major_category": "财务会计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19106,6 +19271,7 @@
     "matched_titles": [
       "教师",
       "数据分析师",
+      "测试工程师",
       "软件工程师"
     ],
     "matched_details": [],
@@ -19130,8 +19296,10 @@
     "major_category": "工商管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19145,8 +19313,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19160,8 +19330,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19186,8 +19358,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19201,8 +19375,10 @@
     "major_category": "物流类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19216,8 +19392,10 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19231,8 +19409,10 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19246,8 +19426,10 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19282,8 +19464,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19296,8 +19480,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19310,8 +19496,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19324,8 +19512,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19338,8 +19528,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19352,8 +19544,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19366,8 +19560,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19380,8 +19576,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19394,8 +19592,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19408,8 +19608,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19422,8 +19624,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19504,7 +19708,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19517,8 +19723,10 @@
     "major_category": "广播影视类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19531,10 +19739,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19624,8 +19832,11 @@
     "major_category": "法律实务类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19649,8 +19860,11 @@
     "major_category": "法律执行类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19674,8 +19888,11 @@
     "major_category": "司法技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19710,9 +19927,11 @@
     "major_category": "公共事业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "教师",
-      "行政专员/助理"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19758,8 +19977,10 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19773,8 +19994,10 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19855,7 +20078,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -19868,8 +20093,9 @@
     "major_category": "农业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -19883,8 +20109,9 @@
     "major_category": "农业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -20018,14 +20245,9 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "410120",
@@ -20034,14 +20256,9 @@
     "discipline": "农林牧渔",
     "major_category": "农业类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "410121",
@@ -20095,8 +20312,9 @@
     "major_category": "林业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -20109,14 +20327,9 @@
     "discipline": "农林牧渔",
     "major_category": "林业类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "410206",
@@ -20138,7 +20351,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20174,7 +20389,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20198,8 +20415,10 @@
     "major_category": "林业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20212,8 +20431,10 @@
     "major_category": "林业类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20226,10 +20447,9 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -20243,8 +20463,10 @@
     "major_category": "畜牧业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20357,7 +20579,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20381,10 +20605,9 @@
     "major_category": "渔业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -20421,7 +20644,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20435,7 +20660,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20449,7 +20676,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20474,7 +20703,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20488,7 +20719,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20502,7 +20735,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20538,7 +20773,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20552,7 +20789,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20566,7 +20805,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20580,7 +20821,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20616,7 +20859,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20718,7 +20963,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20754,7 +21001,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20801,7 +21050,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20815,7 +21066,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20873,7 +21126,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -20887,7 +21142,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21121,7 +21378,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21157,7 +21416,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -21412,8 +21673,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21427,8 +21690,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21442,8 +21707,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21457,8 +21724,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21472,8 +21741,10 @@
     "major_category": "建筑材料类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21487,10 +21758,12 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21504,8 +21777,10 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21519,8 +21794,10 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21545,10 +21822,12 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21562,10 +21841,12 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21579,10 +21860,12 @@
     "major_category": "建筑设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21607,8 +21890,10 @@
     "major_category": "土建施工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21633,8 +21918,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21648,8 +21935,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21663,8 +21952,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21700,8 +21991,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21715,8 +22008,10 @@
     "major_category": "建筑设备类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21730,8 +22025,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21745,8 +22042,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21771,8 +22070,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21797,8 +22098,10 @@
     "major_category": "建设工程管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21812,8 +22115,10 @@
     "major_category": "市政工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21827,8 +22132,10 @@
     "major_category": "市政工程类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21842,11 +22149,10 @@
     "major_category": "市政工程类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
-      "证券分析师",
-      "银行柜员",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -21970,8 +22276,10 @@
     "major_category": "水利工程与管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -22063,7 +22371,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22076,8 +22386,10 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22112,8 +22424,10 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22181,8 +22495,10 @@
     "major_category": "机械设计制造类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22548,7 +22864,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22562,7 +22880,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22576,7 +22896,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22611,8 +22933,10 @@
     "major_category": "轻化工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22625,8 +22949,10 @@
     "major_category": "轻化工类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22716,8 +23042,10 @@
     "major_category": "包装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22818,8 +23146,10 @@
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22832,8 +23162,10 @@
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22879,8 +23211,10 @@
     "major_category": "纺织服装类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -22961,7 +23295,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -22975,7 +23311,9 @@
     "employment_direction_raw": "",
     "matched_titles": [
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23076,8 +23414,10 @@
     "major_category": "粮食类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23266,8 +23606,10 @@
     "major_category": "道路运输类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -23768,7 +24110,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23861,7 +24204,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23877,7 +24221,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23904,7 +24249,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -23942,7 +24288,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24024,7 +24371,8 @@
       "产品经理",
       "数据分析师",
       "测试工程师",
-      "软件工程师"
+      "软件工程师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24059,8 +24407,10 @@
     "major_category": "通信类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24139,8 +24489,10 @@
     "major_category": "临床医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24153,8 +24505,10 @@
     "major_category": "临床医学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24167,8 +24521,10 @@
     "major_category": "护理类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24192,8 +24548,10 @@
     "major_category": "药学类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24206,8 +24564,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24220,8 +24580,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24234,10 +24596,12 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士",
+      "内容创作者/编辑",
       "教师",
-      "数据分析师"
+      "数据分析师",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24250,8 +24614,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24286,8 +24652,10 @@
     "major_category": "医学技术类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24333,8 +24701,10 @@
     "major_category": "公共卫生与卫生管理类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24391,10 +24761,11 @@
     "major_category": "财务会计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24407,10 +24778,11 @@
     "major_category": "财务会计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24423,10 +24795,11 @@
     "major_category": "财务会计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
-      "证券分析师",
-      "银行柜员"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24452,6 +24825,7 @@
     "matched_titles": [
       "教师",
       "数据分析师",
+      "测试工程师",
       "软件工程师"
     ],
     "matched_details": [],
@@ -24465,12 +24839,14 @@
     "major_category": "统计类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "教师",
       "数据分析师",
-      "证券分析师",
+      "测试工程师",
+      "行政专员/助理",
       "软件工程师",
-      "银行柜员"
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24483,11 +24859,10 @@
     "major_category": "经济贸易类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "会计与出纳",
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
-      "证券分析师",
-      "银行柜员",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24501,8 +24876,10 @@
     "major_category": "经济贸易类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24538,8 +24915,10 @@
     "major_category": "经济贸易类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24553,8 +24932,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24568,8 +24949,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24583,8 +24966,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24598,8 +24983,10 @@
     "major_category": "电子商务类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24613,8 +25000,10 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24672,8 +25061,10 @@
     "major_category": "旅游类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -24808,8 +25199,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24822,8 +25215,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24836,8 +25231,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24850,8 +25247,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24875,8 +25274,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24889,8 +25290,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24903,8 +25306,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24928,8 +25333,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24942,10 +25349,13 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
       "平面设计师",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24958,8 +25368,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24972,8 +25384,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -24986,8 +25400,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25000,8 +25416,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25025,8 +25443,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25039,8 +25459,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25053,8 +25475,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25067,8 +25491,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25081,8 +25507,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25095,8 +25523,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25109,8 +25539,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25123,8 +25555,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25137,8 +25571,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25151,8 +25587,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25165,8 +25603,10 @@
     "major_category": "艺术设计类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25179,8 +25619,10 @@
     "major_category": "民族文化艺术类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25228,7 +25670,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25252,8 +25696,10 @@
     "major_category": "新闻出版类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -25335,7 +25781,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25348,8 +25796,10 @@
     "major_category": "广播影视类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "平面设计师"
+      "平面设计师",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25430,7 +25880,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25445,7 +25897,9 @@
     "matched_titles": [
       "内容创作者/编辑",
       "教师",
-      "新闻记者"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25469,10 +25923,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25485,10 +25939,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25501,10 +25955,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25517,10 +25971,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25533,12 +25987,13 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
       "数据分析师",
+      "测试工程师",
+      "行政专员/助理",
       "软件工程师",
-      "高中教师"
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25551,10 +26006,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25567,10 +26022,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25583,10 +26038,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25599,12 +26054,12 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "内容创作者/编辑",
-      "初中教师",
-      "大学教师",
       "平面设计师",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25617,10 +26072,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25633,10 +26088,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25649,10 +26104,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25665,10 +26120,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25681,10 +26136,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25697,10 +26152,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25713,10 +26168,10 @@
     "major_category": "教育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "初中教师",
-      "大学教师",
+      "内容创作者/编辑",
       "教师",
-      "高中教师"
+      "行政专员/助理",
+      "运营"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25784,8 +26239,10 @@
     "major_category": "体育类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -25940,12 +26397,9 @@
     "discipline": "公安与司法",
     "major_category": "公安管理类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "公务员",
-      "律师"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "580201",
@@ -26009,14 +26463,9 @@
     "discipline": "公安与司法",
     "major_category": "侦查类",
     "employment_direction_raw": "",
-    "matched_titles": [
-      "会计与出纳",
-      "数据分析师",
-      "证券分析师",
-      "银行柜员"
-    ],
+    "matched_titles": [],
     "matched_details": [],
-    "rule_source": "major_name_inference"
+    "rule_source": "unmapped"
   },
   {
     "major_code": "580304",
@@ -26037,8 +26486,11 @@
     "major_category": "法律实务类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -26051,8 +26503,11 @@
     "major_category": "法律实务类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -26109,8 +26564,11 @@
     "major_category": "法律执行类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
-      "律师"
+      "产品经理",
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -26167,9 +26625,11 @@
     "major_category": "公共事业类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "公务员",
+      "内容创作者/编辑",
       "教师",
-      "行政专员/助理"
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
@@ -26259,8 +26719,10 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -26307,8 +26769,10 @@
     "major_category": "公共管理类",
     "employment_direction_raw": "",
     "matched_titles": [
+      "产品经理",
       "数据分析师",
       "行政专员/助理",
+      "运营",
       "销售"
     ],
     "matched_details": [],
@@ -26399,8 +26863,10 @@
     "major_category": "公共服务类",
     "employment_direction_raw": "",
     "matched_titles": [
-      "医生",
-      "护士"
+      "内容创作者/编辑",
+      "行政专员/助理",
+      "运营",
+      "销售"
     ],
     "matched_details": [],
     "rule_source": "major_name_inference"
