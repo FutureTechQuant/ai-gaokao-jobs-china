@@ -1,5 +1,4 @@
 import json
-import math
 import os
 
 
@@ -80,12 +79,53 @@ def confidence(job_count, total_workers):
     return "low"
 
 
+def get_rule_for_major(major, rules_data):
+    code_rules = rules_data.get("major_code_rules", {})
+    category_rules = rules_data.get("major_category_rules", {})
+    discipline_rules = rules_data.get("discipline_rules", {})
+
+    major_code = major.get("major_code", "")
+    major_category = major.get("major_category", "")
+    discipline = major.get("discipline", "")
+
+    if major_code in code_rules:
+        return code_rules[major_code], "major_code", major_code
+
+    if major_category in category_rules:
+        return category_rules[major_category], "major_category", major_category
+
+    if discipline in discipline_rules:
+        return discipline_rules[discipline], "discipline", discipline
+
+    return None, None, None
+
+
+def match_jobs_by_rule(scored_jobs, rule):
+    include_categories = rule.get("include_categories", [])
+    include_titles = rule.get("include_titles", [])
+    exclude_titles = rule.get("exclude_titles", [])
+
+    matched = []
+    for job in scored_jobs:
+        hit_category = job["category"] in include_categories if include_categories else False
+        hit_title = contains_any(job["job_title"], include_titles) if include_titles else False
+        excluded = contains_any(job["job_title"], exclude_titles) if exclude_titles else False
+
+        if excluded:
+            continue
+
+        if hit_category or hit_title:
+            matched.append(job)
+
+    return matched
+
+
 def main():
     os.makedirs("output", exist_ok=True)
 
     majors = load_json(MAJORS_FILE)
     jobs = load_json(JOBS_FILE)
-    major_job_rules = load_json(MAJOR_JOB_RULES_FILE)
+    rules_data = load_json(MAJOR_JOB_RULES_FILE)
     ai_rules = load_json(AI_RULES_FILE)
 
     scored_jobs = []
@@ -102,7 +142,8 @@ def main():
     for major in majors:
         code = major["major_code"]
         name = major["major_name"]
-        rule = major_job_rules.get(code)
+
+        rule, rule_level, rule_key = get_rule_for_major(major, rules_data)
 
         if not rule:
             results.append({
@@ -111,6 +152,8 @@ def main():
                 "degree_level": major["degree_level"],
                 "discipline": major["discipline"],
                 "major_category": major["major_category"],
+                "rule_level": None,
+                "rule_key": None,
                 "replace_rate": None,
                 "exposure_score": None,
                 "matched_jobs": 0,
@@ -120,24 +163,13 @@ def main():
             })
             continue
 
-        include_categories = rule.get("include_categories", [])
-        include_titles = rule.get("include_titles", [])
-        exclude_titles = rule.get("exclude_titles", [])
-
-        matched = []
-        for job in scored_jobs:
-            hit_category = job["category"] in include_categories if include_categories else False
-            hit_title = contains_any(job["job_title"], include_titles) if include_titles else False
-            excluded = contains_any(job["job_title"], exclude_titles) if exclude_titles else False
-
-            if excluded:
-                continue
-
-            if hit_category or hit_title:
-                matched.append(job)
+        matched = match_jobs_by_rule(scored_jobs, rule)
 
         total_workers = sum(x.get("employment_workers", 0) for x in matched)
-        weighted_score_sum = sum(x.get("employment_workers", 0) * x.get("ai_replace_score", 0) for x in matched)
+        weighted_score_sum = sum(
+            x.get("employment_workers", 0) * x.get("ai_replace_score", 0)
+            for x in matched
+        )
 
         if total_workers > 0:
             replace_rate = round(weighted_score_sum / total_workers, 4)
@@ -162,6 +194,8 @@ def main():
             "degree_level": major["degree_level"],
             "discipline": major["discipline"],
             "major_category": major["major_category"],
+            "rule_level": rule_level,
+            "rule_key": rule_key,
             "replace_rate": replace_rate,
             "exposure_score": exposure_score,
             "matched_jobs": len(matched),
@@ -173,6 +207,10 @@ def main():
         debug.append({
             "major_code": code,
             "major_name": name,
+            "discipline": major["discipline"],
+            "major_category": major["major_category"],
+            "rule_level": rule_level,
+            "rule_key": rule_key,
             "matched_job_titles": [x["job_title"] for x in matched]
         })
 
