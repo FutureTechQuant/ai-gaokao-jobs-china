@@ -1,39 +1,6 @@
 {
   "base": 0.35,
-  "high_plus": [
-    {"keyword": "文案", "score": 0.12},
-    {"keyword": "生成", "score": 0.10},
-    {"keyword": "翻译", "score": 0.10},
-    {"keyword": "客服", "score": 0.12},
-    {"keyword": "审核", "score": 0.08},
-    {"keyword": "标注", "score": 0.12},
-    {"keyword": "运营", "score": 0.08},
-    {"keyword": "aigc", "score": 0.10},
-    {"keyword": "prompt", "score": 0.08}
-  ],
-  "mid_plus": [
-    {"keyword": "测试", "score": 0.06},
-    {"keyword": "脚本", "score": 0.06},
-    {"keyword": "报表", "score": 0.06},
-    {"keyword": "数据处理", "score": 0.06},
-    {"keyword": "数据分析", "score": 0.05},
-    {"keyword": "内容", "score": 0.05}
-  ],
-  "minus": [
-    {"keyword": "现场", "score": 0.10},
-    {"keyword": "实验", "score": 0.10},
-    {"keyword": "硬件", "score": 0.12},
-    {"keyword": "嵌入式", "score": 0.12},
-    {"keyword": "销售", "score": 0.10},
-    {"keyword": "客户拜访", "score": 0.10},
-    {"keyword": "合规", "score": 0.10},
-    {"keyword": "供应链", "score": 0.08},
-    {"keyword": "出差", "score": 0.08}
-  ],
-  "title_overrides": [
-    {"keyword": "算法工程师", "set_score": 0.42},
-    {"keyword": "客服专员", "set_score": 0.78},
-    {"keyword": "内容运营", "set_score": 0.72},
-    {"keyword": "嵌入式工程师", "set_score": 0.18}
-  ]
+  "high_plus": ["文案", "生成", "翻译", "客服", "审核", "标注", "运营", "aigc", "编辑", "内容", "脚本"],
+  "mid_plus": ["测试", "报表", "数据处理", "分析助理", "助理", "整理", "录入", "调研"],
+  "minus": ["现场", "实验", "硬件", "嵌入式", "销售", "客户拜访", "合规", "供应链", "护理", "医生", "线下", "执法", "训练"]
 }

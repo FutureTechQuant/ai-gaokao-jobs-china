@@ -7,11 +7,13 @@ from typing import Any, Dict, List, Tuple
 
 MAJORS_JSON = "output/majors.normalized.json"
 JOBS_JSON = "output/jobs.normalized.json"
+INFERENCE_RULES_JSON = "config/major_name_inference_rules.json"
 
 OUT_JOB_TITLES = "output/all_job_titles.json"
 OUT_MAJOR_DIRECTIONS = "output/major_employment_directions.json"
 OUT_RULES = "output/major_job_rules.auto.json"
 OUT_SUMMARY = "output/major_job_rules.auto.summary.json"
+OUT_REPORT = "output/major_rule_generation_report.json"
 
 
 def load_json(path: str) -> Any:
@@ -60,6 +62,7 @@ def build_alias_map(jobs: List[Dict[str, Any]]) -> Tuple[List[Dict[str, str]], D
         "高中教师": ["高中教师", "高中老师", "中学教师"],
         "初中教师": ["初中教师", "初中老师"],
         "大学教师": ["大学教师", "高校教师", "讲师", "教授"],
+        "教师": ["教师", "老师"],
         "行政专员/助理": ["行政", "行政专员", "行政助理", "助理"],
         "公务员": ["公务员", "公务员(中央国家机关)", "公务员(省级机关)", "公务员(地市级机关)", "公务员(区县级及以下机关)", "事业单位人员", "事业单位", "选调生"],
         "私营企业主": ["企业主", "创业", "创业者", "老板", "私营企业主"],
@@ -68,8 +71,7 @@ def build_alias_map(jobs: List[Dict[str, Any]]) -> Tuple[List[Dict[str, str]], D
         "律师": ["律师", "法务"],
         "销售": ["销售", "销售专员", "门店销售", "线下门店销售"],
         "产品经理": ["产品经理", "产品"],
-        "教师": ["教师", "老师"],
-        "考研": ["考研", "继续深造", "读研"]
+        "考研": ["考研", "继续深造", "读研", "升学"]
     }
 
     all_titles = []
@@ -130,7 +132,6 @@ def extract_direction_tokens(raw_text: str, title_aliases: Dict[str, List[str]])
             idx = text.find(alias_norm, start)
             if idx == -1:
                 break
-
             end = idx + len(alias_norm)
 
             overlap = False
@@ -159,26 +160,61 @@ def extract_direction_tokens(raw_text: str, title_aliases: Dict[str, List[str]])
     return uniq
 
 
+def infer_from_major_name(major_name: str, rules: Dict[str, Any]) -> Dict[str, List[str]]:
+    text = normalize_text(major_name)
+    hit_titles = set()
+    hit_categories = set()
+
+    for rule in rules.get("major_name_rules", []):
+        keywords = rule.get("keywords", [])
+        if any(k in text for k in keywords):
+            for t in rule.get("include_titles", []):
+                hit_titles.add(t)
+            for c in rule.get("include_categories", []):
+                hit_categories.add(c)
+
+    return {
+        "include_titles": sorted(hit_titles),
+        "include_categories": sorted(hit_categories)
+    }
+
+
 def build_major_code_rules(
     majors: List[Dict[str, Any]],
     title_to_category: Dict[str, str],
-    title_aliases: Dict[str, List[str]]
+    title_aliases: Dict[str, List[str]],
+    inference_rules: Dict[str, Any]
 ):
     rules = {}
     extracted_rows = []
     unmapped = []
+    report = []
 
     for row in majors:
         code = row["major_code"]
         raw = row.get("employment_direction_raw", "")
+        major_name = row.get("major_name", "")
+
+        source = None
+        titles = []
+        categories = []
 
         tokens = extract_direction_tokens(raw, title_aliases)
-        titles = sorted(list({x["standard_title"] for x in tokens if x["standard_title"]}))
-        categories = sorted(list({
-            title_to_category.get(t, "")
-            for t in titles
-            if title_to_category.get(t, "")
-        }))
+        if tokens:
+            titles = sorted(list({x["standard_title"] for x in tokens if x["standard_title"]}))
+            categories = sorted(list({
+                title_to_category.get(t, "")
+                for t in titles
+                if title_to_category.get(t, "")
+            }))
+            source = "employment_direction"
+
+        if not titles and not categories:
+            inferred = infer_from_major_name(major_name, inference_rules)
+            titles = inferred["include_titles"]
+            categories = inferred["include_categories"]
+            if titles or categories:
+                source = "major_name_inference"
 
         extracted_rows.append({
             "major_code": row["major_code"],
@@ -188,7 +224,8 @@ def build_major_code_rules(
             "major_category": row["major_category"],
             "employment_direction_raw": raw,
             "matched_titles": titles,
-            "matched_details": tokens
+            "matched_details": tokens,
+            "rule_source": source or "unmapped"
         })
 
         if titles or categories:
@@ -197,6 +234,13 @@ def build_major_code_rules(
                 "include_titles": titles,
                 "exclude_titles": []
             }
+            report.append({
+                "major_code": row["major_code"],
+                "major_name": row["major_name"],
+                "rule_source": source,
+                "include_categories": categories,
+                "include_titles": titles
+            })
         else:
             unmapped.append({
                 "major_code": row["major_code"],
@@ -206,13 +250,10 @@ def build_major_code_rules(
                 "employment_direction_raw": raw
             })
 
-    return rules, extracted_rows, unmapped
+    return rules, extracted_rows, unmapped, report
 
 
-def build_major_category_rules(
-    majors: List[Dict[str, Any]],
-    major_code_rules: Dict[str, Dict[str, Any]]
-) -> Dict[str, Dict[str, Any]]:
+def build_major_category_rules(majors, major_code_rules):
     code_to_major = {x["major_code"]: x for x in majors}
     bucket = defaultdict(lambda: {
         "categories": Counter(),
@@ -259,10 +300,7 @@ def build_major_category_rules(
     return out
 
 
-def build_discipline_rules(
-    majors: List[Dict[str, Any]],
-    major_category_rules: Dict[str, Dict[str, Any]]
-) -> Dict[str, Dict[str, Any]]:
+def build_discipline_rules(majors, major_category_rules):
     discipline_to_categories = defaultdict(Counter)
 
     for row in majors:
@@ -299,23 +337,66 @@ def build_discipline_rules(
     return out
 
 
+def fill_unmapped_with_fallbacks(majors, major_code_rules, major_category_rules, discipline_rules, report):
+    for row in majors:
+        code = row["major_code"]
+        if code in major_code_rules:
+            continue
+
+        major_category = row.get("major_category", "")
+        discipline = row.get("discipline", "")
+
+        fallback = None
+        source = None
+
+        if major_category in major_category_rules:
+            fallback = major_category_rules[major_category]
+            source = "major_category_fallback"
+        elif discipline in discipline_rules:
+            fallback = discipline_rules[discipline]
+            source = "discipline_fallback"
+
+        if fallback:
+            major_code_rules[code] = {
+                "include_categories": fallback.get("include_categories", []),
+                "include_titles": fallback.get("include_titles", []),
+                "exclude_titles": []
+            }
+            report.append({
+                "major_code": row["major_code"],
+                "major_name": row["major_name"],
+                "rule_source": source,
+                "include_categories": fallback.get("include_categories", []),
+                "include_titles": fallback.get("include_titles", [])
+            })
+
+    return major_code_rules, report
+
+
 def main() -> None:
     majors = load_json(MAJORS_JSON)
     jobs = load_json(JOBS_JSON)
+    inference_rules = load_json(INFERENCE_RULES_JSON)
 
     all_titles, title_to_category, title_aliases = build_alias_map(jobs)
 
-    major_code_rules, extracted_rows, unmapped = build_major_code_rules(
-        majors, title_to_category, title_aliases
+    major_code_rules, extracted_rows, unmapped, report = build_major_code_rules(
+        majors, title_to_category, title_aliases, inference_rules
     )
+
     major_category_rules = build_major_category_rules(majors, major_code_rules)
     discipline_rules = build_discipline_rules(majors, major_category_rules)
 
+    major_code_rules, report = fill_unmapped_with_fallbacks(
+        majors, major_code_rules, major_category_rules, discipline_rules, report
+    )
+
+    source_counter = Counter([x["rule_source"] for x in report])
+
     rules = {
         "_meta": {
-            "description": "由专业就业方向自动生成",
-            "priority": "major_code_rules > major_category_rules > discipline_rules",
-            "note": "建议人工复核少量误匹配、别名词典、exclude_titles"
+            "description": "由专业就业方向 + 专业名称推断 + 专业类/学科兜底自动生成",
+            "priority": "major_code_rules > major_category_rules > discipline_rules"
         },
         "major_code_rules": major_code_rules,
         "major_category_rules": major_category_rules,
@@ -328,8 +409,9 @@ def main() -> None:
         "major_code_rules_generated": len(major_code_rules),
         "major_category_rules_generated": len(major_category_rules),
         "discipline_rules_generated": len(discipline_rules),
-        "unmapped_major_count": len(unmapped),
-        "unmapped_examples": unmapped[:100]
+        "rule_source_count": dict(source_counter),
+        "unmapped_major_count": len([m for m in majors if m["major_code"] not in major_code_rules]),
+        "unmapped_examples": [m for m in majors if m["major_code"] not in major_code_rules][:100]
     }
 
     save_json(OUT_JOB_TITLES, {
@@ -339,12 +421,14 @@ def main() -> None:
     save_json(OUT_MAJOR_DIRECTIONS, extracted_rows)
     save_json(OUT_RULES, rules)
     save_json(OUT_SUMMARY, summary)
+    save_json(OUT_REPORT, report)
 
     print("generated:")
     print("-", OUT_JOB_TITLES)
     print("-", OUT_MAJOR_DIRECTIONS)
     print("-", OUT_RULES)
     print("-", OUT_SUMMARY)
+    print("-", OUT_REPORT)
 
 
 if __name__ == "__main__":

@@ -86,12 +86,7 @@ def normalize_one(item: Dict[str, Any], idx: int) -> Dict[str, Any]:
 
     salary_mid = parse_salary_mid(avg_salary)
 
-    full_text = " ".join([
-        title,
-        category,
-        detail,
-        avg_salary
-    ]).strip()
+    full_text = " ".join([title, category, detail, avg_salary]).strip()
 
     return {
         "job_id": f"job-{idx}",
