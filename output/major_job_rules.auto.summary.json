@@ -1,52 +1,17 @@
 {
   "major_total": 1570,
   "job_title_total": 134,
-  "major_code_rules_generated": 101,
-  "major_category_rules_generated": 45,
+  "major_code_rules_generated": 400,
+  "major_category_rules_generated": 89,
   "discipline_rules_generated": 31,
-  "unmapped_major_count": 1469,
+  "unmapped_major_count": 1170,
   "unmapped_examples": [
-    {
-      "major_code": "010102",
-      "major_name": "逻辑学",
-      "major_category": "哲学类",
-      "discipline": "哲学",
-      "employment_direction_raw": "事业单位人员初中教师\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "010103",
-      "major_name": "宗教学",
-      "major_category": "哲学类",
-      "discipline": "哲学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
     {
       "major_code": "010104",
       "major_name": "伦理学",
       "major_category": "哲学类",
       "discipline": "哲学",
       "employment_direction_raw": ""
-    },
-    {
-      "major_code": "020104",
-      "major_name": "资源与环境经济学",
-      "major_category": "经济学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "020105",
-      "major_name": "商务经济学",
-      "major_category": "经济学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "020106",
-      "major_name": "能源经济",
-      "major_category": "经济学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
     },
     {
       "major_code": "020107",
@@ -77,27 +42,6 @@
       "employment_direction_raw": ""
     },
     {
-      "major_code": "020303",
-      "major_name": "保险学",
-      "major_category": "金融学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "020304",
-      "major_name": "投资学",
-      "major_category": "金融学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "020308",
-      "major_name": "精算学",
-      "major_category": "金融学类",
-      "discipline": "经济学",
-      "employment_direction_raw": "精算师保险产品开发/项目策划审计人员风险控制人员资产评估\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
       "major_code": "020309",
       "major_name": "互联网金融",
       "major_category": "金融学类",
@@ -119,39 +63,11 @@
       "employment_direction_raw": ""
     },
     {
-      "major_code": "020401",
-      "major_name": "国际经济与贸易",
-      "major_category": "经济与贸易类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "020402",
-      "major_name": "贸易经济",
-      "major_category": "经济与贸易类",
-      "discipline": "经济学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
       "major_code": "020403",
       "major_name": "国际经济发展合作",
       "major_category": "经济与贸易类",
       "discipline": "经济学",
       "employment_direction_raw": ""
-    },
-    {
-      "major_code": "030101",
-      "major_name": "法学",
-      "major_category": "法学类",
-      "discipline": "法学",
-      "employment_direction_raw": "公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)考研事业单位人员律师助理法务专员/助理检察官律师"
-    },
-    {
-      "major_code": "030102",
-      "major_name": "知识产权",
-      "major_category": "法学类",
-      "discipline": "法学",
-      "employment_direction_raw": "公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)律师助理银行卡/电子银行业务推广公司业务事业单位人员法官行政专员/助理法务专员/助理"
     },
     {
       "major_code": "030104",
@@ -217,34 +133,6 @@
       "employment_direction_raw": ""
     },
     {
-      "major_code": "030201",
-      "major_name": "政治学与行政学",
-      "major_category": "政治学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030202",
-      "major_name": "国际政治",
-      "major_category": "政治学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030203",
-      "major_name": "外交学",
-      "major_category": "政治学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030204",
-      "major_name": "国际事务与国际关系",
-      "major_category": "政治学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
       "major_code": "030205",
       "major_name": "政治学、经济学与哲学",
       "major_category": "政治学类",
@@ -257,34 +145,6 @@
       "major_category": "政治学类",
       "discipline": "法学",
       "employment_direction_raw": ""
-    },
-    {
-      "major_code": "030301",
-      "major_name": "社会学",
-      "major_category": "社会学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030302",
-      "major_name": "社会工作",
-      "major_category": "社会学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030303",
-      "major_name": "人类学",
-      "major_category": "社会学类",
-      "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
-      "major_code": "030304",
-      "major_name": "女性学",
-      "major_category": "社会学类",
-      "discipline": "法学",
-      "employment_direction_raw": "事业单位人员公务员(地市级机关)公务员(区县级及以下机关)公务员(省级机关)公务员(中央国家机关)行政专员/助理助理/秘书/文员\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
     },
     {
       "major_code": "030306",
@@ -315,20 +175,6 @@
       "employment_direction_raw": ""
     },
     {
-      "major_code": "030503",
-      "major_name": "思想政治教育",
-      "major_category": "马克思主义理论类",
-      "discipline": "法学",
-      "employment_direction_raw": "事业单位人员公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)助理/秘书/文员初中教师大学教师小学教师考研高中教师"
-    },
-    {
-      "major_code": "030504",
-      "major_name": "马克思主义理论",
-      "major_category": "马克思主义理论类",
-      "discipline": "法学",
-      "employment_direction_raw": "事业单位人员助理/秘书/文员大学教师中学教师公务员\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
-    },
-    {
       "major_code": "030505",
       "major_name": "工会学",
       "major_category": "马克思主义理论类",
@@ -336,25 +182,529 @@
       "employment_direction_raw": ""
     },
     {
-      "major_code": "030601",
-      "major_name": "治安学",
+      "major_code": "030607",
+      "major_name": "边防指挥",
       "major_category": "公安学类",
       "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+      "employment_direction_raw": ""
     },
     {
-      "major_code": "030604",
-      "major_name": "禁毒学",
+      "major_code": "030608",
+      "major_name": "消防指挥",
       "major_category": "公安学类",
       "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+      "employment_direction_raw": ""
     },
     {
-      "major_code": "030606",
-      "major_name": "经济犯罪侦查",
+      "major_code": "030609",
+      "major_name": "警卫学",
       "major_category": "公安学类",
       "discipline": "法学",
-      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030616",
+      "major_name": "技术侦查学",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030617",
+      "major_name": "海警执法",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030618",
+      "major_name": "公安政治工作",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030619",
+      "major_name": "移民管理",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030620",
+      "major_name": "出入境管理",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030621",
+      "major_name": "反恐警务",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030622",
+      "major_name": "消防政治工作",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030623",
+      "major_name": "铁路警务",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040109",
+      "major_name": "华文教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040110",
+      "major_name": "教育康复学",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040111",
+      "major_name": "卫生教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040112",
+      "major_name": "认知科学与技术",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040113",
+      "major_name": "融合教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040114",
+      "major_name": "劳动教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040115",
+      "major_name": "家庭教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040116",
+      "major_name": "孤独症儿童教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040117",
+      "major_name": "人工智能教育",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040118",
+      "major_name": "婴幼儿发展与健康管理",
+      "major_category": "教育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040208",
+      "major_name": "体能训练",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040209",
+      "major_name": "冰雪运动",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040210",
+      "major_name": "电子竞技运动与管理",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040211",
+      "major_name": "智能体育工程",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040212",
+      "major_name": "体育旅游",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040213",
+      "major_name": "运动能力开发",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040214",
+      "major_name": "足球运动",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040215",
+      "major_name": "马术运动与管理",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040216",
+      "major_name": "体育康养",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "040217",
+      "major_name": "航空运动",
+      "major_category": "体育学类",
+      "discipline": "教育学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050105",
+      "major_name": "古典文献学",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050106",
+      "major_name": "应用语言学",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050108",
+      "major_name": "中国语言与文化",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050109",
+      "major_name": "手语翻译",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050110",
+      "major_name": "数字人文",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050111",
+      "major_name": "中国古典学",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050112",
+      "major_name": "汉学与中国学",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050113",
+      "major_name": "应用中文",
+      "major_category": "中国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050200",
+      "major_name": "桑戈语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050208",
+      "major_name": "波斯语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050210",
+      "major_name": "菲律宾语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "0502100",
+      "major_name": "语言学",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "0502101",
+      "major_name": "塔玛齐格特语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "0502102",
+      "major_name": "爪哇语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "0502103",
+      "major_name": "旁遮普语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "0502104",
+      "major_name": "区域国别学",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050211",
+      "major_name": "梵语巴利语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050215",
+      "major_name": "老挝语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050218",
+      "major_name": "蒙古语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050219",
+      "major_name": "僧伽罗语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050221",
+      "major_name": "乌尔都语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050222",
+      "major_name": "希伯来语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050224",
+      "major_name": "豪萨语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050225",
+      "major_name": "斯瓦希里语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050226",
+      "major_name": "阿尔巴尼亚语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050227",
+      "major_name": "保加利亚语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050228",
+      "major_name": "波兰语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050229",
+      "major_name": "捷克语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050230",
+      "major_name": "斯洛伐克语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050231",
+      "major_name": "罗马尼亚语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050233",
+      "major_name": "瑞典语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050234",
+      "major_name": "塞尔维亚语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050235",
+      "major_name": "土耳其语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050236",
+      "major_name": "希腊语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050237",
+      "major_name": "匈牙利语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050239",
+      "major_name": "泰米尔语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050240",
+      "major_name": "普什图语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050241",
+      "major_name": "世界语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050242",
+      "major_name": "孟加拉语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050243",
+      "major_name": "尼泊尔语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050244",
+      "major_name": "克罗地亚语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050245",
+      "major_name": "荷兰语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050246",
+      "major_name": "芬兰语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "050247",
+      "major_name": "乌克兰语",
+      "major_category": "外国语言文学类",
+      "discipline": "文学",
+      "employment_direction_raw": ""
     }
   ]
 }
