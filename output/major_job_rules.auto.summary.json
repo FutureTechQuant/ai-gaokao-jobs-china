@@ -1,0 +1,360 @@
+{
+  "major_total": 1570,
+  "job_title_total": 134,
+  "major_code_rules_generated": 101,
+  "major_category_rules_generated": 45,
+  "discipline_rules_generated": 31,
+  "unmapped_major_count": 1469,
+  "unmapped_examples": [
+    {
+      "major_code": "010102",
+      "major_name": "逻辑学",
+      "major_category": "哲学类",
+      "discipline": "哲学",
+      "employment_direction_raw": "事业单位人员初中教师\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "010103",
+      "major_name": "宗教学",
+      "major_category": "哲学类",
+      "discipline": "哲学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "010104",
+      "major_name": "伦理学",
+      "major_category": "哲学类",
+      "discipline": "哲学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020104",
+      "major_name": "资源与环境经济学",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020105",
+      "major_name": "商务经济学",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020106",
+      "major_name": "能源经济",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020107",
+      "major_name": "劳动经济学",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020108",
+      "major_name": "经济工程",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020109",
+      "major_name": "数字经济",
+      "major_category": "经济学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020203",
+      "major_name": "国际税收",
+      "major_category": "财政学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020303",
+      "major_name": "保险学",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020304",
+      "major_name": "投资学",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020308",
+      "major_name": "精算学",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": "精算师保险产品开发/项目策划审计人员风险控制人员资产评估\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020309",
+      "major_name": "互联网金融",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020310",
+      "major_name": "金融科技",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020311",
+      "major_name": "金融审计",
+      "major_category": "金融学类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "020401",
+      "major_name": "国际经济与贸易",
+      "major_category": "经济与贸易类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020402",
+      "major_name": "贸易经济",
+      "major_category": "经济与贸易类",
+      "discipline": "经济学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "020403",
+      "major_name": "国际经济发展合作",
+      "major_category": "经济与贸易类",
+      "discipline": "经济学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030101",
+      "major_name": "法学",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": "公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)考研事业单位人员律师助理法务专员/助理检察官律师"
+    },
+    {
+      "major_code": "030102",
+      "major_name": "知识产权",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": "公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)律师助理银行卡/电子银行业务推广公司业务事业单位人员法官行政专员/助理法务专员/助理"
+    },
+    {
+      "major_code": "030104",
+      "major_name": "信用风险管理与法律防控",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030105",
+      "major_name": "国际经贸规则",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030106",
+      "major_name": "司法警察学",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030107",
+      "major_name": "社区矫正",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030108",
+      "major_name": "纪检监察",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030109",
+      "major_name": "国际法",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030110",
+      "major_name": "司法鉴定学",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030111",
+      "major_name": "国家安全学",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030112",
+      "major_name": "海外利益安全",
+      "major_category": "法学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030201",
+      "major_name": "政治学与行政学",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030202",
+      "major_name": "国际政治",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030203",
+      "major_name": "外交学",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030204",
+      "major_name": "国际事务与国际关系",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030205",
+      "major_name": "政治学、经济学与哲学",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030206",
+      "major_name": "国际组织与全球治理",
+      "major_category": "政治学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030301",
+      "major_name": "社会学",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030302",
+      "major_name": "社会工作",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030303",
+      "major_name": "人类学",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030304",
+      "major_name": "女性学",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": "事业单位人员公务员(地市级机关)公务员(区县级及以下机关)公务员(省级机关)公务员(中央国家机关)行政专员/助理助理/秘书/文员\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030306",
+      "major_name": "老年学",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030307",
+      "major_name": "社会政策",
+      "major_category": "社会学类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030501",
+      "major_name": "科学社会主义",
+      "major_category": "马克思主义理论类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030502",
+      "major_name": "中国共产党历史",
+      "major_category": "马克思主义理论类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030503",
+      "major_name": "思想政治教育",
+      "major_category": "马克思主义理论类",
+      "discipline": "法学",
+      "employment_direction_raw": "事业单位人员公务员(中央国家机关)公务员(省级机关)公务员(地市级机关)公务员(区县级及以下机关)助理/秘书/文员初中教师大学教师小学教师考研高中教师"
+    },
+    {
+      "major_code": "030504",
+      "major_name": "马克思主义理论",
+      "major_category": "马克思主义理论类",
+      "discipline": "法学",
+      "employment_direction_raw": "事业单位人员助理/秘书/文员大学教师中学教师公务员\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030505",
+      "major_name": "工会学",
+      "major_category": "马克思主义理论类",
+      "discipline": "法学",
+      "employment_direction_raw": ""
+    },
+    {
+      "major_code": "030601",
+      "major_name": "治安学",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030604",
+      "major_name": "禁毒学",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    },
+    {
+      "major_code": "030606",
+      "major_name": "经济犯罪侦查",
+      "major_category": "公安学类",
+      "discipline": "法学",
+      "employment_direction_raw": "暂无数据\n升学与就业情况\n学籍查询 学历查询 学位查询 在线验证 出国教育背景信息服务 图像校对 学信档案 高考 研招 港澳台招生 征兵 就业 学职平台\n学信网 中心简介 联系我们 版权声明 帮助中心 网站地图 网站宣传\n主办单位：教育部学生服务与素质发展中心\nCopyright © 2003-2026 学信网 All Rights Reserved\n京ICP备19004913号-1 京公网安备11010202009747号\n官方微信 官方微博\n客服热线：010-67410388\n客服邮箱：kefu@chsi.com.cn"
+    }
+  ]
+}

@@ -1,0 +1,2473 @@
+{
+  "_meta": {
+    "description": "由专业就业方向自动生成",
+    "priority": "major_code_rules > major_category_rules > discipline_rules",
+    "note": "建议人工复核少量误匹配和 exclude_titles"
+  },
+  "major_code_rules": {
+    "010101": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "020101": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "产品经理",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020102": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020103": {
+      "include_categories": [
+        "媒体与创意",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "内容创作者/编辑",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020201": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020202": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020301": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020302": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020305": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020306": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "020307": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "030103": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "030305": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "培训专员"
+      ],
+      "exclude_titles": []
+    },
+    "030401": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "030602": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "030603": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "030605": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "030612": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "050102": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "050201": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "翻译"
+      ],
+      "exclude_titles": []
+    },
+    "050238": {
+      "include_categories": [
+        "政府与公共服务",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "翻译",
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "050301": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑",
+        "新闻记者"
+      ],
+      "exclude_titles": []
+    },
+    "050306": {
+      "include_categories": [
+        "信息技术与互联网",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "060103": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "070101": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "070102": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "070103": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "070201": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "070202": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "070301": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "070302": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "070602": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "071004": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "071201": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "数据分析师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "071202": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "数据分析师",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "080101": {
+      "include_categories": [
+        "信息技术与互联网",
+        "制造与工程"
+      ],
+      "include_titles": [
+        "机械工程师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080102": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师"
+      ],
+      "exclude_titles": []
+    },
+    "080201": {
+      "include_categories": [
+        "制造与工程",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师",
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080202": {
+      "include_categories": [
+        "制造与工程",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师",
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080203": {
+      "include_categories": [
+        "制造与工程"
+      ],
+      "include_titles": [
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080301": {
+      "include_categories": [
+        "信息技术与互联网",
+        "制造与工程"
+      ],
+      "include_titles": [
+        "电气工程师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080411": {
+      "include_categories": [
+        "制造与工程"
+      ],
+      "include_titles": [
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080414": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "测试工程师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080501": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师"
+      ],
+      "exclude_titles": []
+    },
+    "080503": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080601": {
+      "include_categories": [
+        "制造与工程"
+      ],
+      "include_titles": [
+        "电气工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080701": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080702": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080703": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080704": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "测试工程师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080710": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080711": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080714": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080801": {
+      "include_categories": [
+        "信息技术与互联网",
+        "制造与工程"
+      ],
+      "include_titles": [
+        "电气工程师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080802": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080901": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "测试工程师",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "080902": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "测试工程师",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "080904": {
+      "include_categories": [
+        "信息技术与互联网",
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "测试工程师",
+        "警察",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080906": {
+      "include_categories": [
+        "信息技术与互联网",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师",
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "080907": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "081301": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "081703": {
+      "include_categories": [
+        "媒体与创意",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "082101": {
+      "include_categories": [
+        "制造与工程"
+      ],
+      "include_titles": [
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "082103": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "082302": {
+      "include_categories": [
+        "制造与工程",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "平面设计师",
+        "机械工程师"
+      ],
+      "exclude_titles": []
+    },
+    "082303": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "082304": {
+      "include_categories": [
+        "房地产与建筑设计"
+      ],
+      "include_titles": [
+        "工程监理",
+        "建筑设计师"
+      ],
+      "exclude_titles": []
+    },
+    "082601": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "082701": {
+      "include_categories": [
+        "信息技术与互联网",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "测试工程师"
+      ],
+      "exclude_titles": []
+    },
+    "083001": {
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "083002": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "090601": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "100201": {
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "全科医生"
+      ],
+      "exclude_titles": []
+    },
+    "100701": {
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100702": {
+      "include_categories": [
+        "医疗与健康",
+        "销售与零售"
+      ],
+      "include_titles": [
+        "医药代表",
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100703": {
+      "include_categories": [
+        "医疗与健康",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "药剂师",
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "100704": {
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100802": {
+      "include_categories": [
+        "医疗与健康",
+        "销售与零售"
+      ],
+      "include_titles": [
+        "医药代表",
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100804": {
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100805": {
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100806": {
+      "include_categories": [
+        "医疗与健康",
+        "销售与零售"
+      ],
+      "include_titles": [
+        "医药代表",
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "100901": {
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "120101": {
+      "include_categories": [
+        "行政与文职",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120102": {
+      "include_categories": [
+        "信息技术与互联网",
+        "行政与文职",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "会计与出纳",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120103": {
+      "include_categories": [
+        "房地产与建筑设计"
+      ],
+      "include_titles": [
+        "工程监理"
+      ],
+      "exclude_titles": []
+    },
+    "120201": {
+      "include_categories": [
+        "行政与文职",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120202": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120203": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120205": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120206": {
+      "include_categories": [
+        "行政与文职",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "会计与出纳",
+        "培训专员",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120208": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120209": {
+      "include_categories": [
+        "房地产与建筑设计",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "物业管理"
+      ],
+      "exclude_titles": []
+    },
+    "120210": {
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑",
+        "新闻记者"
+      ],
+      "exclude_titles": []
+    },
+    "120211": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "120213": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120301": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "120302": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "120401": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "120502": {
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "120503": {
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "120801": {
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "软件工程师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    }
+  },
+  "major_category_rules": {
+    "哲学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "010101",
+            "major_name": "哲学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "经济学类": {
+      "_meta": {
+        "derived_from_major_count": 3,
+        "examples": [
+          {
+            "major_code": "020101",
+            "major_name": "经济学"
+          },
+          {
+            "major_code": "020102",
+            "major_name": "经济统计学"
+          },
+          {
+            "major_code": "020103",
+            "major_name": "国民经济管理"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "财政学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "020201",
+            "major_name": "财政学"
+          },
+          {
+            "major_code": "020202",
+            "major_name": "税收学"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "金融学类": {
+      "_meta": {
+        "derived_from_major_count": 5,
+        "examples": [
+          {
+            "major_code": "020301",
+            "major_name": "金融学"
+          },
+          {
+            "major_code": "020302",
+            "major_name": "金融工程"
+          },
+          {
+            "major_code": "020305",
+            "major_name": "金融数学"
+          },
+          {
+            "major_code": "020306",
+            "major_name": "信用管理"
+          },
+          {
+            "major_code": "020307",
+            "major_name": "经济与金融"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "法学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "030103",
+            "major_name": "监狱学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "社会学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "030305",
+            "major_name": "家政学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "民族学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "030401",
+            "major_name": "民族学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "公安学类": {
+      "_meta": {
+        "derived_from_major_count": 4,
+        "examples": [
+          {
+            "major_code": "030602",
+            "major_name": "侦查学"
+          },
+          {
+            "major_code": "030603",
+            "major_name": "边防管理"
+          },
+          {
+            "major_code": "030605",
+            "major_name": "警犬技术"
+          },
+          {
+            "major_code": "030612",
+            "major_name": "公安管理学"
+          }
+        ]
+      },
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "中国语言文学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "050102",
+            "major_name": "汉语言"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "外国语言文学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "050201",
+            "major_name": "英语"
+          },
+          {
+            "major_code": "050238",
+            "major_name": "意大利语"
+          }
+        ]
+      },
+      "include_categories": [
+        "行政与文职"
+      ],
+      "include_titles": [
+        "翻译"
+      ],
+      "exclude_titles": []
+    },
+    "新闻传播学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "050301",
+            "major_name": "新闻学"
+          },
+          {
+            "major_code": "050306",
+            "major_name": "网络与新媒体"
+          }
+        ]
+      },
+      "include_categories": [
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "历史学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "060103",
+            "major_name": "考古学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "数学类": {
+      "_meta": {
+        "derived_from_major_count": 3,
+        "examples": [
+          {
+            "major_code": "070101",
+            "major_name": "数学与应用数学"
+          },
+          {
+            "major_code": "070102",
+            "major_name": "信息与计算科学"
+          },
+          {
+            "major_code": "070103",
+            "major_name": "数理基础科学"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "物理学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "070201",
+            "major_name": "物理学"
+          },
+          {
+            "major_code": "070202",
+            "major_name": "应用物理学"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "化学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "070301",
+            "major_name": "化学"
+          },
+          {
+            "major_code": "070302",
+            "major_name": "应用化学"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "证券分析师"
+      ],
+      "exclude_titles": []
+    },
+    "大气科学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "070602",
+            "major_name": "应用气象学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "生物科学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "071004",
+            "major_name": "生态学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "统计学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "071201",
+            "major_name": "统计学"
+          },
+          {
+            "major_code": "071202",
+            "major_name": "应用统计学"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "数据分析师",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "力学类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "080101",
+            "major_name": "理论与应用力学"
+          },
+          {
+            "major_code": "080102",
+            "major_name": "工程力学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "机械类": {
+      "_meta": {
+        "derived_from_major_count": 3,
+        "examples": [
+          {
+            "major_code": "080201",
+            "major_name": "机械工程"
+          },
+          {
+            "major_code": "080202",
+            "major_name": "机械设计制造及其自动化"
+          },
+          {
+            "major_code": "080203",
+            "major_name": "材料成型及控制工程"
+          }
+        ]
+      },
+      "include_categories": [
+        "制造与工程",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "机械工程师",
+        "平面设计师"
+      ],
+      "exclude_titles": []
+    },
+    "仪器类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "080301",
+            "major_name": "测控技术与仪器"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "材料类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "080411",
+            "major_name": "焊接技术与工程"
+          },
+          {
+            "major_code": "080414",
+            "major_name": "新能源材料与器件"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "能源动力类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "080501",
+            "major_name": "能源与动力工程"
+          },
+          {
+            "major_code": "080503",
+            "major_name": "新能源科学与工程"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "电气类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "080601",
+            "major_name": "电气工程及其自动化"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "电子信息类": {
+      "_meta": {
+        "derived_from_major_count": 7,
+        "examples": [
+          {
+            "major_code": "080701",
+            "major_name": "电子信息工程"
+          },
+          {
+            "major_code": "080702",
+            "major_name": "电子科学与技术"
+          },
+          {
+            "major_code": "080703",
+            "major_name": "通信工程"
+          },
+          {
+            "major_code": "080704",
+            "major_name": "微电子科学与工程"
+          },
+          {
+            "major_code": "080710",
+            "major_name": "集成电路设计与集成系统"
+          },
+          {
+            "major_code": "080711",
+            "major_name": "医学信息工程"
+          },
+          {
+            "major_code": "080714",
+            "major_name": "电子信息科学与技术"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "自动化类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "080801",
+            "major_name": "自动化"
+          },
+          {
+            "major_code": "080802",
+            "major_name": "轨道交通信号与控制"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "计算机类": {
+      "_meta": {
+        "derived_from_major_count": 5,
+        "examples": [
+          {
+            "major_code": "080901",
+            "major_name": "计算机科学与技术"
+          },
+          {
+            "major_code": "080902",
+            "major_name": "软件工程"
+          },
+          {
+            "major_code": "080904",
+            "major_name": "信息安全"
+          },
+          {
+            "major_code": "080906",
+            "major_name": "数字媒体技术"
+          },
+          {
+            "major_code": "080907",
+            "major_name": "智能科学与技术"
+          }
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "测试工程师",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "化工与制药类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "081301",
+            "major_name": "化学工程与工艺"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "轻工类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "081703",
+            "major_name": "印刷工程"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "兵器类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "082101",
+            "major_name": "武器系统与工程"
+          },
+          {
+            "major_code": "082103",
+            "major_name": "探测制导与控制技术"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "农业工程类": {
+      "_meta": {
+        "derived_from_major_count": 3,
+        "examples": [
+          {
+            "major_code": "082302",
+            "major_name": "农业机械化及其自动化"
+          },
+          {
+            "major_code": "082303",
+            "major_name": "农业电气化"
+          },
+          {
+            "major_code": "082304",
+            "major_name": "农业建筑环境与能源工程"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "生物医学工程类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "082601",
+            "major_name": "生物医学工程"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "食品科学与工程类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "082701",
+            "major_name": "食品科学与工程"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "生物工程类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "083001",
+            "major_name": "生物工程"
+          },
+          {
+            "major_code": "083002",
+            "major_name": "生物制药"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "水产类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "090601",
+            "major_name": "水产养殖学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "临床医学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "100201",
+            "major_name": "临床医学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "药学类": {
+      "_meta": {
+        "derived_from_major_count": 4,
+        "examples": [
+          {
+            "major_code": "100701",
+            "major_name": "药学"
+          },
+          {
+            "major_code": "100702",
+            "major_name": "药物制剂"
+          },
+          {
+            "major_code": "100703",
+            "major_name": "临床药学"
+          },
+          {
+            "major_code": "100704",
+            "major_name": "药事管理"
+          }
+        ]
+      },
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "中药学类": {
+      "_meta": {
+        "derived_from_major_count": 4,
+        "examples": [
+          {
+            "major_code": "100802",
+            "major_name": "中药资源与开发"
+          },
+          {
+            "major_code": "100804",
+            "major_name": "蒙药学"
+          },
+          {
+            "major_code": "100805",
+            "major_name": "中药制药"
+          },
+          {
+            "major_code": "100806",
+            "major_name": "中草药栽培与鉴定"
+          }
+        ]
+      },
+      "include_categories": [
+        "医疗与健康",
+        "销售与零售"
+      ],
+      "include_titles": [
+        "药剂师",
+        "医药代表"
+      ],
+      "exclude_titles": []
+    },
+    "法医学类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "100901",
+            "major_name": "法医学"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "管理科学与工程类": {
+      "_meta": {
+        "derived_from_major_count": 3,
+        "examples": [
+          {
+            "major_code": "120101",
+            "major_name": "管理科学"
+          },
+          {
+            "major_code": "120102",
+            "major_name": "信息管理与信息系统"
+          },
+          {
+            "major_code": "120103",
+            "major_name": "工程管理"
+          }
+        ]
+      },
+      "include_categories": [
+        "行政与文职",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "人力资源专员",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "工商管理类": {
+      "_meta": {
+        "derived_from_major_count": 10,
+        "examples": [
+          {
+            "major_code": "120201",
+            "major_name": "工商管理"
+          },
+          {
+            "major_code": "120202",
+            "major_name": "市场营销"
+          },
+          {
+            "major_code": "120203",
+            "major_name": "会计学"
+          },
+          {
+            "major_code": "120205",
+            "major_name": "国际商务"
+          },
+          {
+            "major_code": "120206",
+            "major_name": "人力资源管理"
+          },
+          {
+            "major_code": "120208",
+            "major_name": "资产评估"
+          },
+          {
+            "major_code": "120209",
+            "major_name": "物业管理"
+          },
+          {
+            "major_code": "120210",
+            "major_name": "文化产业管理"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员",
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "农业经济管理类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "120301",
+            "major_name": "农林经济管理"
+          },
+          {
+            "major_code": "120302",
+            "major_name": "农村区域发展"
+          }
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳"
+      ],
+      "exclude_titles": []
+    },
+    "公共管理类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "120401",
+            "major_name": "公共事业管理"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "图书情报与档案管理类": {
+      "_meta": {
+        "derived_from_major_count": 2,
+        "examples": [
+          {
+            "major_code": "120502",
+            "major_name": "档案学"
+          },
+          {
+            "major_code": "120503",
+            "major_name": "信息资源管理"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "电子商务类": {
+      "_meta": {
+        "derived_from_major_count": 1,
+        "examples": [
+          {
+            "major_code": "120801",
+            "major_name": "电子商务"
+          }
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    }
+  },
+  "discipline_rules": {
+    "哲学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "哲学类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "经济学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "金融学类",
+          "经济学类",
+          "财政学类",
+          "经济与贸易类"
+        ]
+      },
+      "include_categories": [
+        "金融与财务"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "法学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "公安学类",
+          "法学类",
+          "社会学类",
+          "政治学类",
+          "马克思主义理论类",
+          "民族学类"
+        ]
+      },
+      "include_categories": [
+        "政府与公共服务"
+      ],
+      "include_titles": [
+        "警察"
+      ],
+      "exclude_titles": []
+    },
+    "教育学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "教育学类",
+          "体育学类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "文学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "外国语言文学类",
+          "中国语言文学类",
+          "新闻传播学类"
+        ]
+      },
+      "include_categories": [
+        "行政与文职",
+        "媒体与创意"
+      ],
+      "include_titles": [
+        "翻译",
+        "内容创作者/编辑"
+      ],
+      "exclude_titles": []
+    },
+    "历史学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "历史学类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "理学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "化学类",
+          "物理学类",
+          "生物科学类",
+          "海洋科学类",
+          "数学类",
+          "地理科学类",
+          "大气科学类",
+          "地球物理学类",
+          "地质学类",
+          "统计学类"
+        ]
+      },
+      "include_categories": [
+        "金融与财务",
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "银行柜员",
+        "证券分析师",
+        "会计与出纳",
+        "数据分析师"
+      ],
+      "exclude_titles": []
+    },
+    "工学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "材料类",
+          "电子信息类",
+          "机械类",
+          "计算机类",
+          "土木类",
+          "食品科学与工程类",
+          "交通运输类",
+          "航空航天类",
+          "公安技术类",
+          "电气类"
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网",
+        "制造与工程",
+        "媒体与创意",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "机械工程师",
+        "平面设计师",
+        "测试工程师",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "农学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "植物生产类",
+          "自然保护与环境生态类",
+          "动物生产类",
+          "动物医学类",
+          "林学类",
+          "水产类",
+          "草学类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "医学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "医学技术类",
+          "中医学类",
+          "药学类",
+          "临床医学类",
+          "公共卫生与预防医学类",
+          "中药学类",
+          "基础医学类",
+          "护理学类",
+          "口腔医学类",
+          "中西医结合类"
+        ]
+      },
+      "include_categories": [
+        "医疗与健康",
+        "销售与零售"
+      ],
+      "include_titles": [
+        "药剂师",
+        "医药代表"
+      ],
+      "exclude_titles": []
+    },
+    "管理学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "公共管理类",
+          "工商管理类",
+          "管理科学与工程类",
+          "旅游管理类",
+          "物流管理与工程类",
+          "农业经济管理类",
+          "图书情报与档案管理类",
+          "工业工程类",
+          "电子商务类"
+        ]
+      },
+      "include_categories": [
+        "金融与财务",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员",
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "艺术学": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "戏剧与影视学类",
+          "美术学类",
+          "艺术学理论类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "农林牧渔": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "农业类",
+          "林业类",
+          "畜牧业类",
+          "渔业类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "资源环境与安全": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "测绘地理信息类",
+          "安全类",
+          "地质类",
+          "石油与天然气类",
+          "环境保护类",
+          "资源勘查类",
+          "金属与非金属矿类",
+          "煤炭类",
+          "气象类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "能源动力与材料": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "电力技术类",
+          "非金属材料类",
+          "热能与发电工程类",
+          "新能源发电工程类",
+          "有色金属材料类",
+          "建筑材料类",
+          "黑色金属材料类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "土木建筑": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "建筑设计类",
+          "建筑设备类",
+          "建设工程管理类",
+          "土建施工类",
+          "市政工程类",
+          "房地产类",
+          "城乡规划与管理类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "水利": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "水利工程与管理类",
+          "水土保持与水环境类",
+          "水利水电设备类",
+          "水文水资源类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "装备制造": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "机械设计制造类",
+          "航空装备类",
+          "机电设备类",
+          "汽车制造类",
+          "轨道装备类",
+          "自动化类",
+          "船舶与海洋工程装备类"
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网"
+      ],
+      "include_titles": [
+        "软件工程师"
+      ],
+      "exclude_titles": []
+    },
+    "生物与化工": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "生物技术类",
+          "化工技术类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "轻工纺织": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "轻化工类",
+          "纺织服装类",
+          "印刷类",
+          "包装类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "食品药品与粮食": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "粮食类",
+          "食品类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "交通运输": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "航空运输类",
+          "铁道运输类",
+          "道路运输类",
+          "水上运输类",
+          "城市轨道交通类",
+          "邮政类",
+          "管道运输类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "电子与信息": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "电子信息类",
+          "计算机类",
+          "通信类",
+          "集成电路类"
+        ]
+      },
+      "include_categories": [
+        "信息技术与互联网",
+        "金融与财务"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "测试工程师",
+        "会计与出纳",
+        "银行柜员"
+      ],
+      "exclude_titles": []
+    },
+    "医药卫生": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "医学技术类",
+          "护理类",
+          "康复治疗类",
+          "健康管理与促进类",
+          "公共卫生与卫生管理类",
+          "药学类",
+          "眼视光类",
+          "临床医学类",
+          "中医药类"
+        ]
+      },
+      "include_categories": [
+        "医疗与健康"
+      ],
+      "include_titles": [
+        "药剂师"
+      ],
+      "exclude_titles": []
+    },
+    "财经商贸": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "财务会计类",
+          "电子商务类",
+          "经济贸易类",
+          "财政税务类",
+          "统计类",
+          "工商管理类",
+          "物流类"
+        ]
+      },
+      "include_categories": [
+        "金融与财务",
+        "行政与文职"
+      ],
+      "include_titles": [
+        "会计与出纳",
+        "银行柜员",
+        "人力资源专员"
+      ],
+      "exclude_titles": []
+    },
+    "旅游": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "旅游类",
+          "餐饮类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "文化艺术": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "艺术设计类",
+          "民族文化艺术类",
+          "表演艺术类",
+          "文化服务类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "新闻传播": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "广播影视类",
+          "新闻出版类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "教育与体育": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "体育类",
+          "教育类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "公安与司法": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "法律执行类",
+          "公安技术类",
+          "侦查类",
+          "安全防范类",
+          "法律实务类",
+          "公安管理类",
+          "司法技术类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    },
+    "公共管理与服务": {
+      "_meta": {
+        "derived_from_major_categories": [
+          "公共管理类",
+          "公共事业类",
+          "公共服务类",
+          "文秘类"
+        ]
+      },
+      "include_categories": [],
+      "include_titles": [],
+      "exclude_titles": []
+    }
+  }
+}
