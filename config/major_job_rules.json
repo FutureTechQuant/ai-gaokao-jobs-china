@@ -1,22 +1,116 @@
 {
-  "010101": [
-    {"job_keyword": "算法", "weight": 0.35},
-    {"job_keyword": "机器学习", "weight": 0.25},
-    {"job_keyword": "数据分析", "weight": 0.20},
-    {"job_keyword": "后端", "weight": 0.20}
-  ],
-  "010102": [
-    {"job_keyword": "产品经理", "weight": 0.20},
-    {"job_keyword": "运营", "weight": 0.25},
-    {"job_keyword": "数据分析", "weight": 0.20},
-    {"job_keyword": "测试", "weight": 0.15},
-    {"job_keyword": "项目管理", "weight": 0.20}
-  ],
-  "130502": [
-    {"job_keyword": "ui", "weight": 0.20},
-    {"job_keyword": "视觉设计", "weight": 0.25},
-    {"job_keyword": "平面设计", "weight": 0.20},
-    {"job_keyword": "视频剪辑", "weight": 0.20},
-    {"job_keyword": "aigc", "weight": 0.15}
-  ]
+  "major_code_rules": {
+    "080901": {
+      "include_categories": [
+        "信息技术与互联网",
+        "AI原生新职业",
+        "新质生产力前沿"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "数据分析师",
+        "测试工程师",
+        "算法",
+        "AI",
+        "智能体"
+      ],
+      "exclude_titles": []
+    }
+  },
+  "major_category_rules": {
+    "计算机类": {
+      "include_categories": [
+        "信息技术与互联网",
+        "AI原生新职业",
+        "新质生产力前沿"
+      ],
+      "include_titles": [
+        "软件工程师",
+        "前端",
+        "后端",
+        "测试工程师",
+        "数据分析师",
+        "算法",
+        "AI",
+        "智能体"
+      ],
+      "exclude_titles": []
+    },
+    "艺术设计类": {
+      "include_categories": [
+        "媒体与创意",
+        "文化与娱乐",
+        "AI原生新职业"
+      ],
+      "include_titles": [
+        "平面设计师",
+        "设计",
+        "视频",
+        "内容创作者",
+        "数字人",
+        "IP运营"
+      ],
+      "exclude_titles": []
+    },
+    "工商管理类": {
+      "include_categories": [
+        "行政与文职",
+        "销售与零售",
+        "创业者与自由职业"
+      ],
+      "include_titles": [
+        "运营",
+        "销售",
+        "行政",
+        "门店",
+        "项目管理",
+        "企业主"
+      ],
+      "exclude_titles": []
+    },
+    "外国语言文学类": {
+      "include_categories": [
+        "媒体与创意",
+        "教育与培训",
+        "法律与咨询"
+      ],
+      "include_titles": [
+        "翻译",
+        "编辑",
+        "内容创作者",
+        "教师",
+        "讲师"
+      ],
+      "exclude_titles": []
+    }
+  },
+  "discipline_rules": {
+    "工学": {
+      "include_categories": [
+        "信息技术与互联网",
+        "制造与工程",
+        "新质生产力前沿"
+      ],
+      "include_titles": [
+        "工程师",
+        "测试",
+        "研发"
+      ],
+      "exclude_titles": []
+    },
+    "文学": {
+      "include_categories": [
+        "媒体与创意",
+        "教育与培训",
+        "文化与娱乐"
+      ],
+      "include_titles": [
+        "编辑",
+        "记者",
+        "教师",
+        "创作者"
+      ],
+      "exclude_titles": []
+    }
+  }
 }
