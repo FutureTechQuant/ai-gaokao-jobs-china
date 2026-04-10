@@ -37,6 +37,7 @@ jobs:
         run: |
           python scripts/normalize_majors.py
           python scripts/normalize_jobs.py
+          python scripts/generate_major_rule_template.py
           python scripts/build_major_ai_rate.py
 
       - name: Upload artifact
