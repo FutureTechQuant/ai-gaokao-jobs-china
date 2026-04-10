@@ -1,151 +1,364 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>中国专业 AI 替代率</title>
-  <meta name="description" content="中国高校专业 AI 替代率可视化看板" />
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./style.css" />
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
-  <header class="wrap hero">
-    <div class="hero-copy">
-      <p class="eyebrow">FutureTechQuant</p>
-      <h1>中国专业 AI 替代率</h1>
-      <p class="sub">
-        基于阳光高考专业数据与 AI Jobs China 岗位数据生成的专业替代风险看板。
-      </p>
-    </div>
-  </header>
-
-  <main class="wrap main-grid">
+  <div class="app-shell">
     <aside class="sidebar">
-      <section class="panel intro-panel">
-        <div class="panel-head">
-          <h2>基本信息</h2>
-          <div class="meta" id="rangeMeta">-</div>
-        </div>
+      <div class="brand-block">
+        <div class="brand-title">中国专业 AI 替代率</div>
+        <div class="brand-sub">颜色 = 专业 AI 替代风险，参考职业冲击站的深色风格与 6 级风险分档。</div>
+      </div>
 
-        <div class="kpis">
-          <article class="kpi">
-            <div class="kpi-label">专业总数</div>
-            <div class="kpi-value" id="kpi-total">-</div>
-          </article>
-          <article class="kpi">
-            <div class="kpi-label">平均替代率</div>
-            <div class="kpi-value" id="kpi-avg">-</div>
-          </article>
-          <article class="kpi">
-            <div class="kpi-label">高风险专业数</div>
-            <div class="kpi-value" id="kpi-high">-</div>
-          </article>
-          <article class="kpi">
-            <div class="kpi-label">高置信度专业数</div>
-            <div class="kpi-value" id="kpi-confidence">-</div>
-          </article>
-        </div>
+      <section class="stats-block">
+        <div class="stat-label">专业总数</div>
+        <div class="stat-value" id="totalMajors">—</div>
 
-        <div class="controls">
-          <input id="searchInput" type="search" placeholder="搜索专业名称 / 专业代码 / 门类 / 专业类" />
-          <select id="disciplineFilter">
-            <option value="">全部学科门类</option>
-          </select>
-          <select id="modeSelect">
-            <option value="discipline">按学科门类</option>
-            <option value="category">按专业类</option>
-          </select>
+        <div class="stat-label">平均替代率</div>
+        <div class="stat-value" id="avgRate">—</div>
+        <div class="stat-note">0–100%，越高表示当前越容易被 AI 替代或压缩。</div>
+
+        <div class="stat-label">零值专业</div>
+        <div class="stat-value" id="zeroCount">—</div>
+        <div class="stat-note">建议后续用 zero override 或 baseline 持续压缩。</div>
+      </section>
+
+      <section class="dist-block">
+        <div class="stat-label">风险分布</div>
+        <div class="hist" id="histogram"></div>
+        <div class="tier-list" id="tierList"></div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="detail-block">
+        <div class="panel-title">说明</div>
+        <div class="hint-text">
+          左侧展示总体分布，右侧是按“学科门类 / 专业类 / 专业”展开的风险树图。<br />
+          单击树图可放大层级；悬停可查看专业替代率、命中岗位数与置信度。
         </div>
       </section>
 
-      <section class="panel detail-panel">
-        <div class="panel-head">
-          <h2>专业详情</h2>
-          <div class="meta">点击右侧区块查看</div>
-        </div>
-
-        <div id="detailEmpty" class="detail-empty">
-          点击右侧风险树图中的专业区块，这里会显示专业代码、替代率、岗位数、专业类和匹配岗位样例。
-        </div>
-
-        <div id="detailBox" class="detail-box hidden">
-          <div class="detail-top">
-            <div>
-              <div class="detail-code" id="detailCode">-</div>
-              <div class="detail-name" id="detailName">-</div>
-            </div>
-            <span id="detailConfidence" class="badge">-</span>
-          </div>
-
-          <div class="detail-grid">
-            <div class="detail-stat">
-              <div class="detail-label">替代率</div>
-              <div class="detail-value" id="detailRate">-</div>
-            </div>
-            <div class="detail-stat">
-              <div class="detail-label">岗位数</div>
-              <div class="detail-value" id="detailJobCount">-</div>
-            </div>
-            <div class="detail-stat">
-              <div class="detail-label">学科门类</div>
-              <div class="detail-value small" id="detailDiscipline">-</div>
-            </div>
-            <div class="detail-stat">
-              <div class="detail-label">专业类</div>
-              <div class="detail-value small" id="detailCategory">-</div>
-            </div>
-          </div>
-
-          <div class="detail-section">
-            <div class="detail-label">匹配岗位样例</div>
-            <div id="detailJobs" class="tag-list"></div>
-          </div>
-        </div>
-
-        <div class="detail-section confidence-note">
-          <div class="detail-label">置信度解释</div>
-          <p class="detail-text">
-            这里的置信度不是“预测正确率”，而是“样本稳定性”。匹配岗位越多，平均替代率越稳；岗位太少时，结果更适合看趋势，不适合下结论。
-          </p>
-          <ul class="confidence-list">
-            <li><strong>high</strong>：匹配岗位较多，结果相对稳定。</li>
-            <li><strong>medium</strong>：样本中等，可作参考。</li>
-            <li><strong>low</strong>：样本偏少，波动更大。</li>
-          </ul>
-        </div>
+      <section class="legend-block">
+        <span class="legend-chip"><i class="legend-dot" style="background:#1e7a40"></i>极安全</span>
+        <span class="legend-chip"><i class="legend-dot" style="background:#5aad3e"></i>低风险</span>
+        <span class="legend-chip"><i class="legend-dot" style="background:#a8c020"></i>中低</span>
+        <span class="legend-chip"><i class="legend-dot" style="background:#f0b323"></i>中高</span>
+        <span class="legend-chip"><i class="legend-dot" style="background:#f97316"></i>高风险</span>
+        <span class="legend-chip"><i class="legend-dot" style="background:#d7263d"></i>极高</span>
       </section>
     </aside>
 
-    <section class="panel treemap-panel">
-      <div class="panel-head">
-        <h2>风险树图</h2>
-        <div class="meta" id="resultMeta">-</div>
-      </div>
-      <div id="treemap"></div>
-    </section>
-  </main>
+    <main class="main-area">
+      <section class="hero-card">
+        <div>
+          <h1>专业 AI 当前替代率看板</h1>
+          <p>基于专业数据与岗位数据整合，展示各专业在当前 AI 语境下的相对替代风险。</p>
+        </div>
+        <div class="hero-meta" id="updatedAt">加载中…</div>
+      </section>
 
-  <section class="wrap bottom-grid">
-    <section class="panel">
-      <div class="panel-head">
-        <h2>高风险 Top 20</h2>
-      </div>
-      <div id="topRiskList" class="rank-list"></div>
-    </section>
+      <section class="treemap-card">
+        <div class="card-head">
+          <div>
+            <div class="card-title">风险树图</div>
+            <div class="card-sub">按学科门类 → 专业类 → 专业分层，颜色越偏红风险越高。</div>
+          </div>
+        </div>
+        <div id="treemap" class="treemap"></div>
+      </section>
 
-    <section class="panel">
-      <div class="panel-head">
-        <h2>学科平均替代率</h2>
-      </div>
-      <div id="disciplineList" class="rank-list"></div>
-    </section>
-  </section>
+      <section class="bottom-grid">
+        <section class="table-card">
+          <div class="card-head">
+            <div>
+              <div class="card-title">Top 20 专业</div>
+              <div class="card-sub">按替代率从高到低排序。</div>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>专业</th>
+                  <th>专业类</th>
+                  <th>替代率</th>
+                  <th>岗位数</th>
+                  <th>置信度</th>
+                </tr>
+              </thead>
+              <tbody id="top20Body"></tbody>
+            </table>
+          </div>
+        </section>
 
-  <footer class="wrap footer">
-    <span>FutureTechQuant · GitHub Pages</span>
-    <span id="updatedAt">Updated: -</span>
-  </footer>
+        <section class="table-card">
+          <div class="card-head">
+            <div>
+              <div class="card-title">学科平均替代率</div>
+              <div class="card-sub">按 discipline 聚合后的平均水平。</div>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>学科门类</th>
+                  <th>平均替代率</th>
+                  <th>专业数</th>
+                </tr>
+              </thead>
+              <tbody id="disciplineBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
 
-  <script src="./app.js"></script>
+  <script>
+    const RISK_COLORS = ['#1e7a40', '#5aad3e', '#a8c020', '#f0b323', '#f97316', '#d7263d'];
+    const RISK_LABELS = ['极安全', '低风险', '中低', '中高', '高风险', '极高'];
+
+    function pct(v) {
+      const n = Number(v || 0);
+      return `${Math.round(n * 100)}%`;
+    }
+
+    function levelIndex(rate) {
+      const v = Number(rate || 0);
+      if (v < 0.20) return 0;
+      if (v < 0.35) return 1;
+      if (v < 0.50) return 2;
+      if (v < 0.65) return 3;
+      if (v < 0.80) return 4;
+      return 5;
+    }
+
+    function safeText(v, fallback = '未分类') {
+      return (v ?? '').toString().trim() || fallback;
+    }
+
+    function renderHistogram(rows) {
+      const histogram = document.getElementById('histogram');
+      const tierList = document.getElementById('tierList');
+      const counts = [0, 0, 0, 0, 0, 0];
+      rows.forEach(row => counts[levelIndex(row.replace_rate)] += 1);
+      const max = Math.max(...counts, 1);
+
+      histogram.innerHTML = counts.map((count, i) => {
+        const h = Math.max(4, Math.round((count / max) * 48));
+        return `<div class="hbar" style="height:${h}px;background:${RISK_COLORS[i]}"></div>`;
+      }).join('');
+
+      tierList.innerHTML = counts.map((count, i) => {
+        const p = rows.length ? ((count / rows.length) * 100).toFixed(1) : '0.0';
+        return `
+          <div class="tier-row">
+            <i class="tier-dot" style="background:${RISK_COLORS[i]}"></i>
+            <span class="tier-label">${RISK_LABELS[i]}</span>
+            <span class="tier-value">${count}</span>
+            <span class="tier-pct">${p}%</span>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderTop20(rows) {
+      const body = document.getElementById('top20Body');
+      const top20 = [...rows]
+        .sort((a, b) => (b.replace_rate ?? 0) - (a.replace_rate ?? 0))
+        .slice(0, 20);
+
+      body.innerHTML = top20.map((row, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${safeText(row.major_name)}</td>
+          <td>${safeText(row.major_category)}</td>
+          <td><span class="risk-badge level-${levelIndex(row.replace_rate) + 1}">${pct(row.replace_rate)}</span></td>
+          <td>${row.job_count ?? 0}</td>
+          <td>${safeText(row.confidence, 'low')}</td>
+        </tr>
+      `).join('');
+    }
+
+    function renderDiscipline(rows) {
+      const groups = new Map();
+      rows.forEach(row => {
+        const key = safeText(row.discipline, '其他');
+        if (!groups.has(key)) groups.set(key, { total: 0, count: 0 });
+        const item = groups.get(key);
+        item.total += Number(row.replace_rate || 0);
+        item.count += 1;
+      });
+
+      const data = [...groups.entries()]
+        .map(([name, item]) => ({
+          name,
+          avg: item.count ? item.total / item.count : 0,
+          count: item.count
+        }))
+        .sort((a, b) => b.avg - a.avg);
+
+      document.getElementById('disciplineBody').innerHTML = data.map((row, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${row.name}</td>
+          <td><span class="risk-badge level-${levelIndex(row.avg) + 1}">${pct(row.avg)}</span></td>
+          <td>${row.count}</td>
+        </tr>
+      `).join('');
+    }
+
+    function buildTreemap(rows) {
+      const labels = [];
+      const parents = [];
+      const values = [];
+      const ids = [];
+      const colors = [];
+      const custom = [];
+      const seen = new Set();
+      const addNode = (id, label, parent, value, color, extra = {}) => {
+        if (seen.has(id)) return;
+        seen.add(id);
+        ids.push(id);
+        labels.push(label);
+        parents.push(parent);
+        values.push(value);
+        colors.push(color);
+        custom.push(extra);
+      };
+
+      addNode('root', '全部专业', '', rows.length, '#1b2430', { type: 'root' });
+
+      const disciplineMap = new Map();
+      const categoryMap = new Map();
+
+      rows.forEach(row => {
+        const discipline = safeText(row.discipline, '其他');
+        const category = safeText(row.major_category, '未分类');
+        const major = safeText(row.major_name, '未命名专业');
+        const dId = `d:${discipline}`;
+        const cId = `c:${discipline}:${category}`;
+        const mId = `m:${row.major_code || major}:${major}`;
+
+        if (!disciplineMap.has(dId)) disciplineMap.set(dId, { label: discipline, count: 0, total: 0 });
+        const d = disciplineMap.get(dId);
+        d.count += 1;
+        d.total += Number(row.replace_rate || 0);
+
+        if (!categoryMap.has(cId)) categoryMap.set(cId, { label: category, parent: dId, count: 0, total: 0 });
+        const c = categoryMap.get(cId);
+        c.count += 1;
+        c.total += Number(row.replace_rate || 0);
+
+        addNode(
+          mId,
+          major,
+          cId,
+          1,
+          RISK_COLORS[levelIndex(row.replace_rate)],
+          {
+            type: 'major',
+            replace_rate: pct(row.replace_rate),
+            job_count: row.job_count ?? 0,
+            confidence: safeText(row.confidence, 'low'),
+            category
+          }
+        );
+      });
+
+      for (const [id, item] of disciplineMap.entries()) {
+        const avg = item.count ? item.total / item.count : 0;
+        addNode(id, item.label, 'root', item.count, RISK_COLORS[levelIndex(avg)], {
+          type: 'discipline',
+          replace_rate: pct(avg),
+          major_count: item.count
+        });
+      }
+
+      for (const [id, item] of categoryMap.entries()) {
+        const avg = item.count ? item.total / item.count : 0;
+        addNode(id, item.label, item.parent, item.count, RISK_COLORS[levelIndex(avg)], {
+          type: 'category',
+          replace_rate: pct(avg),
+          major_count: item.count
+        });
+      }
+
+      const trace = {
+        type: 'treemap',
+        ids,
+        labels,
+        parents,
+        values,
+        branchvalues: 'total',
+        marker: {
+          colors,
+          line: { width: 1, color: 'rgba(255,255,255,0.08)' }
+        },
+        customdata: custom,
+        textinfo: 'label',
+        textfont: { color: '#e6eaf0', size: 14 },
+        tiling: { packing: 'squarify', pad: 2 },
+        hoverlabel: {
+          bgcolor: '#0d1117',
+          bordercolor: 'rgba(255,255,255,0.13)',
+          font: { color: '#e6eaf0' }
+        },
+        hovertemplate:
+          '<b>%{label}</b><br>' +
+          '类型：%{customdata.type}<br>' +
+          '替代率：%{customdata.replace_rate}<br>' +
+          '岗位数/专业数：%{customdata.job_count}%{customdata.major_count}<br>' +
+          '置信度：%{customdata.confidence}<extra></extra>',
+        pathbar: { visible: false },
+        maxdepth: 3,
+        sort: false
+      };
+
+      const layout = {
+        margin: { t: 8, r: 8, b: 8, l: 8 },
+        paper_bgcolor: '#161b22',
+        plot_bgcolor: '#161b22',
+        font: { color: '#e6eaf0', family: 'system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif' }
+      };
+
+      Plotly.newPlot('treemap', [trace], layout, { responsive: true, displayModeBar: false });
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('./data/major_ai_rate.json');
+        const rows = await res.json();
+        const total = rows.length;
+        const avg = total ? rows.reduce((s, x) => s + Number(x.replace_rate || 0), 0) / total : 0;
+        const zeroCount = rows.filter(x => Number(x.replace_rate || 0) === 0).length;
+
+        document.getElementById('totalMajors').textContent = total.toLocaleString('zh-CN');
+        document.getElementById('avgRate').textContent = pct(avg);
+        document.getElementById('zeroCount').textContent = zeroCount.toLocaleString('zh-CN');
+        document.getElementById('updatedAt').textContent = `数据条目 ${total.toLocaleString('zh-CN')} 条`;
+
+        renderHistogram(rows);
+        renderTop20(rows);
+        renderDiscipline(rows);
+        buildTreemap(rows);
+      } catch (err) {
+        console.error(err);
+        document.getElementById('updatedAt').textContent = '数据加载失败';
+        document.getElementById('treemap').innerHTML = '<div class="empty-state">无法加载 ./data/major_ai_rate.json，请确认 GitHub Pages 已复制数据文件。</div>';
+      }
+    }
+
+    init();
+  </script>
 </body>
 </html>
