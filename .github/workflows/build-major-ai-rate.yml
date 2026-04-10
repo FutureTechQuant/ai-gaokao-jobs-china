@@ -8,12 +8,15 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/**"
+      - "site/**"
       - ".github/workflows/build-major-ai-rate.yml"
   schedule:
     - cron: "0 2 * * 1"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: build-major-ai-rate-${{ github.ref }}
@@ -92,12 +95,28 @@ jobs:
           python scripts/generate_rules_from_employment.py
           python scripts/build_major_ai_rate.py
 
+      - name: Prepare Pages site data
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
+        run: |
+          mkdir -p site/data
+          cp output/major_ai_rate.json site/data/
+          cp output/major_job_rules.auto.summary.json site/data/
+          cp output/major_rule_generation_report.json site/data/
+          cp output/all_job_titles.json site/data/
+          touch site/.nojekyll
+
       - name: Upload artifact
         if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: major-ai-rate
           path: output/
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
       - name: Commit synced data and outputs
         shell: bash
@@ -121,3 +140,16 @@ jobs:
           fi
 
           git push
+
+  deploy:
+    needs: build
+    if: github.event_name != 'schedule' || needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
