@@ -1,0 +1,555 @@
+{
+  "input_file": "output/major_ai_rate.json",
+  "total_rows": 1570,
+  "baseline_changed_rows": 60,
+  "raw_zero_lifted_rows": 60,
+  "examples": [
+    {
+      "major_code": "030306",
+      "major_name": "老年学",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "社会学类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.36,
+      "baseline_rules_hit": [
+        "社会学类下限"
+      ]
+    },
+    {
+      "major_code": "030307",
+      "major_name": "社会政策",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "社会学类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.36,
+      "baseline_rules_hit": [
+        "社会学类下限"
+      ]
+    },
+    {
+      "major_code": "130208",
+      "major_name": "航空服务艺术与管理",
+      "degree_level": "本科（普通教育）",
+      "discipline": "艺术学",
+      "major_category": "戏剧与影视学类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "370301",
+      "major_name": "社会体育指导与管理",
+      "degree_level": "本科（职业教育）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "370304",
+      "major_name": "电子竞技技术与管理",
+      "degree_level": "本科（职业教育）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "390103",
+      "major_name": "智慧社区管理",
+      "degree_level": "本科（职业教育）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共事业类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "390301",
+      "major_name": "现代家政管理",
+      "degree_level": "本科（职业教育）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "390302",
+      "major_name": "智慧健康养老管理",
+      "degree_level": "本科（职业教育）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "520701",
+      "major_name": "公共卫生管理",
+      "degree_level": "高职（专科）",
+      "discipline": "医药卫生",
+      "major_category": "公共卫生与卫生管理类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "520702",
+      "major_name": "卫生信息管理",
+      "degree_level": "高职（专科）",
+      "discipline": "医药卫生",
+      "major_category": "公共卫生与卫生管理类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570307",
+      "major_name": "健身指导与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570311",
+      "major_name": "体育运营与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570312",
+      "major_name": "电子竞技运动与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570313",
+      "major_name": "高尔夫球运动与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570315",
+      "major_name": "冰雪设施运维与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "570317",
+      "major_name": "足球运动与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "教育与体育",
+      "major_category": "体育类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590103",
+      "major_name": "青少年工作与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共事业类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590104",
+      "major_name": "社区管理与服务",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共事业类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590106",
+      "major_name": "公益慈善事业管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共事业类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590301",
+      "major_name": "现代家政服务与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590302",
+      "major_name": "智慧健康养老服务与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590304",
+      "major_name": "婚庆服务与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590305",
+      "major_name": "现代殡葬技术与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "590307",
+      "major_name": "陵园服务与管理",
+      "degree_level": "高职（专科）",
+      "discipline": "公共管理与服务",
+      "major_category": "公共服务类",
+      "replace_rate": 0.74,
+      "job_count": 1,
+      "matched_job_titles_sample": [
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.74,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限"
+      ]
+    },
+    {
+      "major_code": "010104",
+      "major_name": "伦理学",
+      "degree_level": "本科（普通教育）",
+      "discipline": "哲学",
+      "major_category": "哲学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.3,
+      "baseline_rules_hit": [
+        "哲学类下限"
+      ]
+    },
+    {
+      "major_code": "030104",
+      "major_name": "信用风险管理与法律防控",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "法学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.42,
+      "baseline_rules_hit": [
+        "专业名含管理下限",
+        "法学类下限"
+      ]
+    },
+    {
+      "major_code": "030106",
+      "major_name": "司法警察学",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "法学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.32,
+      "baseline_rules_hit": [
+        "法学类下限"
+      ]
+    },
+    {
+      "major_code": "030108",
+      "major_name": "纪检监察",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "法学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.32,
+      "baseline_rules_hit": [
+        "法学类下限"
+      ]
+    },
+    {
+      "major_code": "030110",
+      "major_name": "司法鉴定学",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "法学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.32,
+      "baseline_rules_hit": [
+        "法学类下限"
+      ]
+    },
+    {
+      "major_code": "030111",
+      "major_name": "国家安全学",
+      "degree_level": "本科（普通教育）",
+      "discipline": "法学",
+      "major_category": "法学类",
+      "replace_rate": 0.65,
+      "job_count": 2,
+      "matched_job_titles_sample": [
+        "产品经理",
+        "内容创作者/编辑"
+      ],
+      "confidence": "low",
+      "raw_replace_rate": 0.65,
+      "baseline_replace_rate": 0.32,
+      "baseline_rules_hit": [
+        "法学类下限"
+      ]
+    }
+  ]
+}

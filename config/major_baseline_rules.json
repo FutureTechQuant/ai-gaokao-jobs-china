@@ -1,0 +1,95 @@
+{
+  "baseline_rules": [
+    {
+      "name": "外国语言文学类下限",
+      "when": {
+        "major_category_in": ["外国语言文学类"]
+      },
+      "min_replace_rate": 0.52
+    },
+    {
+      "name": "专业名含管理下限",
+      "when": {
+        "major_name_contains": ["管理"]
+      },
+      "min_replace_rate": 0.42
+    },
+    {
+      "name": "工商管理类下限",
+      "when": {
+        "major_category_in": ["工商管理类"]
+      },
+      "min_replace_rate": 0.42
+    },
+    {
+      "name": "公共管理类下限",
+      "when": {
+        "major_category_in": ["公共管理类"]
+      },
+      "min_replace_rate": 0.40
+    },
+    {
+      "name": "物流管理与工程类下限",
+      "when": {
+        "major_category_in": ["物流管理与工程类"]
+      },
+      "min_replace_rate": 0.40
+    },
+    {
+      "name": "电子商务类下限",
+      "when": {
+        "major_category_in": ["电子商务类"]
+      },
+      "min_replace_rate": 0.45
+    },
+    {
+      "name": "旅游管理类下限",
+      "when": {
+        "major_category_in": ["旅游管理类"]
+      },
+      "min_replace_rate": 0.38
+    },
+    {
+      "name": "经济与贸易类下限",
+      "when": {
+        "major_category_in": ["经济与贸易类"]
+      },
+      "min_replace_rate": 0.40
+    },
+    {
+      "name": "金融学类下限",
+      "when": {
+        "major_category_in": ["金融学类"]
+      },
+      "min_replace_rate": 0.40
+    },
+    {
+      "name": "法学类下限",
+      "when": {
+        "major_category_in": ["法学类"]
+      },
+      "min_replace_rate": 0.32
+    },
+    {
+      "name": "政治学类下限",
+      "when": {
+        "major_category_in": ["政治学类"]
+      },
+      "min_replace_rate": 0.35
+    },
+    {
+      "name": "社会学类下限",
+      "when": {
+        "major_category_in": ["社会学类"]
+      },
+      "min_replace_rate": 0.36
+    },
+    {
+      "name": "哲学类下限",
+      "when": {
+        "major_category_in": ["哲学类"]
+      },
+      "min_replace_rate": 0.30
+    }
+  ]
+}
