@@ -1,0 +1,22 @@
+{
+  "010101": [
+    {"job_keyword": "算法", "weight": 0.35},
+    {"job_keyword": "机器学习", "weight": 0.25},
+    {"job_keyword": "数据分析", "weight": 0.20},
+    {"job_keyword": "后端", "weight": 0.20}
+  ],
+  "010102": [
+    {"job_keyword": "产品经理", "weight": 0.20},
+    {"job_keyword": "运营", "weight": 0.25},
+    {"job_keyword": "数据分析", "weight": 0.20},
+    {"job_keyword": "测试", "weight": 0.15},
+    {"job_keyword": "项目管理", "weight": 0.20}
+  ],
+  "130502": [
+    {"job_keyword": "ui", "weight": 0.20},
+    {"job_keyword": "视觉设计", "weight": 0.25},
+    {"job_keyword": "平面设计", "weight": 0.20},
+    {"job_keyword": "视频剪辑", "weight": 0.20},
+    {"job_keyword": "aigc", "weight": 0.15}
+  ]
+}
