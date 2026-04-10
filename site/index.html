@@ -17,73 +17,61 @@
         基于阳光高考专业数据与 AI Jobs China 岗位数据生成的专业替代风险看板。
       </p>
     </div>
-
-    <div class="hero-side">
-      <div class="risk-card">
-        <div class="risk-title">颜色 = 替代风险</div>
-        <div class="risk-scale">
-          <span style="background:#22c55e">低</span>
-          <span style="background:#84cc16">中低</span>
-          <span style="background:#facc15">中</span>
-          <span style="background:#fb923c">中高</span>
-          <span style="background:#f43f5e">高</span>
-        </div>
-      </div>
-    </div>
   </header>
 
-  <main class="wrap">
-    <section class="kpis">
-      <article class="kpi">
-        <div class="kpi-label">专业总数</div>
-        <div class="kpi-value" id="kpi-total">-</div>
-      </article>
-      <article class="kpi">
-        <div class="kpi-label">平均替代率</div>
-        <div class="kpi-value" id="kpi-avg">-</div>
-      </article>
-      <article class="kpi">
-        <div class="kpi-label">高风险专业数</div>
-        <div class="kpi-value" id="kpi-high">-</div>
-      </article>
-      <article class="kpi">
-        <div class="kpi-label">高置信度专业数</div>
-        <div class="kpi-value" id="kpi-confidence">-</div>
-      </article>
-    </section>
-
-    <section class="toolbar">
-      <input id="searchInput" type="search" placeholder="搜索专业名称 / 专业代码 / 门类 / 专业类" />
-      <select id="disciplineFilter">
-        <option value="">全部学科门类</option>
-      </select>
-      <select id="modeSelect">
-        <option value="discipline">按学科门类</option>
-        <option value="category">按专业类</option>
-      </select>
-      <select id="sizeSelect">
-        <option value="job_count">面积按岗位数</option>
-        <option value="equal">面积等权</option>
-      </select>
-    </section>
-
-    <section class="layout">
-      <section class="panel treemap-panel">
+  <main class="wrap main-grid">
+    <aside class="sidebar">
+      <section class="panel intro-panel">
         <div class="panel-head">
-          <h2>专业风险树图</h2>
-          <div class="meta" id="resultMeta">-</div>
+          <h2>基本信息</h2>
+          <div class="meta" id="rangeMeta">-</div>
         </div>
-        <div id="treemap"></div>
+
+        <div class="kpis">
+          <article class="kpi">
+            <div class="kpi-label">专业总数</div>
+            <div class="kpi-value" id="kpi-total">-</div>
+          </article>
+          <article class="kpi">
+            <div class="kpi-label">平均替代率</div>
+            <div class="kpi-value" id="kpi-avg">-</div>
+          </article>
+          <article class="kpi">
+            <div class="kpi-label">高风险专业数</div>
+            <div class="kpi-value" id="kpi-high">-</div>
+          </article>
+          <article class="kpi">
+            <div class="kpi-label">高置信度专业数</div>
+            <div class="kpi-value" id="kpi-confidence">-</div>
+          </article>
+        </div>
+
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="搜索专业名称 / 专业代码 / 门类 / 专业类" />
+          <select id="disciplineFilter">
+            <option value="">全部学科门类</option>
+          </select>
+          <select id="modeSelect">
+            <option value="discipline">按学科门类</option>
+            <option value="category">按专业类</option>
+          </select>
+        </div>
+
+        <div class="legend-block">
+          <div class="legend-title">当前色阶</div>
+          <div class="legend-scale" id="legendScale"></div>
+          <div class="legend-note" id="legendNote">0% – 0%</div>
+        </div>
       </section>
 
-      <aside class="panel detail-panel">
+      <section class="panel detail-panel">
         <div class="panel-head">
-          <h2>详情</h2>
-          <div class="meta">点击树图区块查看</div>
+          <h2>专业详情</h2>
+          <div class="meta">点击右侧区块查看</div>
         </div>
 
         <div id="detailEmpty" class="detail-empty">
-          先点击一个专业区块，右侧会显示替代率、岗位数、置信度与匹配岗位样例。
+          点击右侧风险树图中的专业区块，这里会显示专业代码、替代率、岗位数、专业类和匹配岗位样例。
         </div>
 
         <div id="detailBox" class="detail-box hidden">
@@ -118,33 +106,46 @@
             <div class="detail-label">匹配岗位样例</div>
             <div id="detailJobs" class="tag-list"></div>
           </div>
-
-          <div class="detail-section">
-            <div class="detail-label">置信度说明</div>
-            <p class="detail-text">
-              high：匹配岗位数较多，结果更稳定；medium：有一定样本，但波动更大；low：匹配岗位较少，更适合当作线索而不是定论。
-            </p>
-          </div>
         </div>
-      </aside>
-    </section>
 
-    <section class="bottom-grid">
-      <section class="panel">
-        <div class="panel-head">
-          <h2>高风险 Top 20</h2>
+        <div class="detail-section confidence-note">
+          <div class="detail-label">置信度解释</div>
+          <p class="detail-text">
+            这里的置信度不是“预测正确率”，而是“样本稳定性”。匹配岗位越多，平均替代率越稳；岗位太少时，结果更适合看趋势，不适合下结论。
+          </p>
+          <ul class="confidence-list">
+            <li><strong>high</strong>：匹配岗位较多，结果相对稳定。</li>
+            <li><strong>medium</strong>：样本中等，可作参考。</li>
+            <li><strong>low</strong>：样本偏少，波动更大。</li>
+          </ul>
         </div>
-        <div id="topRiskList" class="rank-list"></div>
       </section>
+    </aside>
 
-      <section class="panel">
-        <div class="panel-head">
-          <h2>学科平均替代率</h2>
-        </div>
-        <div id="disciplineList" class="rank-list"></div>
-      </section>
+    <section class="panel treemap-panel">
+      <div class="panel-head">
+        <h2>风险树图</h2>
+        <div class="meta" id="resultMeta">-</div>
+      </div>
+      <div id="treemap"></div>
     </section>
   </main>
+
+  <section class="wrap bottom-grid">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>高风险 Top 20</h2>
+      </div>
+      <div id="topRiskList" class="rank-list"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>学科平均替代率</h2>
+      </div>
+      <div id="disciplineList" class="rank-list"></div>
+    </section>
+  </section>
 
   <footer class="wrap footer">
     <span>FutureTechQuant · GitHub Pages</span>
