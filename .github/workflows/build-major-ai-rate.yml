@@ -97,6 +97,7 @@ jobs:
           python scripts/normalize_jobs.py
           python scripts/generate_rules_from_employment.py
           python scripts/build_major_ai_rate.py
+          python scripts/find_zero_replace_rate.py
 
       - name: Prepare Pages site data
         if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
