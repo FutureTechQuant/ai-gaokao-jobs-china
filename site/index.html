@@ -1,364 +1,156 @@
-:root {
-  --bg: #07111f;
-  --bg-2: #0e1a2d;
-  --panel: rgba(255, 255, 255, 0.05);
-  --panel-2: rgba(255, 255, 255, 0.07);
-  --line: rgba(255, 255, 255, 0.08);
-  --text: #eef4ff;
-  --muted: #9db0cf;
-  --accent: #6ea8ff;
-  --shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-  --radius: 18px;
-}
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>中国专业 AI 替代率</title>
+  <meta name="description" content="中国高校专业 AI 替代率可视化看板" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+  <header class="wrap hero">
+    <div class="hero-copy">
+      <p class="eyebrow">FutureTechQuant</p>
+      <h1>中国专业 AI 替代率</h1>
+      <p class="sub">
+        基于阳光高考专业数据与 AI Jobs China 岗位数据生成的专业替代风险看板。
+      </p>
+    </div>
 
-* { box-sizing: border-box; }
+    <div class="hero-side">
+      <div class="risk-card">
+        <div class="risk-title">颜色 = 替代风险</div>
+        <div class="risk-scale">
+          <span style="background:#22c55e">低</span>
+          <span style="background:#84cc16">中低</span>
+          <span style="background:#facc15">中</span>
+          <span style="background:#fb923c">中高</span>
+          <span style="background:#f43f5e">高</span>
+        </div>
+      </div>
+    </div>
+  </header>
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background:
-    radial-gradient(circle at top left, rgba(74, 144, 226, 0.18), transparent 32%),
-    radial-gradient(circle at top right, rgba(0, 200, 180, 0.12), transparent 28%),
-    linear-gradient(180deg, #081221 0%, #07111f 100%);
-  color: var(--text);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
+  <main class="wrap">
+    <section class="kpis">
+      <article class="kpi">
+        <div class="kpi-label">专业总数</div>
+        <div class="kpi-value" id="kpi-total">-</div>
+      </article>
+      <article class="kpi">
+        <div class="kpi-label">平均替代率</div>
+        <div class="kpi-value" id="kpi-avg">-</div>
+      </article>
+      <article class="kpi">
+        <div class="kpi-label">高风险专业数</div>
+        <div class="kpi-value" id="kpi-high">-</div>
+      </article>
+      <article class="kpi">
+        <div class="kpi-label">高置信度专业数</div>
+        <div class="kpi-value" id="kpi-confidence">-</div>
+      </article>
+    </section>
 
-body {
-  min-height: 100vh;
-}
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="搜索专业名称 / 专业代码 / 门类 / 专业类" />
+      <select id="disciplineFilter">
+        <option value="">全部学科门类</option>
+      </select>
+      <select id="modeSelect">
+        <option value="discipline">按学科门类</option>
+        <option value="category">按专业类</option>
+      </select>
+      <select id="sizeSelect">
+        <option value="job_count">面积按岗位数</option>
+        <option value="equal">面积等权</option>
+      </select>
+    </section>
 
-.wrap {
-  width: min(1360px, calc(100% - 32px));
-  margin: 0 auto;
-}
+    <section class="layout">
+      <section class="panel treemap-panel">
+        <div class="panel-head">
+          <h2>专业风险树图</h2>
+          <div class="meta" id="resultMeta">-</div>
+        </div>
+        <div id="treemap"></div>
+      </section>
 
-.hero {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 44px 0 24px;
-}
+      <aside class="panel detail-panel">
+        <div class="panel-head">
+          <h2>详情</h2>
+          <div class="meta">点击树图区块查看</div>
+        </div>
 
-.eyebrow {
-  margin: 0 0 10px;
-  color: var(--accent);
-  font-size: 12px;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-}
+        <div id="detailEmpty" class="detail-empty">
+          先点击一个专业区块，右侧会显示替代率、岗位数、置信度与匹配岗位样例。
+        </div>
 
-h1 {
-  margin: 0;
-  font-size: clamp(34px, 5vw, 58px);
-  line-height: 1.02;
-}
+        <div id="detailBox" class="detail-box hidden">
+          <div class="detail-top">
+            <div>
+              <div class="detail-code" id="detailCode">-</div>
+              <div class="detail-name" id="detailName">-</div>
+            </div>
+            <span id="detailConfidence" class="badge">-</span>
+          </div>
 
-.sub {
-  margin: 14px 0 0;
-  max-width: 760px;
-  color: var(--muted);
-  line-height: 1.7;
-  font-size: 15px;
-}
+          <div class="detail-grid">
+            <div class="detail-stat">
+              <div class="detail-label">替代率</div>
+              <div class="detail-value" id="detailRate">-</div>
+            </div>
+            <div class="detail-stat">
+              <div class="detail-label">岗位数</div>
+              <div class="detail-value" id="detailJobCount">-</div>
+            </div>
+            <div class="detail-stat">
+              <div class="detail-label">学科门类</div>
+              <div class="detail-value small" id="detailDiscipline">-</div>
+            </div>
+            <div class="detail-stat">
+              <div class="detail-label">专业类</div>
+              <div class="detail-value small" id="detailCategory">-</div>
+            </div>
+          </div>
 
-.hero-side {
-  min-width: 320px;
-}
+          <div class="detail-section">
+            <div class="detail-label">匹配岗位样例</div>
+            <div id="detailJobs" class="tag-list"></div>
+          </div>
 
-.risk-card,
-.kpi,
-.panel,
-.toolbar {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(14px);
-}
+          <div class="detail-section">
+            <div class="detail-label">置信度说明</div>
+            <p class="detail-text">
+              high：匹配岗位数较多，结果更稳定；medium：有一定样本，但波动更大；low：匹配岗位较少，更适合当作线索而不是定论。
+            </p>
+          </div>
+        </div>
+      </aside>
+    </section>
 
-.risk-card {
-  padding: 16px;
-}
+    <section class="bottom-grid">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>高风险 Top 20</h2>
+        </div>
+        <div id="topRiskList" class="rank-list"></div>
+      </section>
 
-.risk-title {
-  color: var(--muted);
-  font-size: 13px;
-  margin-bottom: 12px;
-}
+      <section class="panel">
+        <div class="panel-head">
+          <h2>学科平均替代率</h2>
+        </div>
+        <div id="disciplineList" class="rank-list"></div>
+      </section>
+    </section>
+  </main>
 
-.risk-scale {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 8px;
-}
+  <footer class="wrap footer">
+    <span>FutureTechQuant · GitHub Pages</span>
+    <span id="updatedAt">Updated: -</span>
+  </footer>
 
-.risk-scale span {
-  display: block;
-  text-align: center;
-  padding: 8px 0;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #08111d;
-}
-
-.kpis {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin: 12px 0 18px;
-}
-
-.kpi {
-  padding: 18px 18px 16px;
-}
-
-.kpi-label {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.kpi-value {
-  margin-top: 8px;
-  font-size: clamp(28px, 3vw, 38px);
-  font-weight: 800;
-}
-
-.toolbar {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 12px;
-  padding: 14px;
-  margin-bottom: 18px;
-}
-
-input, select {
-  width: 100%;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: var(--bg-2);
-  color: var(--text);
-  padding: 12px 14px;
-  font-size: 14px;
-  outline: none;
-}
-
-input::placeholder {
-  color: #8095b6;
-}
-
-.layout {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) 380px;
-  gap: 18px;
-  align-items: start;
-}
-
-.panel {
-  padding: 16px;
-}
-
-.panel-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 12px;
-}
-
-.panel-head h2 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.meta {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-#treemap {
-  width: 100%;
-  height: 720px;
-}
-
-.detail-empty {
-  color: var(--muted);
-  line-height: 1.7;
-  font-size: 14px;
-  padding: 10px 2px 4px;
-}
-
-.hidden {
-  display: none;
-}
-
-.detail-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.detail-code {
-  font-size: 13px;
-  color: var(--accent);
-  letter-spacing: .08em;
-  margin-bottom: 6px;
-}
-
-.detail-name {
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.badge {
-  display: inline-block;
-  border-radius: 999px;
-  padding: 7px 10px;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.badge.high {
-  background: rgba(34,197,94,.18);
-  color: #7df0ad;
-}
-
-.badge.medium {
-  background: rgba(250,204,21,.16);
-  color: #ffe37c;
-}
-
-.badge.low {
-  background: rgba(244,63,94,.18);
-  color: #ff97ab;
-}
-
-.detail-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin: 16px 0 8px;
-}
-
-.detail-stat {
-  background: var(--panel-2);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 12px;
-}
-
-.detail-label {
-  font-size: 12px;
-  color: var(--muted);
-  margin-bottom: 8px;
-}
-
-.detail-value {
-  font-size: 24px;
-  font-weight: 800;
-}
-
-.detail-value.small {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.detail-section {
-  margin-top: 16px;
-}
-
-.detail-text {
-  margin: 8px 0 0;
-  color: var(--muted);
-  line-height: 1.7;
-  font-size: 14px;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tag {
-  padding: 7px 10px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid var(--line);
-  font-size: 12px;
-  color: var(--text);
-}
-
-.bottom-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-  margin-top: 18px;
-}
-
-.rank-list {
-  display: grid;
-  gap: 10px;
-}
-
-.rank-item {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 12px;
-  padding: 12px 14px;
-  border-radius: 14px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--line);
-}
-
-.rank-name {
-  font-weight: 700;
-}
-
-.rank-meta {
-  color: var(--muted);
-  font-size: 13px;
-  margin-top: 4px;
-}
-
-.rank-score {
-  font-weight: 800;
-  align-self: center;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 16px 0 34px;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-@media (max-width: 1100px) {
-  .layout,
-  .bottom-grid,
-  .toolbar,
-  .kpis {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero-side {
-    width: 100%;
-    min-width: 0;
-  }
-
-  #treemap {
-    height: 580px;
-  }
-}
+  <script src="./app.js"></script>
+</body>
+</html>
