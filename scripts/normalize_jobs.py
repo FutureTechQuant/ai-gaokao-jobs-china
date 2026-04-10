@@ -1,40 +1,41 @@
 import json
 import os
 import re
+from typing import Any, Dict, List
 
 
 INPUT_FILE = "data/data.json"
 OUTPUT_FILE = "output/jobs.normalized.json"
 
 
-def ensure_output():
+def ensure_output() -> None:
     os.makedirs("output", exist_ok=True)
 
 
-def load_json(path):
+def load_json(path: str) -> Any:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def extract_job_list(data):
+def extract_job_list(data: Any) -> List[Dict[str, Any]]:
     if isinstance(data, list):
-        return data
+        return [x for x in data if isinstance(x, dict)]
 
     if isinstance(data, dict):
-        for key in ["data", "jobs", "list", "rows", "items", "result"]:
+        for key in ["occupations", "data", "jobs", "list", "rows", "items", "result"]:
             value = data.get(key)
             if isinstance(value, list):
-                return value
+                return [x for x in value if isinstance(x, dict)]
 
-        if all(k in data for k in ["title", "category"]):
+        if "title" in data and "category" in data:
             return [data]
 
     raise ValueError(
-        "data.json 无法识别岗位列表结构；支持 list 或包含 data/jobs/list/rows/items/result 的 dict"
+        "data.json 无法识别岗位列表结构；支持 list，或 dict 中包含 occupations/data/jobs/list/rows/items/result"
     )
 
 
-def parse_int(v, default=0):
+def parse_int(v: Any, default: int = 0) -> int:
     if v is None or v == "":
         return default
     if isinstance(v, bool):
@@ -46,7 +47,7 @@ def parse_int(v, default=0):
     return int(m.group()) if m else default
 
 
-def parse_bool(v):
+def parse_bool(v: Any) -> bool:
     if isinstance(v, bool):
         return v
     if isinstance(v, (int, float)):
@@ -55,25 +56,25 @@ def parse_bool(v):
     return s in {"true", "1", "yes", "y", "是"}
 
 
-def parse_salary_mid(s):
+def parse_salary_mid(s: Any):
     if not s:
         return None
 
-    text = str(s).strip().replace("＋", "+").replace("—", "-").replace("–", "-")
+    text = str(s).strip()
+    text = text.replace("＋", "+").replace("—", "-").replace("–", "-")
     text = text.replace("万+", "万")
-    nums = re.findall(r"(\d+(?:\.\d+)?)", text)
 
+    nums = re.findall(r"(\d+(?:\.\d+)?)", text)
     if not nums:
         return None
 
     vals = [float(x) for x in nums]
     if len(vals) == 1:
         return vals[0]
-
     return round((vals[0] + vals[1]) / 2, 2)
 
 
-def normalize_one(item, idx):
+def normalize_one(item: Dict[str, Any], idx: int) -> Dict[str, Any]:
     title = str(item.get("title", "")).strip()
     category = str(item.get("category", "")).strip()
     employment_workers = parse_int(item.get("employment_workers", 0), 0)
@@ -107,15 +108,13 @@ def normalize_one(item, idx):
     }
 
 
-def main():
+def main() -> None:
     ensure_output()
     data = load_json(INPUT_FILE)
     raw_jobs = extract_job_list(data)
 
     rows = []
     for idx, item in enumerate(raw_jobs, start=1):
-        if not isinstance(item, dict):
-            continue
         row = normalize_one(item, idx)
         if not row["job_title"]:
             continue
