@@ -14,28 +14,35 @@
         <div class="brand-title">中国专业 AI 替代率</div>
         <div class="brand-sub">默认展示调整后替代率，原始替代率和收缩权重放在悬停说明里。</div>
       </div>
+
       <section class="stats-block">
         <div class="stat-label">专业总数</div>
         <div class="stat-value" id="totalMajors">—</div>
+
         <div class="stat-label">平均替代率</div>
         <div class="stat-value" id="avgRate">—</div>
         <div class="stat-note">默认显示 adjusted_replace_rate。</div>
+
         <div class="stat-label">零值专业</div>
         <div class="stat-value" id="zeroCount">—</div>
       </section>
+
       <section class="dist-block">
         <div class="stat-label">风险分布</div>
         <div class="hist" id="histogram"></div>
         <div class="tier-list" id="tierList"></div>
       </section>
+
       <div class="divider"></div>
+
       <section class="detail-block">
         <div class="panel-title">说明</div>
         <div class="hint-text">
-          顶部下拉框保留，页面按 adjusted_replace_rate 着色和排序。<br />
-          悬停树图可同时查看调整后替代率、原始替代率、岗位数、置信度和收缩权重。
+          顶部保留学科门类、专业类两个筛选框。<br />
+          页面按 adjusted_replace_rate 着色和排序，悬停树图可查看调整后替代率、原始替代率、岗位数、置信度和收缩权重。
         </div>
       </section>
+
       <section class="legend-block">
         <span class="legend-chip"><i class="legend-dot" style="background:#1e7a40"></i>极安全</span>
         <span class="legend-chip"><i class="legend-dot" style="background:#5aad3e"></i>低风险</span>
@@ -45,26 +52,22 @@
         <span class="legend-chip"><i class="legend-dot" style="background:#d7263d"></i>极高</span>
       </section>
     </aside>
+
     <main class="main-area">
       <section class="toolbar-card">
         <div class="toolbar-group">
           <label for="disciplineSelect">学科门类</label>
           <select id="disciplineSelect"></select>
         </div>
+
         <div class="toolbar-group">
           <label for="categorySelect">专业类</label>
           <select id="categorySelect"></select>
         </div>
-        <div class="toolbar-group">
-          <label for="zeroSelect">零值显示</label>
-          <select id="zeroSelect">
-            <option value="all">全部专业</option>
-            <option value="nonzero">仅非零专业</option>
-            <option value="zero">仅零值专业</option>
-          </select>
-        </div>
+
         <div class="toolbar-meta" id="updatedAt">加载中…</div>
       </section>
+
       <section class="treemap-card">
         <div class="card-head">
           <div>
@@ -76,6 +79,7 @@
           <div id="treemap" class="treemap"></div>
         </div>
       </section>
+
       <section class="link-grid">
         <a class="link-card" href="./top20.html" target="_blank" rel="noopener noreferrer">
           <div class="link-title">Top 20 专业</div>
@@ -88,74 +92,143 @@
       </section>
     </main>
   </div>
+
   <script>
-    
-const RISK_COLORS = ['#1e7a40', '#5aad3e', '#a8c020', '#f0b323', '#f97316', '#d7263d'];
-const RISK_LABELS = ['极安全', '低风险', '中低', '中高', '高风险', '极高'];
-function pct(v){ return `${Math.round(Number(v || 0) * 100)}%`; }
-function levelIndex(rate){ const v = Number(rate || 0); if (v < 0.20) return 0; if (v < 0.35) return 1; if (v < 0.50) return 2; if (v < 0.65) return 3; if (v < 0.80) return 4; return 5; }
-function safeText(v, fallback='未分类'){ return (v ?? '').toString().trim() || fallback; }
-function metricOf(row){ if (row && row.adjusted_replace_rate != null) return Number(row.adjusted_replace_rate || 0); return Number(row?.replace_rate || 0); }
-function rawMetricOf(row){ if (row && row.raw_replace_rate != null) return Number(row.raw_replace_rate || 0); return Number(row?.replace_rate || 0); }
+    const RISK_COLORS = ['#1e7a40', '#5aad3e', '#a8c020', '#f0b323', '#f97316', '#d7263d'];
+    const RISK_LABELS = ['极安全', '低风险', '中低', '中高', '高风险', '极高'];
+
+    function pct(v) {
+      return `${Math.round(Number(v || 0) * 100)}%`;
+    }
+
+    function levelIndex(rate) {
+      const v = Number(rate || 0);
+      if (v < 0.20) return 0;
+      if (v < 0.35) return 1;
+      if (v < 0.50) return 2;
+      if (v < 0.65) return 3;
+      if (v < 0.80) return 4;
+      return 5;
+    }
+
+    function safeText(v, fallback = '未分类') {
+      return (v ?? '').toString().trim() || fallback;
+    }
+
+    function metricOf(row) {
+      if (row && row.adjusted_replace_rate != null) return Number(row.adjusted_replace_rate || 0);
+      return Number(row?.replace_rate || 0);
+    }
+
+    function rawMetricOf(row) {
+      if (row && row.raw_replace_rate != null) return Number(row.raw_replace_rate || 0);
+      return Number(row?.replace_rate || 0);
+    }
 
     let RAW_ROWS = [];
+
     function setOptions(select, values, firstLabel) {
-      select.innerHTML = [`<option value="all">${firstLabel}</option>`].concat(
-        values.map(v => `<option value="${String(v).replace(/"/g, '&quot;')}">${v}</option>`)
-      ).join('');
+      select.innerHTML = [`<option value="all">${firstLabel}</option>`]
+        .concat(values.map(v => `<option value="${String(v).replace(/"/g, '&quot;')}">${v}</option>`))
+        .join('');
     }
+
     function buildFilters(rows) {
-      const disciplineSet = [...new Set(rows.map(r => safeText(r.discipline, '其他')))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+      const disciplineSet = [...new Set(rows.map(r => safeText(r.discipline, '其他')))]
+        .sort((a, b) => a.localeCompare(b, 'zh-CN'));
       setOptions(document.getElementById('disciplineSelect'), disciplineSet, '全部学科门类');
       refreshCategoryOptions(rows);
     }
+
     function refreshCategoryOptions(rows) {
       const discipline = document.getElementById('disciplineSelect').value;
       let list = rows;
-      if (discipline !== 'all') list = list.filter(r => safeText(r.discipline, '其他') === discipline);
-      const categorySet = [...new Set(list.map(r => safeText(r.major_category, '未分类')))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+      if (discipline !== 'all') {
+        list = list.filter(r => safeText(r.discipline, '其他') === discipline);
+      }
+      const categorySet = [...new Set(list.map(r => safeText(r.major_category, '未分类')))]
+        .sort((a, b) => a.localeCompare(b, 'zh-CN'));
       const categorySelect = document.getElementById('categorySelect');
       const prev = categorySelect.value;
       setOptions(categorySelect, categorySet, '全部专业类');
       if (categorySet.includes(prev)) categorySelect.value = prev;
     }
+
     function getFilteredRows() {
       const discipline = document.getElementById('disciplineSelect').value;
       const category = document.getElementById('categorySelect').value;
-      const zeroMode = document.getElementById('zeroSelect').value;
+
       return RAW_ROWS.filter(row => {
         if (discipline !== 'all' && safeText(row.discipline, '其他') !== discipline) return false;
         if (category !== 'all' && safeText(row.major_category, '未分类') !== category) return false;
-        const v = metricOf(row);
-        if (zeroMode === 'nonzero' && v === 0) return false;
-        if (zeroMode === 'zero' && v !== 0) return false;
         return true;
       });
     }
+
     function renderHistogram(rows) {
       const histogram = document.getElementById('histogram');
       const tierList = document.getElementById('tierList');
-      const counts = [0,0,0,0,0,0];
+      const counts = [0, 0, 0, 0, 0, 0];
+
       rows.forEach(row => counts[levelIndex(metricOf(row))] += 1);
+
       const max = Math.max(...counts, 1);
-      histogram.innerHTML = counts.map((count, i) => `<div class="hbar" style="height:${Math.max(4, Math.round((count / max) * 48))}px;background:${RISK_COLORS[i]}"></div>`).join('');
-      tierList.innerHTML = counts.map((count, i) => `<div class="tier-row"><i class="tier-dot" style="background:${RISK_COLORS[i]}"></i><span class="tier-label">${RISK_LABELS[i]}</span><span class="tier-value">${count}</span><span class="tier-pct">${rows.length ? ((count / rows.length) * 100).toFixed(1) : '0.0'}%</span></div>`).join('');
+
+      histogram.innerHTML = counts.map((count, i) => {
+        const h = Math.max(4, Math.round((count / max) * 48));
+        return `<div class="hbar" style="height:${h}px;background:${RISK_COLORS[i]}"></div>`;
+      }).join('');
+
+      tierList.innerHTML = counts.map((count, i) => {
+        const p = rows.length ? ((count / rows.length) * 100).toFixed(1) : '0.0';
+        return `<div class="tier-row">
+          <i class="tier-dot" style="background:${RISK_COLORS[i]}"></i>
+          <span class="tier-label">${RISK_LABELS[i]}</span>
+          <span class="tier-value">${count}</span>
+          <span class="tier-pct">${p}%</span>
+        </div>`;
+      }).join('');
     }
+
     function buildTreemap(rows) {
       const container = document.getElementById('treemap');
+
       if (!rows.length) {
         container.innerHTML = '<div class="empty-state">当前筛选条件下没有数据。</div>';
         return;
       }
-      const labels = [], parents = [], values = [], ids = [], colors = [], custom = [];
+
+      const labels = [];
+      const parents = [];
+      const values = [];
+      const ids = [];
+      const colors = [];
+      const custom = [];
       const seen = new Set();
-      const addNode = (id, label, parent, value, color, extra={}) => {
+
+      const addNode = (id, label, parent, value, color, extra = {}) => {
         if (seen.has(id)) return;
-        seen.add(id); ids.push(id); labels.push(label); parents.push(parent); values.push(value); colors.push(color); custom.push(extra);
+        seen.add(id);
+        ids.push(id);
+        labels.push(label);
+        parents.push(parent);
+        values.push(value);
+        colors.push(color);
+        custom.push(extra);
       };
-      addNode('root', '全部专业', '', rows.length, '#1b2430', {type:'root', adjusted_rate:'-', raw_rate:'-', count:rows.length, confidence:'-', weight:'-'});
+
+      addNode('root', '全部专业', '', rows.length, '#1b2430', {
+        type: 'root',
+        adjusted_rate: '-',
+        raw_rate: '-',
+        count: rows.length,
+        confidence: '-',
+        weight: '-'
+      });
+
       const disciplineMap = new Map();
       const categoryMap = new Map();
+
       rows.forEach(row => {
         const discipline = safeText(row.discipline, '其他');
         const category = safeText(row.major_category, '未分类');
@@ -163,56 +236,138 @@ function rawMetricOf(row){ if (row && row.raw_replace_rate != null) return Numbe
         const dId = `d:${discipline}`;
         const cId = `c:${discipline}:${category}`;
         const mId = `m:${row.major_code || major}:${major}`;
-        if (!disciplineMap.has(dId)) disciplineMap.set(dId, { label: discipline, count: 0, totalAdj: 0, totalRaw: 0 });
-        const d = disciplineMap.get(dId); d.count += 1; d.totalAdj += metricOf(row); d.totalRaw += rawMetricOf(row);
-        if (!categoryMap.has(cId)) categoryMap.set(cId, { label: category, parent: dId, count: 0, totalAdj: 0, totalRaw: 0 });
-        const c = categoryMap.get(cId); c.count += 1; c.totalAdj += metricOf(row); c.totalRaw += rawMetricOf(row);
+
+        if (!disciplineMap.has(dId)) {
+          disciplineMap.set(dId, { label: discipline, count: 0, totalAdj: 0, totalRaw: 0 });
+        }
+        const d = disciplineMap.get(dId);
+        d.count += 1;
+        d.totalAdj += metricOf(row);
+        d.totalRaw += rawMetricOf(row);
+
+        if (!categoryMap.has(cId)) {
+          categoryMap.set(cId, { label: category, parent: dId, count: 0, totalAdj: 0, totalRaw: 0 });
+        }
+        const c = categoryMap.get(cId);
+        c.count += 1;
+        c.totalAdj += metricOf(row);
+        c.totalRaw += rawMetricOf(row);
+
         addNode(mId, major, cId, 1, RISK_COLORS[levelIndex(metricOf(row))], {
-          type:'专业', adjusted_rate:pct(metricOf(row)), raw_rate:pct(rawMetricOf(row)), count: row.job_count ?? 0,
-          confidence: safeText(row.confidence, 'low'), weight: row.confidence_weight != null ? row.confidence_weight : '-'
+          type: '专业',
+          adjusted_rate: pct(metricOf(row)),
+          raw_rate: pct(rawMetricOf(row)),
+          count: row.job_count ?? 0,
+          confidence: safeText(row.confidence, 'low'),
+          weight: row.confidence_weight != null ? row.confidence_weight : '-',
+          adjust_mode: safeText(row.adjust_mode, '-')
         });
       });
+
       for (const [id, item] of disciplineMap.entries()) {
         const avgAdj = item.count ? item.totalAdj / item.count : 0;
         const avgRaw = item.count ? item.totalRaw / item.count : 0;
-        addNode(id, item.label, 'root', item.count, RISK_COLORS[levelIndex(avgAdj)], {type:'学科门类', adjusted_rate:pct(avgAdj), raw_rate:pct(avgRaw), count:item.count, confidence:'-', weight:'-'});
+        addNode(id, item.label, 'root', item.count, RISK_COLORS[levelIndex(avgAdj)], {
+          type: '学科门类',
+          adjusted_rate: pct(avgAdj),
+          raw_rate: pct(avgRaw),
+          count: item.count,
+          confidence: '-',
+          weight: '-',
+          adjust_mode: '-'
+        });
       }
+
       for (const [id, item] of categoryMap.entries()) {
         const avgAdj = item.count ? item.totalAdj / item.count : 0;
         const avgRaw = item.count ? item.totalRaw / item.count : 0;
-        addNode(id, item.label, item.parent, item.count, RISK_COLORS[levelIndex(avgAdj)], {type:'专业类', adjusted_rate:pct(avgAdj), raw_rate:pct(avgRaw), count:item.count, confidence:'-', weight:'-'});
+        addNode(id, item.label, item.parent, item.count, RISK_COLORS[levelIndex(avgAdj)], {
+          type: '专业类',
+          adjusted_rate: pct(avgAdj),
+          raw_rate: pct(avgRaw),
+          count: item.count,
+          confidence: '-',
+          weight: '-',
+          adjust_mode: '-'
+        });
       }
+
       Plotly.react('treemap', [{
-        type:'treemap', ids, labels, parents, values, customdata: custom, branchvalues:'total', sort:false, maxdepth:3,
-        marker: { colors, line: { width:1, color:'rgba(255,255,255,0.08)' } },
-        textinfo:'label', textfont: { color:'#e6eaf0', size:14 }, tiling: { packing:'squarify', pad:2 },
-        hoverlabel: { bgcolor:'#0d1117', bordercolor:'rgba(255,255,255,0.13)', font: { color:'#e6eaf0' } },
-        hovertemplate:'<b>%{label}</b><br>类型：%{customdata.type}<br>调整后替代率：%{customdata.adjusted_rate}<br>原始替代率：%{customdata.raw_rate}<br>岗位数/专业数：%{customdata.count}<br>置信度：%{customdata.confidence}<br>收缩权重：%{customdata.weight}<extra></extra>',
-        pathbar: { visible:false }, showscale:false
+        type: 'treemap',
+        ids,
+        labels,
+        parents,
+        values,
+        customdata: custom,
+        branchvalues: 'total',
+        sort: false,
+        maxdepth: 3,
+        marker: {
+          colors,
+          line: { width: 1, color: 'rgba(255,255,255,0.08)' }
+        },
+        textinfo: 'label',
+        textfont: { color: '#e6eaf0', size: 14 },
+        tiling: { packing: 'squarify', pad: 2 },
+        hoverlabel: {
+          bgcolor: '#0d1117',
+          bordercolor: 'rgba(255,255,255,0.13)',
+          font: { color: '#e6eaf0' }
+        },
+        hovertemplate:
+          '<b>%{label}</b><br>' +
+          '类型：%{customdata.type}<br>' +
+          '调整后替代率：%{customdata.adjusted_rate}<br>' +
+          '原始替代率：%{customdata.raw_rate}<br>' +
+          '岗位数/专业数：%{customdata.count}<br>' +
+          '置信度：%{customdata.confidence}<br>' +
+          '收缩权重：%{customdata.weight}<br>' +
+          '调整模式：%{customdata.adjust_mode}<extra></extra>',
+        pathbar: { visible: false },
+        showscale: false
       }], {
-        margin: { t:8, r:8, b:8, l:8 }, paper_bgcolor:'#161b22', plot_bgcolor:'#161b22', autosize:true,
-        font: { color:'#e6eaf0', family:'system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif' }
-      }, { responsive:true, displayModeBar:false });
+        margin: { t: 8, r: 8, b: 8, l: 8 },
+        paper_bgcolor: '#161b22',
+        plot_bgcolor: '#161b22',
+        autosize: true,
+        font: {
+          color: '#e6eaf0',
+          family: 'system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif'
+        }
+      }, {
+        responsive: true,
+        displayModeBar: false
+      });
     }
+
     function renderAll() {
       const rows = getFilteredRows();
       document.getElementById('totalMajors').textContent = rows.length.toLocaleString('zh-CN');
+
       const avg = rows.length ? rows.reduce((s, x) => s + metricOf(x), 0) / rows.length : 0;
       const zeroCount = rows.filter(x => metricOf(x) === 0).length;
+
       document.getElementById('avgRate').textContent = pct(avg);
       document.getElementById('zeroCount').textContent = zeroCount.toLocaleString('zh-CN');
+
       renderHistogram(rows);
       buildTreemap(rows);
+
       document.getElementById('updatedAt').textContent = `当前筛选 ${rows.length.toLocaleString('zh-CN')} 个专业`;
     }
+
     async function init() {
       try {
         const res = await fetch('./data/major_ai_rate.json');
         RAW_ROWS = await res.json();
         buildFilters(RAW_ROWS);
-        document.getElementById('disciplineSelect').addEventListener('change', () => { refreshCategoryOptions(RAW_ROWS); renderAll(); });
+
+        document.getElementById('disciplineSelect').addEventListener('change', () => {
+          refreshCategoryOptions(RAW_ROWS);
+          renderAll();
+        });
         document.getElementById('categorySelect').addEventListener('change', renderAll);
-        document.getElementById('zeroSelect').addEventListener('change', renderAll);
+
         renderAll();
       } catch (err) {
         console.error(err);
@@ -220,7 +375,12 @@ function rawMetricOf(row){ if (row && row.raw_replace_rate != null) return Numbe
         document.getElementById('treemap').innerHTML = '<div class="empty-state">无法加载 ./data/major_ai_rate.json，请确认 GitHub Pages 已复制数据文件。</div>';
       }
     }
-    window.addEventListener('resize', () => { const el = document.getElementById('treemap'); if (el && el.data) Plotly.Plots.resize(el); });
+
+    window.addEventListener('resize', () => {
+      const el = document.getElementById('treemap');
+      if (el && el.data) Plotly.Plots.resize(el);
+    });
+
     init();
   </script>
 </body>

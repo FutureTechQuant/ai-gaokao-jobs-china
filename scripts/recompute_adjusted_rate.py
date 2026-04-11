@@ -6,12 +6,13 @@ from statistics import mean
 INPUT_FILE = "output/major_ai_rate.json"
 OUTPUT_FILE = "output/major_ai_rate.json"
 
-K = 10
+K_LOW = 12
+K_MID = 6
 
 CONFIDENCE_FACTOR = {
     "high": 1.00,
-    "medium": 0.85,
-    "low": 0.70
+    "medium": 0.92,
+    "low": 0.75
 }
 
 
@@ -44,17 +45,25 @@ def get_job_count(row):
     return int(row.get("job_count") or 0)
 
 
-def compute_adjusted_rate(raw_rate, job_count, confidence, global_mean, k=K):
+def compute_adjusted_rate(raw_rate, job_count, confidence, global_mean):
     raw_rate = float(raw_rate or 0)
     job_count = int(job_count or 0)
     confidence = (confidence or "low").lower()
+    conf_factor = CONFIDENCE_FACTOR.get(confidence, 0.75)
 
-    conf_factor = CONFIDENCE_FACTOR.get(confidence, 0.70)
-    sample_weight = job_count / (job_count + k) if job_count >= 0 else 0.0
+    if job_count >= 10:
+        return round(clamp(raw_rate), 4), 1.0, "high_count_no_shrink"
+
+    if job_count >= 3:
+        sample_weight = job_count / (job_count + K_MID)
+        shrink_weight = clamp(sample_weight * conf_factor)
+        adjusted = raw_rate * shrink_weight + global_mean * (1 - shrink_weight)
+        return round(clamp(adjusted), 4), round(shrink_weight, 4), "mid_count_light_shrink"
+
+    sample_weight = job_count / (job_count + K_LOW)
     shrink_weight = clamp(sample_weight * conf_factor)
-
     adjusted = raw_rate * shrink_weight + global_mean * (1 - shrink_weight)
-    return round(clamp(adjusted), 4), round(shrink_weight, 4)
+    return round(clamp(adjusted), 4), round(shrink_weight, 4), "low_count_strong_shrink"
 
 
 def main():
@@ -71,17 +80,17 @@ def main():
     global_mean = mean(row["raw_replace_rate"] for row in rows)
 
     for row in rows:
-        adjusted_rate, confidence_weight = compute_adjusted_rate(
+        adjusted_rate, confidence_weight, adjust_mode = compute_adjusted_rate(
             raw_rate=row["raw_replace_rate"],
             job_count=get_job_count(row),
             confidence=get_confidence(row),
-            global_mean=global_mean,
-            k=K
+            global_mean=global_mean
         )
 
         row["adjusted_replace_rate"] = adjusted_rate
         row["confidence_weight"] = confidence_weight
         row["global_mean_replace_rate"] = round(global_mean, 4)
+        row["adjust_mode"] = adjust_mode
 
     rows.sort(
         key=lambda x: (
