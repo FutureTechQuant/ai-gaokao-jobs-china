@@ -99,7 +99,7 @@ jobs:
           python scripts/build_major_ai_rate.py
           python scripts/apply_major_zero_override.py
           python scripts/recompute_adjusted_rate.py
-          python scripts/find_zero_replace_rate_v2.py
+          python scripts/find_zero_replace_rate.py
 
       - name: Prepare Pages site data
         if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
