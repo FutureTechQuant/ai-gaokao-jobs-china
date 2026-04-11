@@ -98,14 +98,15 @@ jobs:
           python scripts/generate_rules_from_employment.py
           python scripts/build_major_ai_rate.py
           python scripts/apply_major_zero_override.py
-          python scripts/find_zero_replace_rate.py
+          python scripts/recompute_adjusted_rate.py
+          python scripts/find_zero_replace_rate_v2.py
 
       - name: Prepare Pages site data
         if: github.event_name != 'schedule' || steps.sync_upstream.outputs.upstream_changed == 'true'
         run: |
           mkdir -p site/data
           cp output/major_ai_rate.json site/data/
-          cp output/major_zero_override.summary.json site/data/
+          cp output/major_zero_override.summary.json site/data/ || true
           cp output/major_ai_rate.zero.summary.json site/data/ || true
           cp output/major_job_rules.auto.summary.json site/data/ || true
           cp output/major_rule_generation_report.json site/data/ || true
@@ -141,7 +142,9 @@ jobs:
             output/ \
             site/data/ \
             config/major_zero_override.json \
-            scripts/apply_major_zero_override.py
+            scripts/apply_major_zero_override.py \
+            scripts/recompute_adjusted_rate.py \
+            .github/workflows/build-major-ai-rate.yml
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
