@@ -23029,10 +23029,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "物理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.06,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.06,
+    "zero_override_reason": "exact:核物理"
   },
   {
     "major_code": "070303",
@@ -23040,10 +23043,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "化学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.08,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.08,
+    "zero_override_reason": "exact:化学生物学"
   },
   {
     "major_code": "070304",
@@ -23107,10 +23113,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地理科学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.14,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.14,
+    "zero_override_reason": "exact:人文地理与城乡规划"
   },
   {
     "major_code": "070504",
@@ -23188,10 +23197,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地球物理学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.08,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.08,
+    "zero_override_reason": "exact:地球物理学"
   },
   {
     "major_code": "070802",
@@ -23255,10 +23267,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地质学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.08,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.08,
+    "zero_override_reason": "exact:地球化学"
   },
   {
     "major_code": "070903",
@@ -23280,10 +23295,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "理学",
     "major_category": "地质学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.07,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.07,
+    "zero_override_reason": "exact:古生物学"
   },
   {
     "major_code": "071001",
@@ -23361,10 +23379,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "机械类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.18,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.18,
+    "zero_override_reason": "exact:工业设计"
   },
   {
     "major_code": "080206",
@@ -23652,10 +23673,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "电气类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.08,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.08,
+    "zero_override_reason": "exact:光源与照明"
   },
   {
     "major_code": "080604",
@@ -24055,10 +24079,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "测绘类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.15,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.15,
+    "zero_override_reason": "exact:地理国情监测"
   },
   {
     "major_code": "081302",
@@ -24962,10 +24989,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "食品科学与工程类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.12,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.12,
+    "zero_override_reason": "exact:食品质量与安全"
   },
   {
     "major_code": "082703",
@@ -25071,10 +25101,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "工学",
     "major_category": "建筑类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.16,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.16,
+    "zero_override_reason": "exact:城乡规划"
   },
   {
     "major_code": "082803",
@@ -25155,7 +25188,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "082905",
@@ -25166,7 +25200,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "083101",
@@ -25261,7 +25296,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "083108",
@@ -25521,10 +25557,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "农学",
     "major_category": "自然保护与环境生态类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.07,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.07,
+    "zero_override_reason": "exact:水土保持与荒漠化防治"
   },
   {
     "major_code": "090301",
@@ -25549,7 +25588,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "090303",
@@ -25560,7 +25600,8 @@
     "replace_rate": 0.0,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "zero_override_reason": "keep_zero"
   },
   {
     "major_code": "090304",
@@ -25890,10 +25931,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "公共卫生与预防医学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.1,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.1,
+    "zero_override_reason": "exact:食品卫生与营养学"
   },
   {
     "major_code": "100501",
@@ -25999,10 +26043,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "药学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.14,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.14,
+    "zero_override_reason": "exact:药物分析"
   },
   {
     "major_code": "100706",
@@ -26010,10 +26057,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "药学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.13,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.13,
+    "zero_override_reason": "exact:药物化学"
   },
   {
     "major_code": "100707",
@@ -26091,10 +26141,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "医学",
     "major_category": "医学技术类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.07,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.07,
+    "zero_override_reason": "exact:眼视光学"
   },
   {
     "major_code": "101005",
@@ -26492,11 +26545,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "艺术学",
     "major_category": "戏剧与影视学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.12,
     "job_count": 0,
     "matched_job_titles_sample": [],
     "confidence": "low",
-    "zero_override_reason": "keep_zero"
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.12,
+    "zero_override_reason": "exact:音乐学"
   },
   {
     "major_code": "130203",
@@ -26504,11 +26559,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "艺术学",
     "major_category": "戏剧与影视学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.2,
     "job_count": 0,
     "matched_job_titles_sample": [],
     "confidence": "low",
-    "zero_override_reason": "keep_zero"
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.2,
+    "zero_override_reason": "exact:作曲与作曲技术理论|kw:工程技术科学类"
   },
   {
     "major_code": "130204",
@@ -26540,11 +26597,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "艺术学",
     "major_category": "美术学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.08,
     "job_count": 0,
     "matched_job_titles_sample": [],
     "confidence": "low",
-    "zero_override_reason": "keep_zero"
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.08,
+    "zero_override_reason": "exact:美术学"
   },
   {
     "major_code": "130402",
@@ -26552,11 +26611,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "艺术学",
     "major_category": "美术学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.1,
     "job_count": 0,
     "matched_job_titles_sample": [],
     "confidence": "low",
-    "zero_override_reason": "keep_zero"
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.1,
+    "zero_override_reason": "exact:绘画"
   },
   {
     "major_code": "130403",
@@ -26576,10 +26637,13 @@
     "degree_level": "本科（普通教育）",
     "discipline": "艺术学",
     "major_category": "美术学类",
-    "replace_rate": 0.0,
+    "replace_rate": 0.16,
     "job_count": 0,
     "matched_job_titles_sample": [],
-    "confidence": "low"
+    "confidence": "low",
+    "raw_replace_rate": 0.0,
+    "zero_override_rate": 0.16,
+    "zero_override_reason": "exact:摄影"
   },
   {
     "major_code": "130405",

@@ -1,7 +1,7 @@
 {
   "input_file": "output/major_ai_rate.json",
-  "changed_rows": 313,
-  "kept_zero_rows": 10,
+  "changed_rows": 334,
+  "kept_zero_rows": 11,
   "examples": [
     {
       "major_name": "逻辑学",
