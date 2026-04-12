@@ -142,11 +142,14 @@ def compute_adjusted_rate(raw_rate, job_count, confidence, category_rate, baseli
     if confidence == "low":
         if category_rate == 0:
             if baseline_rate > 0:
-                return round(clamp(baseline_rate), 4), 0.0, "low_confidence_use_baseline"
+                adjusted = max(baseline_rate, raw_rate)
+                return round(clamp(adjusted), 4), 0.0, "low_confidence_use_baseline_or_raw"
             else:
-                return round(clamp(0.30), 4), 0.0, "low_confidence_use_fallback"
+                adjusted = max(0.30, raw_rate)
+                return round(clamp(adjusted), 4), 0.0, "low_confidence_use_fallback_or_raw"
         else:
-            return round(clamp(category_rate), 4), 0.0, "low_confidence_use_category"
+            adjusted = max(category_rate, raw_rate)
+            return round(clamp(adjusted), 4), 0.0, "low_confidence_use_category_or_raw"
     else:
         return round(clamp(raw_rate), 4), 1.0, "high_mid_confidence_use_raw"
 
