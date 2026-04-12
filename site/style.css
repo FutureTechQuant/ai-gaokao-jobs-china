@@ -46,7 +46,11 @@ table{width:100%;border-collapse:collapse}
 .toolbar-group select:focus{border-color:var(--accent-blue-border);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
 .toolbar-meta{justify-self:end;font-size:12px;color:var(--accent-blue-text);background:var(--accent-blue-bg);border:1px solid var(--accent-blue-border);padding:10px 12px;border-radius:10px;white-space:nowrap}
 .treemap-card{padding:10px;display:flex;flex-direction:column;min-height:560px;overflow:hidden}.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:10px 12px 4px}.card-title{font-size:16px;font-weight:800;margin-bottom:4px}
-.treemap-frame{flex:1;min-height:0;border-radius:12px;overflow:hidden;background:var(--bg-card)}.treemap{width:100%;height:100%;min-height:500px}
+.table-frame{flex:1;min-height:0;border-radius:12px;overflow:auto;background:var(--bg-card);max-height:600px}
+#majorTable{width:100%;font-size:14px}
+#majorTable th{background:var(--bg-soft);color:var(--text-main);padding:12px 16px;text-align:left;font-weight:700;border-bottom:1px solid var(--border)}
+#majorTable td{padding:10px 16px;border-bottom:1px solid var(--border);color:var(--text-main)}
+#majorTable tbody tr:hover{background:var(--bg-soft)}
 .link-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.link-card{padding:18px 20px;display:block;transition:transform .15s ease,border-color .15s ease,background .15s ease}.link-card:hover{transform:translateY(-2px);border-color:rgba(96,165,250,.45);background:#18202b}.link-title{font-size:16px;font-weight:800;margin-bottom:6px}.link-sub{font-size:13px;line-height:1.7;color:var(--text-soft)}
 .table-wrap{padding:0 10px 10px;overflow:auto} thead th{position:sticky;top:0;z-index:1;background:var(--bg-card);color:var(--text-soft);font-size:12px;font-weight:700;text-align:left;border-bottom:1px solid var(--border);padding:12px 10px} tbody td{padding:12px 10px;border-bottom:1px solid rgba(255,255,255,.05);font-size:13px;color:var(--text-muted);vertical-align:middle} tbody tr:hover{background:rgba(255,255,255,.03)}
 .risk-badge{display:inline-flex;align-items:center;justify-content:center;min-width:62px;padding:4px 8px;border-radius:999px;color:#fff;font-size:12px;font-weight:700}

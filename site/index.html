@@ -71,12 +71,24 @@
       <section class="treemap-card">
         <div class="card-head">
           <div>
-            <div class="card-title">风险树图</div>
-            <div class="card-sub">颜色和统计都按 adjusted_replace_rate 展示。</div>
+            <div class="card-title">专业AI替代率列表</div>
+            <div class="card-sub">按调整后替代率排序显示。</div>
           </div>
         </div>
-        <div class="treemap-frame">
-          <div id="treemap" class="treemap"></div>
+        <div class="table-frame">
+          <table id="majorTable">
+            <thead>
+              <tr>
+                <th>专业名称</th>
+                <th>专业类</th>
+                <th>替代率</th>
+                <th>岗位数/专业数</th>
+              </tr>
+            </thead>
+            <tbody id="majorTableBody">
+              <!-- 数据将在这里动态插入 -->
+            </tbody>
+          </table>
         </div>
       </section>
 

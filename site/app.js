@@ -200,13 +200,19 @@ function renderTreemap(rows) {
   });
 }
 
-function renderTopRisk(rows) {
-  const maxRate = getRoundedMaxRate(rows);
-  const items = rows.slice().sort((a, b) => Number(b.replace_rate || 0) - Number(a.replace_rate || 0)).slice(0, 20);
-  renderRankList("topRiskList", items, (r) => `
-    <div><div class="rank-name">${r.major_name}</div><div class="rank-meta">${r.major_code} · ${r.discipline} · 岗位数 ${r.job_count}</div></div>
-    <div class="rank-score" style="color:${riskColor(r.replace_rate, maxRate)}">${fmtPct(r.replace_rate)}</div>
-  `);
+function renderTable(rows) {
+  const tbody = document.getElementById("majorTableBody");
+  tbody.innerHTML = "";
+  rows.forEach(row => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${row.major_name || ""}</td>
+      <td>${row.major_category || ""}</td>
+      <td>${fmtPct(row.adjusted_replace_rate || row.replace_rate)}</td>
+      <td>${row.job_count || 0} / ${row.category_major_count || 0}</td>
+    `;
+    tbody.appendChild(tr);
+  });
 }
 
 function renderDisciplineList(rows) {
@@ -226,7 +232,7 @@ async function main() {
     const filtered = applyFilters(rows);
     const safeRows = filtered.length ? filtered : rows;
     renderKpis(safeRows);
-    renderTreemap(safeRows);
+    renderTable(safeRows);
     renderTopRisk(safeRows);
     renderDisciplineList(safeRows);
     document.getElementById("updatedAt").textContent = `Updated: ${new Date().toLocaleString("zh-CN")}`;
@@ -239,5 +245,5 @@ async function main() {
 
 main().catch((err) => {
   console.error(err);
-  document.getElementById("treemap").innerHTML = `<div style="padding:24px;color:#8a5656;">数据加载失败：请确认 site/data/major_ai_rate.json 已正确生成。</div>`;
+  document.getElementById("majorTableBody").innerHTML = `<tr><td colspan="4" style="padding:24px;color:#8a5656;">数据加载失败：请确认 site/data/major_ai_rate.json 已正确生成。</td></tr>`;
 });
