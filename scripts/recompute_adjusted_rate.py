@@ -89,21 +89,10 @@ def compute_adjusted_rate(raw_rate, job_count, confidence, category_rate):
     confidence = (confidence or "low").lower()
     category_rate = float(category_rate or 0)
 
-    conf_factor = CONFIDENCE_FACTOR.get(confidence, 0.75)
-
-    if job_count >= 10:
-        return round(clamp(raw_rate), 4), 1.0, "high_count_no_shrink"
-
-    if job_count >= 3:
-        sample_weight = job_count / (job_count + K_MID)
-        shrink_weight = clamp(sample_weight * conf_factor)
-        adjusted = raw_rate * shrink_weight + category_rate * (1 - shrink_weight)
-        return round(clamp(adjusted), 4), round(shrink_weight, 4), "mid_count_to_category"
-
-    sample_weight = job_count / (job_count + K_LOW)
-    shrink_weight = clamp(sample_weight * conf_factor)
-    adjusted = raw_rate * shrink_weight + category_rate * (1 - shrink_weight)
-    return round(clamp(adjusted), 4), round(shrink_weight, 4), "low_count_to_category"
+    if confidence == "low":
+        return round(clamp(category_rate), 4), 0.0, "low_confidence_use_category"
+    else:
+        return round(clamp(raw_rate), 4), 1.0, "high_mid_confidence_use_raw"
 
 
 def main():
