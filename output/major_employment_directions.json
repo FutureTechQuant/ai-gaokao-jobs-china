@@ -193,11 +193,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "会计与出纳",
@@ -414,11 +414,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -455,11 +455,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "会计与出纳",
@@ -636,11 +636,11 @@
     "matched_details": [
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "银行柜员",
@@ -4639,19 +4639,19 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
-      },
-      {
-        "standard_title": "内容创作者/编辑",
         "matched_alias": "文案"
       },
       {
-        "standard_title": "新闻记者",
-        "matched_alias": "采编"
+        "standard_title": "内容创作者/编辑",
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "新闻记者",
         "matched_alias": "记者"
+      },
+      {
+        "standard_title": "新闻记者",
+        "matched_alias": "采编"
       },
       {
         "standard_title": "行政专员/助理",
@@ -4772,11 +4772,11 @@
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "编辑"
+        "matched_alias": "文案"
       },
       {
         "standard_title": "内容创作者/编辑",
-        "matched_alias": "文案"
+        "matched_alias": "编辑"
       },
       {
         "standard_title": "教师",
@@ -15419,11 +15419,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "会计与出纳",
@@ -15728,11 +15728,11 @@
       },
       {
         "standard_title": "新闻记者",
-        "matched_alias": "采编"
+        "matched_alias": "记者"
       },
       {
         "standard_title": "新闻记者",
-        "matched_alias": "记者"
+        "matched_alias": "采编"
       },
       {
         "standard_title": "行政专员/助理",
@@ -15819,11 +15819,11 @@
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "财务"
+        "matched_alias": "会计"
       },
       {
         "standard_title": "会计与出纳",
-        "matched_alias": "会计"
+        "matched_alias": "财务"
       },
       {
         "standard_title": "会计与出纳",
