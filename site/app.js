@@ -233,7 +233,6 @@ async function main() {
     const safeRows = filtered.length ? filtered : rows;
     renderKpis(safeRows);
     renderTable(safeRows);
-    renderTopRisk(safeRows);
     renderDisciplineList(safeRows);
     document.getElementById("updatedAt").textContent = `Updated: ${new Date().toLocaleString("zh-CN")}`;
   };
