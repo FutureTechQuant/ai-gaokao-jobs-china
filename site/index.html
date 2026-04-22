@@ -75,6 +75,9 @@
             <div class="card-sub">按调整后替代率排序显示。</div>
           </div>
         </div>
+
+        <div id="treemap" style="width:100%;height:520px;margin-bottom:16px;"></div>
+
         <div class="table-frame">
           <table id="majorTable">
             <thead>
@@ -85,9 +88,7 @@
                 <th>岗位数/专业数</th>
               </tr>
             </thead>
-            <tbody id="majorTableBody">
-              <!-- 数据将在这里动态插入 -->
-            </tbody>
+            <tbody id="majorTableBody"></tbody>
           </table>
         </div>
       </section>
@@ -155,13 +156,17 @@
     function refreshCategoryOptions(rows) {
       const discipline = document.getElementById('disciplineSelect').value;
       let list = rows;
+
       if (discipline !== 'all') {
         list = list.filter(r => safeText(r.discipline, '其他') === discipline);
       }
+
       const categorySet = [...new Set(list.map(r => safeText(r.major_category, '未分类')))]
         .sort((a, b) => a.localeCompare(b, 'zh-CN'));
+
       const categorySelect = document.getElementById('categorySelect');
       const prev = categorySelect.value;
+
       setOptions(categorySelect, categorySet, '全部专业类');
       if (categorySet.includes(prev)) categorySelect.value = prev;
     }
@@ -204,6 +209,7 @@
 
     function buildTreemap(rows) {
       const container = document.getElementById('treemap');
+      if (!container) return;
 
       if (!rows.length) {
         container.innerHTML = '<div class="empty-state">当前筛选条件下没有数据。</div>';
@@ -304,7 +310,7 @@
         });
       }
 
-      Plotly.react('treemap', [{
+      Plotly.react(container, [{
         type: 'treemap',
         ids,
         labels,
@@ -352,8 +358,25 @@
       });
     }
 
+    function renderTable(rows) {
+      const tbody = document.getElementById('majorTableBody');
+      if (!tbody) return;
+
+      const sorted = [...rows].sort((a, b) => metricOf(b) - metricOf(a));
+
+      tbody.innerHTML = sorted.map(row => `
+        <tr>
+          <td>${safeText(row.major_name, '')}</td>
+          <td>${safeText(row.major_category, '')}</td>
+          <td>${pct(metricOf(row))}</td>
+          <td>${row.job_count ?? 0} / ${row.category_major_count ?? 0}</td>
+        </tr>
+      `).join('');
+    }
+
     function renderAll() {
       const rows = getFilteredRows();
+
       document.getElementById('totalMajors').textContent = rows.length.toLocaleString('zh-CN');
 
       const avg = rows.length ? rows.reduce((s, x) => s + metricOf(x), 0) / rows.length : 0;
@@ -364,6 +387,7 @@
 
       renderHistogram(rows);
       buildTreemap(rows);
+      renderTable(rows);
 
       document.getElementById('updatedAt').textContent = `当前筛选 ${rows.length.toLocaleString('zh-CN')} 个专业`;
     }
@@ -371,6 +395,8 @@
     async function init() {
       try {
         const res = await fetch('./data/major_ai_rate.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
         RAW_ROWS = await res.json();
         buildFilters(RAW_ROWS);
 
@@ -378,13 +404,23 @@
           refreshCategoryOptions(RAW_ROWS);
           renderAll();
         });
+
         document.getElementById('categorySelect').addEventListener('change', renderAll);
 
         renderAll();
       } catch (err) {
         console.error(err);
-        document.getElementById('updatedAt').textContent = '数据加载失败';
-        document.getElementById('treemap').innerHTML = '<div class="empty-state">无法加载 ./data/major_ai_rate.json，请确认 GitHub Pages 已复制数据文件。</div>';
+        document.getElementById('updatedAt').textContent = '页面初始化失败';
+
+        const treemap = document.getElementById('treemap');
+        if (treemap) {
+          treemap.innerHTML = '<div class="empty-state">无法加载 ./data/major_ai_rate.json，请确认 GitHub Pages 已复制数据文件。</div>';
+        }
+
+        const tbody = document.getElementById('majorTableBody');
+        if (tbody) {
+          tbody.innerHTML = `<tr><td colspan="4" style="padding:24px;color:#8a5656;">页面初始化失败：${err.message}</td></tr>`;
+        }
       }
     }
 
